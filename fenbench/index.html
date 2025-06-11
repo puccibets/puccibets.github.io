@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FenBench</title>
+  <link href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="static/css/style.css">
+</head>
+<body>
+  <nav class="nav">
+    <a href="/">Home</a>
+    <a href="https://x.com/PucciBets">Twitter</a>
+  </nav>
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container has-text-centered">
+        <h1 class="title is-1">FenBench</h1>
+        <h2 class="subtitle is-3">A simple benchmark for chess engine evaluation</h2>
+      </div>
+    </div>
+  </section>
+  <section class="section">
+    <div class="container">
+      <h2 class="title is-3">Introduction</h2>
+      <p>FenBench is an upcoming evaluation suite for chess engines based on FEN positions. This project is inspired by the clean design of <a href="https://simple-bench.com/">SimpleBench</a>.</p>
+    </div>
+  </section>
+  <section class="section">
+    <div class="container leaderboard">
+      <h2 class="title is-3">Leaderboard</h2>
+      <table id="leaderboardTable">
+        <tr>
+          <th>Rank</th>
+          <th>Engine</th>
+          <th>Score</th>
+          <th>Organization</th>
+        </tr>
+      </table>
+      <button class="settings-button" onclick="toggleSettings()">benchmark settings</button>
+      <div id="settingsInfo" class="settings-info">
+        FEN depth: 20, time limit: 1s per move
+      </div>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="content has-text-centered">
+      <p>Contact <a href="https://x.com/PucciBets">@PucciBets</a> for more information.</p>
+    </div>
+  </footer>
+  <script src="static/js/index.js"></script>
+</body>
+</html>
