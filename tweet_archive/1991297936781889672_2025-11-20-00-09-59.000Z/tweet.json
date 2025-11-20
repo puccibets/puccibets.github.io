@@ -1,0 +1,14 @@
+{
+  "id": "1991297936781889672",
+  "url": "https://x.com/aakashg0/status/1991297936781889672",
+  "timestamp": "2025-11-20T00:09:59.000Z",
+  "capturedAt": "2025-11-20T18:32:35.252Z",
+  "author": "Zephyr @zephyr_z9",
+  "authorName": "Zephyr",
+  "authorHandle": "@zephyr_z9",
+  "text": "HUH??\n\"whether you’re connecting NVIDIA GPUs, Google TPUs, or Amazon Trainium chips, you need NVIDIA’s networking fabric to build clusters that actually work at scale.\"\n\nGoogle uses ICI (Inter-Chip Interconnect) for Scale Up and Jupiter for Scale Out\nAmazon uses NeuronLink for Scale Up and EFA  for Scale Out",
+  "avatar": "media/1991297936781889672_avatar_Jk4w7gjp_x96.jpg",
+  "images": [],
+  "jsonFile": "1991297936781889672_2025-11-20-00-09-59.000Z/tweet.json",
+  "mediaDir": "media"
+}

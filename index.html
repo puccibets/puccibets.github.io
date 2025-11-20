@@ -1,21 +1,341 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>PucciBets</title>
-  <link href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Archived Tweets | Pucci Bets</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Chivo:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #0e1323;
+      --card: #11182c;
+      --card-alt: #121b32;
+      --text: #e6ebff;
+      --muted: #9ab0d0;
+      --accent: #56d6ff;
+      --border: #1f2a45;
+      --shadow: 0 15px 45px rgba(4, 10, 26, 0.55);
+      color-scheme: dark;
+      font-family: "Space Grotesk", "Chivo", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background: radial-gradient(120% 120% at 20% 30%, #17213a 0%, #0e1323 40%, #0a0f1c 100%);
+      color: var(--text);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 2.5rem 1.25rem 3rem;
+    }
+
+    header {
+      width: min(960px, 100%);
+      display: flex;
+      flex-direction: column;
+      gap: 0.35rem;
+      margin-bottom: 1.25rem;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: clamp(1.7rem, 3vw, 2.3rem);
+      letter-spacing: -0.01em;
+      font-weight: 700;
+    }
+
+    .lead {
+      margin: 0;
+      color: var(--muted);
+      font-size: 0.98rem;
+    }
+
+    #tweets {
+      width: min(960px, 100%);
+      display: grid;
+      gap: 1rem;
+    }
+
+    .tweet {
+      background: linear-gradient(135deg, var(--card), var(--card-alt));
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: 1rem 1.15rem;
+      box-shadow: var(--shadow);
+      display: flex;
+      flex-direction: column;
+      gap: 0.8rem;
+      position: relative;
+      overflow: hidden;
+      isolation: isolate;
+    }
+
+    .tweet::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(140deg, rgba(86, 214, 255, 0.08), transparent 45%);
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    .tweet-header {
+      display: flex;
+      align-items: center;
+      gap: 0.8rem;
+      z-index: 1;
+    }
+
+    .avatar {
+      width: 56px;
+      height: 56px;
+      border-radius: 50%;
+      border: 2px solid rgba(86, 214, 255, 0.6);
+      object-fit: cover;
+      background: #0c1427;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+      flex-shrink: 0;
+    }
+
+    .author {
+      display: flex;
+      flex-direction: column;
+      gap: 0.15rem;
+    }
+
+    .author-name {
+      font-weight: 600;
+      font-size: 1.05rem;
+    }
+
+    .handle,
+    .meta {
+      color: var(--muted);
+      font-size: 0.92rem;
+    }
+
+    .tweet-body {
+      z-index: 1;
+      line-height: 1.55;
+      font-size: 1.02rem;
+      white-space: pre-wrap;
+    }
+
+    .media-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 0.65rem;
+      z-index: 1;
+    }
+
+    .media-grid img,
+    .media-grid video {
+      width: 100%;
+      border-radius: 14px;
+      border: 1px solid var(--border);
+      background: #0c1427;
+      box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.03);
+    }
+
+    .media-grid video {
+      max-height: 420px;
+    }
+
+    .tweet-footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 0.6rem;
+      z-index: 1;
+      flex-wrap: wrap;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    #status {
+      width: min(960px, 100%);
+      color: var(--muted);
+      margin-top: 1rem;
+      font-size: 0.95rem;
+    }
+
+    @media (max-width: 540px) {
+      .tweet {
+        padding: 0.9rem;
+      }
+      .tweet-header {
+        align-items: flex-start;
+      }
+      .author-name {
+        font-size: 1rem;
+      }
+    }
+  </style>
 </head>
 <body>
-  <section class="hero is-primary is-fullheight">
-    <div class="hero-body">
-      <div class="container has-text-centered">
-        <h1 class="title">PucciBets</h1>
-        <h2 class="subtitle">Welcome to my project page</h2>
-        <p><a href="https://x.com/PucciBets">Follow me on X (Twitter)</a></p>
-        <p><a href="/fenbench">Visit FenBench &raquo;</a></p>
-      </div>
-    </div>
-  </section>
+  <header>
+    <h1>Archived Tweets</h1>
+  </header>
+
+  <div id="tweets" aria-live="polite"></div>
+  <div id="status"></div>
+
+  <script>
+    const tweetsContainer = document.getElementById("tweets");
+    const statusEl = document.getElementById("status");
+
+    const formatDate = (iso) => {
+      const parsed = new Date(iso);
+      if (Number.isNaN(parsed.getTime())) return "Unknown date";
+      return parsed.toLocaleString(undefined, {
+        year: "numeric",
+        month: "short",
+        day: "numeric",
+        hour: "2-digit",
+        minute: "2-digit"
+      });
+    };
+
+    const createMediaElement = (blob) => {
+      const type = blob.type || "";
+      const url = URL.createObjectURL(blob);
+
+      if (type.startsWith("video/")) {
+        const vid = document.createElement("video");
+        vid.controls = true;
+        vid.src = url;
+        vid.preload = "metadata";
+        return vid;
+      }
+
+      const img = document.createElement("img");
+      img.src = url;
+      img.loading = "lazy";
+      img.alt = "Tweet media";
+      return img;
+    };
+
+    const renderMedia = async (mediaPath, container) => {
+      try {
+        const resp = await fetch(mediaPath);
+        if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+        const blob = await resp.blob();
+        container.appendChild(createMediaElement(blob));
+      } catch (err) {
+        const fallback = document.createElement("a");
+        fallback.href = mediaPath;
+        fallback.textContent = "Download media";
+        fallback.rel = "noopener noreferrer";
+        container.appendChild(fallback);
+        console.warn("Failed to render media", mediaPath, err);
+      }
+    };
+
+    const renderTweet = async (data, sourcePath) => {
+      const baseDir = sourcePath.split("/").slice(0, -1).join("/");
+      const wrap = document.createElement("article");
+      wrap.className = "tweet";
+
+      // Header
+      const header = document.createElement("div");
+      header.className = "tweet-header";
+      const avatar = document.createElement("img");
+      avatar.className = "avatar";
+      avatar.src = `${baseDir}/${data.avatar}`;
+      avatar.alt = `${data.author || data.authorName || "User"} avatar`;
+      avatar.loading = "lazy";
+
+      const meta = document.createElement("div");
+      meta.className = "author";
+      const name = document.createElement("div");
+      name.className = "author-name";
+      name.textContent = data.authorName || data.author || "Unknown author";
+      const handle = document.createElement("div");
+      handle.className = "handle";
+      handle.textContent = data.authorHandle || "";
+      meta.append(name, handle);
+      header.append(avatar, meta);
+
+      // Body
+      const body = document.createElement("div");
+      body.className = "tweet-body";
+      body.textContent = data.text || "—";
+
+      // Media
+      const mediaGrid = document.createElement("div");
+      mediaGrid.className = "media-grid";
+      const mediaPaths = Array.isArray(data.images) ? data.images : [];
+      if (mediaPaths.length) {
+        await Promise.all(
+          mediaPaths.map((path) => renderMedia(`${baseDir}/${path}`, mediaGrid))
+        );
+      }
+
+      // Footer
+      const footer = document.createElement("div");
+      footer.className = "tweet-footer";
+      const dateEl = document.createElement("div");
+      dateEl.className = "meta";
+      dateEl.textContent = `Captured: ${formatDate(data.timestamp || data.capturedAt)}`;
+      const link = document.createElement("a");
+      link.href = data.url || "#";
+      link.target = "_blank";
+      link.rel = "noopener noreferrer";
+      link.textContent = "View on X";
+      footer.append(dateEl, link);
+
+      wrap.append(header, body);
+      if (mediaPaths.length) wrap.append(mediaGrid);
+      wrap.append(footer);
+      tweetsContainer.appendChild(wrap);
+    };
+
+    const loadTweets = async () => {
+      statusEl.textContent = "Loading archived tweets…";
+      try {
+        const manifestResp = await fetch("tweet_archive/index.json");
+        if (!manifestResp.ok) {
+          throw new Error(`Could not load manifest: ${manifestResp.status}`);
+        }
+        const manifest = await manifestResp.json();
+        const list = Array.isArray(manifest.tweets) ? manifest.tweets : [];
+
+        if (!list.length) {
+          statusEl.textContent = "No archived tweets found.";
+          return;
+        }
+
+        for (const path of list) {
+          try {
+            const resp = await fetch(`tweet_archive/${path}`);
+            if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+            const data = await resp.json();
+            await renderTweet(data, `tweet_archive/${path}`);
+          } catch (err) {
+            console.error("Failed to render tweet", path, err);
+          }
+        }
+
+        statusEl.textContent = "";
+      } catch (err) {
+        console.error(err);
+        statusEl.textContent = "Failed to load tweets. Make sure the archive files are present.";
+      }
+    };
+
+    loadTweets();
+  </script>
 </body>
 </html>
