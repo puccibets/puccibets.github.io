@@ -1,0 +1,16 @@
+{
+  "id": "1991349976346018037",
+  "url": "https://x.com/bigeagle_xd/status/1991349976346018037",
+  "timestamp": "2025-11-20T03:36:46.000Z",
+  "capturedAt": "2025-11-20T20:37:50.866Z",
+  "author": "熊狸 @bigeagle_xd",
+  "authorName": "熊狸",
+  "authorHandle": "@bigeagle_xd",
+  "text": "I've been suffering from a \"Cathedral vs Bazaar\" issue since K2-0711.\n\nIn 2024, when working on closed models, we update the model every month, sometimes even make weekly hotfixes. The model was named as \"kimi-latest\", and we can easily improve the model based on instant feedbacks from real-user usage.  The iterations are smooth, relaxed and fast.\n\nK2 was a breaking change, every update is public, and we have to put 120% effort in pre-release designing, training, testing, etc., and untested issues always show up after each release.\n\nHere is the paradox, that open-sourcing actually slowed down the iterations, and I don't think it's practical to follow the Bazaar development model in current open-source AI models.\n\nAny ideas? How about a beta/preview version (maybe only available on the official API) before each release?",
+  "avatar": "bigeagle_xd/avatar/avatar.jpg",
+  "avatarPath": "bigeagle_xd/avatar/avatar.jpg",
+  "images": [],
+  "jsonFile": "bigeagle_xd/tweets/1991349976346018037_2025-11-20-03-36-46.000Z/tweet.json",
+  "mediaDir": "media",
+  "userSlug": "bigeagle_xd"
+}

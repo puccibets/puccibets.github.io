@@ -1,0 +1,16 @@
+{
+  "id": "1991544753821790401",
+  "url": "https://x.com/_TomHoward/status/1991544753821790401",
+  "timestamp": "2025-11-20T14:31:08.000Z",
+  "capturedAt": "2025-11-20T20:43:21.255Z",
+  "author": "Tom Howard @_TomHoward",
+  "authorName": "Tom Howard",
+  "authorHandle": "@_TomHoward",
+  "text": "This is a popular misconception of the Quantum risk.\n\nLet me try to simplify the risk here (and @nic__carter @YuviLightman @ebfull feel free to correct any errors):\n\n- Quantum does not break all encryption. Shor’s algorithm breaks schemes based on discrete log or factoring, including all standard elliptic-curve cryptography.\n\n- Quantum can’t break everything at once. It must target a specific public key. With sufficient qubits, it solves that key’s discrete log. There’s no “mass decrypt” lever.\n\n- Early quantum attacks will be slow and extremely expensive. Time per key might start at months, then accelerate to weeks, days, hours, and eventually seconds as hardware scales.\n\n- Web2 can rotate to post-quantum quickly. Web infrastructure and messaging system keys rotate frequently and many critical keys aren’t exposed long-term. The attack surface moves faster than early quantum machines.\n\n- Bitcoin is structurally different. Pre Taproot outputs expose full public keys on-chain forever. Millions of public keys are immutable, static targets.\n\n- Once quantum reaches the threshold to break a single ECDSA key, attackers will pick specific wallets. High-value or exposed UTXOs would be stolen selectively. It’s not an instantaneous network-wide collapse; it’s predation.\n\n- Bitcoin governance strongly resists major cryptographic upgrades and may not coordinate a timely migration.\n\nAll this means BITCOIN IS UNIQUELY VULNERABLE to quantum attacks compared to web2 systems that can rotate cryptography quickly.\n\nMeanwhile ZCASH already has meaningful mitigations and a path to full PQ security:\n\n- Shielded Zcash does not expose public keys on-chain. Without public keys, Shor cannot even begin an attack. If your ZEC is transparent, shielding it removes the primary quantum attack surface.\n\n- Zcash can upgrade its core cryptography through regular network upgrades. Post-quantum SNARKs, commitments, and signatures can be adopted as standards mature.\n\n- The upcoming Tachyon design eliminates address exposure entirely. No public keys, no linkage, no input for Shor. (and you thought Tachyon was just about scalability )\n\nThe world is not doomed in post quantum, but Bitcoin today, is.",
+  "avatar": "_tomhoward/avatar/avatar.jpg",
+  "avatarPath": "_tomhoward/avatar/avatar.jpg",
+  "images": [],
+  "jsonFile": "_tomhoward/tweets/1991544753821790401_2025-11-20-14-31-08.000Z/tweet.json",
+  "mediaDir": "media",
+  "userSlug": "_tomhoward"
+}
