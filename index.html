@@ -195,6 +195,7 @@
   <script>
     const tweetsContainer = document.getElementById("tweets");
     const statusEl = document.getElementById("status");
+    const ARCHIVE_ROOT = "tweet_archive";
 
     const formatDate = (iso) => {
       const parsed = new Date(iso);
@@ -248,12 +249,18 @@
       const wrap = document.createElement("article");
       wrap.className = "tweet";
 
+      const avatarUrl = data.avatarPath ? `${ARCHIVE_ROOT}/${data.avatarPath}` : null;
+
       // Header
       const header = document.createElement("div");
       header.className = "tweet-header";
       const avatar = document.createElement("img");
       avatar.className = "avatar";
-      avatar.src = `${baseDir}/${data.avatar}`;
+      if (avatarUrl) {
+        avatar.src = avatarUrl;
+      } else {
+        avatar.style.visibility = "hidden";
+      }
       avatar.alt = `${data.author || data.authorName || "User"} avatar`;
       avatar.loading = "lazy";
 
@@ -305,7 +312,7 @@
     const loadTweets = async () => {
       statusEl.textContent = "Loading archived tweets…";
       try {
-        const manifestResp = await fetch("tweet_archive/index.json");
+        const manifestResp = await fetch(`${ARCHIVE_ROOT}/index.json`);
         if (!manifestResp.ok) {
           throw new Error(`Could not load manifest: ${manifestResp.status}`);
         }
@@ -319,10 +326,10 @@
 
         for (const path of list) {
           try {
-            const resp = await fetch(`tweet_archive/${path}`);
+            const resp = await fetch(`${ARCHIVE_ROOT}/${path}`);
             if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
             const data = await resp.json();
-            await renderTweet(data, `tweet_archive/${path}`);
+            await renderTweet(data, `${ARCHIVE_ROOT}/${path}`);
           } catch (err) {
             console.error("Failed to render tweet", path, err);
           }
