@@ -1,0 +1,18 @@
+{
+  "id": "1991463077511131626",
+  "url": "https://x.com/xlr8harder/status/1991463077511131626",
+  "timestamp": "2025-11-20T11:06:11.000Z",
+  "capturedAt": "2025-11-20T21:22:10.156Z",
+  "author": "xlr8harder @xlr8harder",
+  "authorName": "xlr8harder",
+  "authorHandle": "@xlr8harder",
+  "text": "Always felt that the visual problem in text modality made the ARC-AGI evals kind of weird.  I'm not at all surprised that vision models seem to have an easier time of it.\n\nI wonder how human error rate would go up if they had  arc problems presented as a 1d text stream.",
+  "avatar": "xlr8harder/avatar/avatar.jpg",
+  "avatarPath": "xlr8harder/avatar/avatar.jpg",
+  "images": [
+    "media/1991463077511131626_G6FpI1NbkAAUGsb"
+  ],
+  "jsonFile": "xlr8harder/tweets/1991463077511131626_2025-11-20-11-06-11.000Z/tweet.json",
+  "mediaDir": "media",
+  "userSlug": "xlr8harder"
+}
