@@ -1,6 +1,9 @@
 {
   "version": 2,
   "tweets": [
+    "jxmnop/tweets/1990854455802343680_2025-11-18-18-47-45.000Z/tweet.json",
+    "jxmnop/tweets/1991879513920397781_2025-11-21-14-40-58.000Z/tweet.json",
+    "chasebrowe32432/tweets/1991883036686950561_2025-11-20-21-39-44.000Z/tweet.json",
     "xlr8harder/tweets/1991463077511131626_2025-11-20-11-06-11.000Z/tweet.json",
     "jasondeanlee/tweets/1991560999883927923_2025-11-20-17-35-18.000Z/tweet.json",
     "rao2z/tweets/1991515697319669901_2025-11-20-14-35-17.000Z/tweet.json",
@@ -100,6 +103,27 @@
       "lastCapturedAt": "2025-11-20T21:22:10.156Z",
       "tweets": [
         "xlr8harder/tweets/1991463077511131626_2025-11-20-11-06-11.000Z/tweet.json"
+      ]
+    },
+    {
+      "slug": "chasebrowe32432",
+      "handle": "@ChaseBrowe32432",
+      "name": "Chase Brower",
+      "avatar": "chasebrowe32432/avatar/avatar.jpg",
+      "lastCapturedAt": "2025-11-21T16:56:33.416Z",
+      "tweets": [
+        "chasebrowe32432/tweets/1991883036686950561_2025-11-20-21-39-44.000Z/tweet.json"
+      ]
+    },
+    {
+      "slug": "jxmnop",
+      "handle": "@jxmnop",
+      "name": "dr. jack morris",
+      "avatar": "jxmnop/avatar/avatar.jpg",
+      "lastCapturedAt": "2025-11-21T17:09:23.114Z",
+      "tweets": [
+        "jxmnop/tweets/1990854455802343680_2025-11-18-18-47-45.000Z/tweet.json",
+        "jxmnop/tweets/1991879513920397781_2025-11-21-14-40-58.000Z/tweet.json"
       ]
     }
   ]

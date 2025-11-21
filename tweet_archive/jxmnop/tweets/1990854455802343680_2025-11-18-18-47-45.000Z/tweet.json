@@ -1,0 +1,18 @@
+{
+  "id": "1990854455802343680",
+  "url": "https://x.com/OriolVinyalsML/status/1990854455802343680",
+  "timestamp": "2025-11-18T18:47:45.000Z",
+  "capturedAt": "2025-11-21T17:09:23.114Z",
+  "author": "dr. jack morris @jxmnop",
+  "authorName": "dr. jack morris",
+  "authorHandle": "@jxmnop",
+  "text": "some hypotheses for what “better pretraining” could mean\n\n- integration with other training stages: i’m guessing they’re finally at a point where post-training perf (eg SWE-Bench) can be used as signal for pretraining eng decisions\n- filtering: scaling approaches like influence functions for getting rid of datapoints that don’t help eval perf\n- synthetic data:  using rephrasing to upsample certain useful documents and make them more amenable to reasoning\n- mixing: more principled & scalable approaches for determining mixing coefficients\n- new data:  purchasing and scanning more books, transcribing YouTube, buying private token collections like news articles\n- smart packing:  there are various ways to group documents into batches that work better, especially for long-context stuff\n- systems:  more data, more flops",
+  "avatar": "jxmnop/avatar/avatar.jpg",
+  "avatarPath": "jxmnop/avatar/avatar.jpg",
+  "images": [
+    "media/1990854455802343680_G6DraPpWMAAMJFY"
+  ],
+  "jsonFile": "jxmnop/tweets/1990854455802343680_2025-11-18-18-47-45.000Z/tweet.json",
+  "mediaDir": "media",
+  "userSlug": "jxmnop"
+}
