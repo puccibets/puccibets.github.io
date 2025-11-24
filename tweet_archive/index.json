@@ -1,6 +1,20 @@
 {
   "version": 2,
   "tweets": [
+    "puccibets/tweets/1956331377529348344_2025-08-15-12-25-21.000Z/tweet.json",
+    "puccibets/tweets/1956329711799325118_2025-08-15-12-18-44.000Z/tweet.json",
+    "puccibets/tweets/1956328957747351575_2025-08-15-12-15-45.000Z/tweet.json",
+    "puccibets/tweets/1956328632521011700_2025-08-15-12-14-27.000Z/tweet.json",
+    "puccibets/tweets/1956328382414672054_2025-08-15-12-13-27.000Z/tweet.json",
+    "puccibets/tweets/1956327363295232250_2025-08-15-12-09-24.000Z/tweet.json",
+    "puccibets/tweets/1933983577865400599_2025-06-14-20-23-11.000Z/tweet.json",
+    "puccibets/tweets/1952769482373427367_2025-08-05-16-31-39.000Z/tweet.json",
+    "puccibets/tweets/1977020098339913881_2025-10-11-14-34-57.000Z/tweet.json",
+    "tphuang/tweets/1983720346021670993_2025-10-30-02-19-20.000Z/tweet.json",
+    "buccocapital/tweets/1984740205602165057_2025-11-01-21-51-54.000Z/tweet.json",
+    "batwood011/tweets/1985025906079916291_2025-11-02-16-47-10.000Z/tweet.json",
+    "clementdelangue/tweets/1986478271475949690_2025-11-06-16-58-21.000Z/tweet.json",
+    "victortaelin/tweets/1987852599714787616_2025-11-10-11-59-26.000Z/tweet.json",
     "jkeatn/tweets/1993030546243699119_2025-11-24-18-54-45.000Z/tweet.json",
     "alexalbert__/tweets/1993068200121213222_2025-11-24-21-24-22.000Z/tweet.json",
     "dmwlff/tweets/1993036664428806145_2025-11-24-19-19-04.000Z/tweet.json",
@@ -190,6 +204,74 @@
       "lastCapturedAt": "2025-11-24T22:19:49.661Z",
       "tweets": [
         "jkeatn/tweets/1993030546243699119_2025-11-24-18-54-45.000Z/tweet.json"
+      ]
+    },
+    {
+      "slug": "victortaelin",
+      "handle": "@VictorTaelin",
+      "name": "Taelin",
+      "avatar": "victortaelin/avatar/avatar.jpg",
+      "lastCapturedAt": "2025-11-24T22:29:29.155Z",
+      "tweets": [
+        "victortaelin/tweets/1987852599714787616_2025-11-10-11-59-26.000Z/tweet.json"
+      ]
+    },
+    {
+      "slug": "clementdelangue",
+      "handle": "@ClementDelangue",
+      "name": "clem",
+      "avatar": "clementdelangue/avatar/avatar.png",
+      "lastCapturedAt": "2025-11-24T22:29:34.628Z",
+      "tweets": [
+        "clementdelangue/tweets/1986478271475949690_2025-11-06-16-58-21.000Z/tweet.json"
+      ]
+    },
+    {
+      "slug": "batwood011",
+      "handle": "@batwood011",
+      "name": "Brian Atwood",
+      "avatar": "batwood011/avatar/avatar.jpg",
+      "lastCapturedAt": "2025-11-24T22:29:39.031Z",
+      "tweets": [
+        "batwood011/tweets/1985025906079916291_2025-11-02-16-47-10.000Z/tweet.json"
+      ]
+    },
+    {
+      "slug": "buccocapital",
+      "handle": "@buccocapital",
+      "name": "BuccoCapital Bloke",
+      "avatar": "buccocapital/avatar/avatar.jpg",
+      "lastCapturedAt": "2025-11-24T22:29:44.090Z",
+      "tweets": [
+        "buccocapital/tweets/1984740205602165057_2025-11-01-21-51-54.000Z/tweet.json"
+      ]
+    },
+    {
+      "slug": "tphuang",
+      "handle": "@tphuang",
+      "name": "tphuang",
+      "avatar": "tphuang/avatar/avatar.jpg",
+      "lastCapturedAt": "2025-11-24T22:29:47.235Z",
+      "tweets": [
+        "tphuang/tweets/1983720346021670993_2025-10-30-02-19-20.000Z/tweet.json"
+      ]
+    },
+    {
+      "slug": "puccibets",
+      "handle": "@PucciBets",
+      "name": "Pucci",
+      "avatar": "puccibets/avatar/avatar.jpg",
+      "lastCapturedAt": "2025-11-24T22:30:14.240Z",
+      "tweets": [
+        "puccibets/tweets/1956331377529348344_2025-08-15-12-25-21.000Z/tweet.json",
+        "puccibets/tweets/1956329711799325118_2025-08-15-12-18-44.000Z/tweet.json",
+        "puccibets/tweets/1956328957747351575_2025-08-15-12-15-45.000Z/tweet.json",
+        "puccibets/tweets/1956328632521011700_2025-08-15-12-14-27.000Z/tweet.json",
+        "puccibets/tweets/1956328382414672054_2025-08-15-12-13-27.000Z/tweet.json",
+        "puccibets/tweets/1956327363295232250_2025-08-15-12-09-24.000Z/tweet.json",
+        "puccibets/tweets/1933983577865400599_2025-06-14-20-23-11.000Z/tweet.json",
+        "puccibets/tweets/1952769482373427367_2025-08-05-16-31-39.000Z/tweet.json",
+        "puccibets/tweets/1977020098339913881_2025-10-11-14-34-57.000Z/tweet.json"
       ]
     }
   ]

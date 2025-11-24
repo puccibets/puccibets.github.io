@@ -1,0 +1,16 @@
+{
+  "id": "1956328382414672054",
+  "url": "https://x.com/PucciBets/status/1956328382414672054",
+  "timestamp": "2025-08-15T12:13:27.000Z",
+  "capturedAt": "2025-11-24T22:30:08.392Z",
+  "author": "Pucci @PucciBets",
+  "authorName": "Pucci",
+  "authorHandle": "@PucciBets",
+  "text": "We created four categories of tasks:\n1. Piece Identification (50 tasks): Given a specific square coordinate, identify which chess piece occupies that position\n\n2. Square Location (50 tasks): Given a piece type, find all squares containing that piece type",
+  "avatar": "puccibets/avatar/avatar.jpg",
+  "avatarPath": "puccibets/avatar/avatar.jpg",
+  "images": [],
+  "jsonFile": "puccibets/tweets/1956328382414672054_2025-08-15-12-13-27.000Z/tweet.json",
+  "mediaDir": "media",
+  "userSlug": "puccibets"
+}

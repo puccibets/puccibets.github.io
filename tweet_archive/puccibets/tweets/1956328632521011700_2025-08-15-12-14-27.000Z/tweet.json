@@ -1,0 +1,16 @@
+{
+  "id": "1956328632521011700",
+  "url": "https://x.com/PucciBets/status/1956328632521011700",
+  "timestamp": "2025-08-15T12:14:27.000Z",
+  "capturedAt": "2025-11-24T22:30:09.902Z",
+  "author": "Pucci @PucciBets",
+  "authorName": "Pucci",
+  "authorHandle": "@PucciBets",
+  "text": "3. Piece Counting (50 tasks): Count and categorize all pieces present on the board\n\n4. FEN Generation (50 tasks): Generate the complete FEN (Forsyth-Edwards Notation) string representing the board position",
+  "avatar": "puccibets/avatar/avatar.jpg",
+  "avatarPath": "puccibets/avatar/avatar.jpg",
+  "images": [],
+  "jsonFile": "puccibets/tweets/1956328632521011700_2025-08-15-12-14-27.000Z/tweet.json",
+  "mediaDir": "media",
+  "userSlug": "puccibets"
+}
