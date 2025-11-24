@@ -1,6 +1,7 @@
 {
   "version": 2,
   "tweets": [
+    "deepfates/tweets/1992649868637315468_2025-11-23-17-42-04.000Z/tweet.json",
     "jxmnop/tweets/1990854455802343680_2025-11-18-18-47-45.000Z/tweet.json",
     "jxmnop/tweets/1991879513920397781_2025-11-21-14-40-58.000Z/tweet.json",
     "chasebrowe32432/tweets/1991883036686950561_2025-11-20-21-39-44.000Z/tweet.json",
@@ -124,6 +125,16 @@
       "tweets": [
         "jxmnop/tweets/1990854455802343680_2025-11-18-18-47-45.000Z/tweet.json",
         "jxmnop/tweets/1991879513920397781_2025-11-21-14-40-58.000Z/tweet.json"
+      ]
+    },
+    {
+      "slug": "deepfates",
+      "handle": "@deepfates",
+      "name": "deepfates",
+      "avatar": "deepfates/avatar/avatar.png",
+      "lastCapturedAt": "2025-11-24T14:35:22.317Z",
+      "tweets": [
+        "deepfates/tweets/1992649868637315468_2025-11-23-17-42-04.000Z/tweet.json"
       ]
     }
   ]
