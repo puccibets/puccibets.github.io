@@ -1,6 +1,10 @@
 {
   "version": 2,
   "tweets": [
+    "jkeatn/tweets/1993030546243699119_2025-11-24-18-54-45.000Z/tweet.json",
+    "alexalbert__/tweets/1993068200121213222_2025-11-24-21-24-22.000Z/tweet.json",
+    "dmwlff/tweets/1993036664428806145_2025-11-24-19-19-04.000Z/tweet.json",
+    "willccbb/tweets/1993009122644836831_2025-11-24-17-29-37.000Z/tweet.json",
     "karpathy/tweets/1992381094667411768_2025-11-18-00-29-01.000Z/tweet.json",
     "deepfates/tweets/1992649868637315468_2025-11-23-17-42-04.000Z/tweet.json",
     "jxmnop/tweets/1990854455802343680_2025-11-18-18-47-45.000Z/tweet.json",
@@ -146,6 +150,46 @@
       "lastCapturedAt": "2025-11-24T14:58:06.909Z",
       "tweets": [
         "karpathy/tweets/1992381094667411768_2025-11-18-00-29-01.000Z/tweet.json"
+      ]
+    },
+    {
+      "slug": "willccbb",
+      "handle": "@willccbb",
+      "name": "will brown",
+      "avatar": "willccbb/avatar/avatar.jpg",
+      "lastCapturedAt": "2025-11-24T21:26:57.303Z",
+      "tweets": [
+        "willccbb/tweets/1993009122644836831_2025-11-24-17-29-37.000Z/tweet.json"
+      ]
+    },
+    {
+      "slug": "dmwlff",
+      "handle": "@dmwlff",
+      "name": "Adam Wolff",
+      "avatar": "dmwlff/avatar/avatar.jpg",
+      "lastCapturedAt": "2025-11-24T22:14:53.804Z",
+      "tweets": [
+        "dmwlff/tweets/1993036664428806145_2025-11-24-19-19-04.000Z/tweet.json"
+      ]
+    },
+    {
+      "slug": "alexalbert__",
+      "handle": "@alexalbert__",
+      "name": "Alex Albert",
+      "avatar": "alexalbert__/avatar/avatar.jpg",
+      "lastCapturedAt": "2025-11-24T22:16:11.578Z",
+      "tweets": [
+        "alexalbert__/tweets/1993068200121213222_2025-11-24-21-24-22.000Z/tweet.json"
+      ]
+    },
+    {
+      "slug": "jkeatn",
+      "handle": "@jkeatn",
+      "name": "Jake Eaton",
+      "avatar": "jkeatn/avatar/avatar.jpg",
+      "lastCapturedAt": "2025-11-24T22:19:49.661Z",
+      "tweets": [
+        "jkeatn/tweets/1993030546243699119_2025-11-24-18-54-45.000Z/tweet.json"
       ]
     }
   ]

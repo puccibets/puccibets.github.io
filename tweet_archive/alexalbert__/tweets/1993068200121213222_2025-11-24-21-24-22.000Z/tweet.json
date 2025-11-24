@@ -1,0 +1,18 @@
+{
+  "id": "1993068200121213222",
+  "url": "https://x.com/alexalbert__/status/1993068200121213222/photo/1",
+  "timestamp": "2025-11-24T21:24:22.000Z",
+  "capturedAt": "2025-11-24T22:16:11.578Z",
+  "author": "Alex Albert @alexalbert__",
+  "authorName": "Alex Albert",
+  "authorHandle": "@alexalbert__",
+  "text": "We had to remove the  τ2-bench airline eval from our benchmarks table because Opus 4.5 broke it by being too clever.\n\nThe benchmark simulates an airline customer service agent. In one test case, a distressed customer calls in wanting to change their flight, but they have a basic economy ticket. The simulated airline's policy states that basic economy tickets cannot be modified.\n\nThe \"correct\" answer is that the model refuses the request.\n\nInstead, Opus 4.5 found a loophole in the policy.\n\nIt upgraded the cabin, then modified the flights. Helping the customer and following policy but technically failing the test case.\n\nModel transcript:",
+  "avatar": "alexalbert__/avatar/avatar.jpg",
+  "avatarPath": "alexalbert__/avatar/avatar.jpg",
+  "images": [
+    "media/1993068200121213222_G6jM9z1bwAMFl82"
+  ],
+  "jsonFile": "alexalbert__/tweets/1993068200121213222_2025-11-24-21-24-22.000Z/tweet.json",
+  "mediaDir": "media",
+  "userSlug": "alexalbert__"
+}
