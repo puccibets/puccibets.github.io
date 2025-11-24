@@ -1,0 +1,18 @@
+{
+  "id": "1993010584175141038",
+  "url": "https://x.com/karpathy/status/1993010584175141038",
+  "timestamp": "2025-11-24T17:35:26.000Z",
+  "capturedAt": "2025-11-24T22:37:30.359Z",
+  "author": "Andrej Karpathy @karpathy",
+  "authorName": "Andrej Karpathy",
+  "authorHandle": "@karpathy",
+  "text": "A number of people are talking about implications of AI to schools. I spoke about some of my thoughts to a school board earlier, some highlights:\n\n1. You will never be able to detect the use of AI in homework. Full stop. All \"detectors\" of AI imo don't really work, can be",
+  "avatar": "karpathy/avatar/avatar.jpg",
+  "avatarPath": "karpathy/avatar/avatar.jpg",
+  "images": [
+    "media/1993010584175141038_G6dU6E4akAAlSsy"
+  ],
+  "jsonFile": "karpathy/tweets/1993010584175141038_2025-11-24-17-35-26.000Z/tweet.json",
+  "mediaDir": "media",
+  "userSlug": "karpathy"
+}
