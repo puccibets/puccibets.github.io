@@ -1,0 +1,18 @@
+{
+  "id": "1992381094667411768",
+  "url": "https://x.com/karpathy/status/1992381094667411768/photo/1",
+  "timestamp": "2025-11-18T00:29:01.000Z",
+  "capturedAt": "2025-11-24T14:58:06.909Z",
+  "author": "Andrej Karpathy @karpathy",
+  "authorName": "Andrej Karpathy",
+  "authorHandle": "@karpathy",
+  "text": "As a fun Saturday vibe code project and following up on this tweet earlier, I hacked up an **llm-council** web app. It looks exactly like ChatGPT except each user query is 1) dispatched to multiple models on your council using OpenRouter, e.g. currently:\n\n\"openai/gpt-5.1\",\n\"google/gemini-3-pro-preview\",\n\"anthropic/claude-sonnet-4.5\",\n\"x-ai/grok-4\",\n\nThen 2) all models get to see each other's (anonymized) responses and they review and rank them, and then 3) a \"Chairman LLM\" gets all of that as context and produces the final response.\n\nIt's interesting to see the results from multiple models side by side on the same query, and even more amusingly, to read through their evaluation and ranking of each other's responses.\n\nQuite often, the models are surprisingly willing to select another LLM's response as superior to their own, making this an interesting model evaluation strategy more generally. For example, reading book chapters together with my LLM Council today, the models consistently praise GPT 5.1 as the best and most insightful model, and consistently select Claude as the worst model, with the other models floating in between. But I'm not 100% convinced this aligns with my own qualitative assessment. For example, qualitatively I find GPT 5.1 a little too wordy and sprawled and Gemini 3 a bit more condensed and processed. Claude is too terse in this domain.\n\nThat said, there's probably a whole design space of the data flow of your LLM council. The construction of LLM ensembles seems under-explored.\n\nI pushed the vibe coded app to\nhttps://github.com/karpathy/llm-council…\nif others would like to play. ty nano banana pro for fun header image for the repo",
+  "avatar": "karpathy/avatar/avatar.jpg",
+  "avatarPath": "karpathy/avatar/avatar.jpg",
+  "images": [
+    "media/1992381094667411768_G6ZZO7ragAAtnCZ"
+  ],
+  "jsonFile": "karpathy/tweets/1992381094667411768_2025-11-18-00-29-01.000Z/tweet.json",
+  "mediaDir": "media",
+  "userSlug": "karpathy"
+}

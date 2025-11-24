@@ -1,6 +1,7 @@
 {
   "version": 2,
   "tweets": [
+    "karpathy/tweets/1992381094667411768_2025-11-18-00-29-01.000Z/tweet.json",
     "deepfates/tweets/1992649868637315468_2025-11-23-17-42-04.000Z/tweet.json",
     "jxmnop/tweets/1990854455802343680_2025-11-18-18-47-45.000Z/tweet.json",
     "jxmnop/tweets/1991879513920397781_2025-11-21-14-40-58.000Z/tweet.json",
@@ -135,6 +136,16 @@
       "lastCapturedAt": "2025-11-24T14:35:22.317Z",
       "tweets": [
         "deepfates/tweets/1992649868637315468_2025-11-23-17-42-04.000Z/tweet.json"
+      ]
+    },
+    {
+      "slug": "karpathy",
+      "handle": "@karpathy",
+      "name": "Andrej Karpathy",
+      "avatar": "karpathy/avatar/avatar.jpg",
+      "lastCapturedAt": "2025-11-24T14:58:06.909Z",
+      "tweets": [
+        "karpathy/tweets/1992381094667411768_2025-11-18-00-29-01.000Z/tweet.json"
       ]
     }
   ]
