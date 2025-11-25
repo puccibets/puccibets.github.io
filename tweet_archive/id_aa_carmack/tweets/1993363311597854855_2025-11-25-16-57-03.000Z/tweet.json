@@ -1,0 +1,16 @@
+{
+  "id": "1993363311597854855",
+  "url": "https://x.com/ID_AA_Carmack/status/1993363311597854855",
+  "timestamp": "2025-11-25T16:57:03.000Z",
+  "capturedAt": "2025-11-25T23:36:09.088Z",
+  "author": "John Carmack @ID_AA_Carmack",
+  "authorName": "John Carmack",
+  "authorHandle": "@ID_AA_Carmack",
+  "text": "Always a slightly mixed feeling to write pretty good first-principles code to do some tensor rearrangement, only to find that PyTorch has a built in function that does it faster.\n\nI had made a point of at least skimming the docs of every torch and tensor function, but if you don’t know what you would use something for, it probably won’t stick in your head for when the opportunity arises.\n\nPixel_unshuffle, looking at you.",
+  "avatar": "id_aa_carmack/avatar/avatar.jpg",
+  "avatarPath": "id_aa_carmack/avatar/avatar.jpg",
+  "images": [],
+  "jsonFile": "id_aa_carmack/tweets/1993363311597854855_2025-11-25-16-57-03.000Z/tweet.json",
+  "mediaDir": "media",
+  "userSlug": "id_aa_carmack"
+}

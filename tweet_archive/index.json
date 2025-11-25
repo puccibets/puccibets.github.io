@@ -1,6 +1,7 @@
 {
   "version": 2,
   "tweets": [
+    "id_aa_carmack/tweets/1993363311597854855_2025-11-25-16-57-03.000Z/tweet.json",
     "karpathy/tweets/1993369287969718540_2025-11-25-17-20-47.000Z/tweet.json",
     "emollick/tweets/1993422227862438031_2025-11-25-20-51-09.000Z/tweet.json",
     "willccbb/tweets/1993441195234910371_2025-11-25-22-06-31.000Z/tweet.json",
@@ -421,6 +422,16 @@
       "lastCapturedAt": "2025-11-25T22:38:00.901Z",
       "tweets": [
         "emollick/tweets/1993422227862438031_2025-11-25-20-51-09.000Z/tweet.json"
+      ]
+    },
+    {
+      "slug": "id_aa_carmack",
+      "handle": "@ID_AA_Carmack",
+      "name": "John Carmack",
+      "avatar": "id_aa_carmack/avatar/avatar.jpg",
+      "lastCapturedAt": "2025-11-25T23:36:09.088Z",
+      "tweets": [
+        "id_aa_carmack/tweets/1993363311597854855_2025-11-25-16-57-03.000Z/tweet.json"
       ]
     }
   ]
