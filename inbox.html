@@ -79,6 +79,12 @@
       border: 1px solid var(--border);
       box-shadow: none;
     }
+    .danger {
+      background: linear-gradient(135deg, #ff7b8b, #ff9ca8);
+      color: #1b0a12;
+      border: none;
+      box-shadow: 0 12px 30px rgba(255, 123, 139, 0.35);
+    }
     button:disabled { opacity: 0.6; cursor: not-allowed; }
     .row { display: grid; gap: 0.75rem; }
     .actions { display: flex; gap: 0.6rem; flex-wrap: wrap; }
@@ -106,20 +112,37 @@
       </label>
       <div class="actions">
         <button type="submit">Send to Inbox</button>
-        <button type="button" id="clear-btn" class="ghost">Clear Inbox</button>
       </div>
       <div id="status" class="status"></div>
     </form>
+
+    <div id="clear" style="border-top: 1px solid var(--border); padding-top: 0.75rem; display: grid; gap: 0.5rem;">
+      <h2 style="margin: 0; color: #ff7b8b; font-size: 1.05rem;">Clear Inbox</h2>
+      <p>Enter the password and confirm to remove all queued tweets.</p>
+      <form id="clear-form" class="row">
+        <label>
+          Password
+          <input id="clear-password" name="clear-password" type="password" inputmode="text" autocomplete="current-password" required>
+        </label>
+        <div class="actions">
+          <button type="submit" class="danger">Clear Inbox</button>
+        </div>
+        <div id="clear-status" class="status"></div>
+      </form>
+    </div>
   </main>
 
   <script>
     const ENDPOINT = "https://puccibets-password-checker.requests-pucci.workers.dev/";
     const form = document.getElementById("form");
     const statusEl = document.getElementById("status");
-    const clearBtn = document.getElementById("clear-btn");
+    const clearForm = document.getElementById("clear-form");
+    const clearStatusEl = document.getElementById("clear-status");
     const submitBtn = form.querySelector("button[type='submit']");
     const passwordInput = document.getElementById("password");
     const urlInput = document.getElementById("url");
+    const clearPasswordInput = document.getElementById("clear-password");
+    const clearSubmitBtn = clearForm.querySelector("button[type='submit']");
 
     form.addEventListener("submit", async (e) => {
       e.preventDefault();
@@ -130,7 +153,7 @@
       const url = urlInput.value.trim();
 
       submitBtn.disabled = true;
-      clearBtn.disabled = true;
+      clearSubmitBtn.disabled = true;
       try {
         const resp = await fetch(ENDPOINT, {
           method: "POST",
@@ -149,25 +172,26 @@
         statusEl.classList.add("error");
       } finally {
         submitBtn.disabled = false;
-        clearBtn.disabled = false;
+        clearSubmitBtn.disabled = false;
       }
     });
 
-    clearBtn.addEventListener("click", async () => {
-      statusEl.textContent = "";
-      statusEl.className = "status";
+    clearForm.addEventListener("submit", async (e) => {
+      e.preventDefault();
+      clearStatusEl.textContent = "";
+      clearStatusEl.className = "status";
 
-      const password = passwordInput.value;
+      const password = clearPasswordInput.value;
       if (!password) {
-        statusEl.textContent = "Password required to clear.";
-        statusEl.classList.add("error");
+        clearStatusEl.textContent = "Password required to clear.";
+        clearStatusEl.classList.add("error");
         return;
       }
       const sure = confirm("Clear the inbox? This removes all queued tweets.");
       if (!sure) return;
 
       submitBtn.disabled = true;
-      clearBtn.disabled = true;
+      clearSubmitBtn.disabled = true;
       try {
         const resp = await fetch(ENDPOINT, {
           method: "POST",
@@ -178,15 +202,14 @@
         if (!resp.ok) {
           throw new Error(text || `HTTP ${resp.status}`);
         }
-        statusEl.textContent = "Inbox cleared.";
-        statusEl.classList.add("success");
-        urlInput.value = "";
+        clearStatusEl.textContent = "Inbox cleared.";
+        clearStatusEl.classList.add("success");
       } catch (err) {
-        statusEl.textContent = `Failed: ${err.message}`;
-        statusEl.classList.add("error");
+        clearStatusEl.textContent = `Failed: ${err.message}`;
+        clearStatusEl.classList.add("error");
       } finally {
         submitBtn.disabled = false;
-        clearBtn.disabled = false;
+        clearSubmitBtn.disabled = false;
       }
     });
   </script>
