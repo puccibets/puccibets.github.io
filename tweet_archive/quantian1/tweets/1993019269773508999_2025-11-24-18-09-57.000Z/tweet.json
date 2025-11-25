@@ -1,0 +1,18 @@
+{
+  "id": "1993019269773508999",
+  "url": "https://x.com/quantian1/status/1993019269773508999",
+  "timestamp": "2025-11-24T18:09:57.000Z",
+  "capturedAt": "2025-11-25T09:15:18.714Z",
+  "author": "Quantіan @quantian1",
+  "authorName": "Quantіan",
+  "authorHandle": "@quantian1",
+  "text": "1. In first place is Gemini, which correctly did exactly what I would have done: set up the semi-infinite heat equation, integrate it to find total heat transfer vs. time, solve for t* when solidification occurs, and then invert u(x) at t=t* to determine the right length",
+  "avatar": "quantian1/avatar/avatar.jpg",
+  "avatarPath": "quantian1/avatar/avatar.jpg",
+  "images": [
+    "media/1993019269773508999_G6igS2HXwAAsDFv"
+  ],
+  "jsonFile": "quantian1/tweets/1993019269773508999_2025-11-24-18-09-57.000Z/tweet.json",
+  "mediaDir": "media",
+  "userSlug": "quantian1"
+}

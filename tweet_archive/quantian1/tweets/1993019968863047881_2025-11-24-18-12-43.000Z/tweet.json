@@ -1,0 +1,16 @@
+{
+  "id": "1993019968863047881",
+  "url": "https://x.com/quantian1/status/1993019968863047881",
+  "timestamp": "2025-11-24T18:12:43.000Z",
+  "capturedAt": "2025-11-25T09:15:21.703Z",
+  "author": "Quantіan @quantian1",
+  "authorName": "Quantіan",
+  "authorHandle": "@quantian1",
+  "text": "The correct answer is 373 cm, which Gemini only missed because it did a numerically unstable linear interpolation for erf^-1 near 0.  Gemini and Grok also caught the subtlety that the boundary condition is T = 1500 C even though the steel was initially 2000 C.  Good job!",
+  "avatar": "quantian1/avatar/avatar.jpg",
+  "avatarPath": "quantian1/avatar/avatar.jpg",
+  "images": [],
+  "jsonFile": "quantian1/tweets/1993019968863047881_2025-11-24-18-12-43.000Z/tweet.json",
+  "mediaDir": "media",
+  "userSlug": "quantian1"
+}

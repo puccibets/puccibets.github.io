@@ -1,0 +1,18 @@
+{
+  "id": "1993016114604048402",
+  "url": "https://x.com/quantian1/status/1993016114604048402/photo/1",
+  "timestamp": "2025-11-24T17:57:24.000Z",
+  "capturedAt": "2025-11-25T09:14:58.055Z",
+  "author": "Quantіan @quantian1",
+  "authorName": "Quantіan",
+  "authorHandle": "@quantian1",
+  "text": "I did another little exercise in LLM benchmarking now that Gemini 3 is out and whipped together a little physics problem to see who would get it.  I made up all the numbers so don't yell at me if it's unphysical, the point is that they shouldn't be able to Google the answer.",
+  "avatar": "quantian1/avatar/avatar.jpg",
+  "avatarPath": "quantian1/avatar/avatar.jpg",
+  "images": [
+    "media/1993016114604048402_G6idULAXoAAxoYi"
+  ],
+  "jsonFile": "quantian1/tweets/1993016114604048402_2025-11-24-17-57-24.000Z/tweet.json",
+  "mediaDir": "media",
+  "userSlug": "quantian1"
+}
