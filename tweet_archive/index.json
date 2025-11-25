@@ -1,6 +1,8 @@
 {
   "version": 2,
   "tweets": [
+    "jm_alexia/tweets/1993407896294654266_2025-11-25-19-54-12.000Z/tweet.json",
+    "johncoogan/tweets/1993392274567475568_2025-11-25-18-52-08.000Z/tweet.json",
     "repligate/tweets/1988874497571672542_2025-11-13-07-40-06.000Z/tweet.json",
     "repligate/tweets/1988905202376659413_2025-11-13-09-42-06.000Z/tweet.json",
     "repligate/tweets/1993160900627644448_2025-11-25-03-32-44.000Z/tweet.json",
@@ -371,6 +373,26 @@
         "repligate/tweets/1988905202376659413_2025-11-13-09-42-06.000Z/tweet.json",
         "repligate/tweets/1993160900627644448_2025-11-25-03-32-44.000Z/tweet.json",
         "repligate/tweets/1965960676104712451_2025-09-04-04-35-47.000Z/tweet.json"
+      ]
+    },
+    {
+      "slug": "johncoogan",
+      "handle": "@johncoogan",
+      "name": "John Coogan",
+      "avatar": "johncoogan/avatar/avatar.jpg",
+      "lastCapturedAt": "2025-11-25T22:23:13.585Z",
+      "tweets": [
+        "johncoogan/tweets/1993392274567475568_2025-11-25-18-52-08.000Z/tweet.json"
+      ]
+    },
+    {
+      "slug": "jm_alexia",
+      "handle": "@jm_alexia",
+      "name": "Alexia Jolicoeur-Martineau",
+      "avatar": "jm_alexia/avatar/avatar.jpg",
+      "lastCapturedAt": "2025-11-25T22:23:36.107Z",
+      "tweets": [
+        "jm_alexia/tweets/1993407896294654266_2025-11-25-19-54-12.000Z/tweet.json"
       ]
     }
   ]

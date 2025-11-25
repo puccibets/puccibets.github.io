@@ -253,11 +253,11 @@
 <body>
   <header>
     <h1>Archived Tweets</h1>
+    <p class="lead"><a href="inbox.html" rel="noopener">Add to inbox (password + tweet URL)</a></p>
   </header>
 
-  <section class="section">
+  <section class="section" id="inbox-section">
     <h2 class="section-title">Inbox</h2>
-    <p class="section-lead">Tweets you plan to archive when you’re back on desktop.</p>
     <div id="inbox" aria-live="polite"></div>
     <div id="inbox-status"></div>
   </section>
@@ -268,6 +268,7 @@
   <script>
     const tweetsContainer = document.getElementById("tweets");
     const statusEl = document.getElementById("status");
+    const inboxSection = document.getElementById("inbox-section");
     const inboxContainer = document.getElementById("inbox");
     const inboxStatusEl = document.getElementById("inbox-status");
     const ARCHIVE_ROOT = "tweet_archive";
@@ -346,6 +347,10 @@
       inboxContainer.appendChild(wrap);
     };
 
+    const hideInboxSection = () => {
+      if (inboxSection) inboxSection.style.display = "none";
+    };
+
     const renderTweet = async (data, sourcePath) => {
       const baseDir = sourcePath.split("/").slice(0, -1).join("/");
       const wrap = document.createElement("article");
@@ -412,20 +417,19 @@
     };
 
     const loadInbox = async () => {
-      inboxStatusEl.textContent = "Loading inbox…";
+      if (inboxStatusEl) inboxStatusEl.textContent = "";
       try {
         const resp = await fetch(`${ARCHIVE_ROOT}/inbox.json`, { cache: "no-store" });
         if (!resp.ok) throw new Error(`Inbox not found (${resp.status})`);
         const data = await resp.json();
         const items = Array.isArray(data.items) ? data.items : [];
         if (!items.length) {
-          inboxStatusEl.textContent = "Inbox is empty.";
+          hideInboxSection();
           return;
         }
         items.forEach(renderInboxItem);
-        inboxStatusEl.textContent = "";
       } catch (err) {
-        inboxStatusEl.textContent = "No inbox file found. Add tweet links via the inbox form.";
+        hideInboxSection();
         console.warn(err);
       }
     };
