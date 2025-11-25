@@ -1,0 +1,18 @@
+{
+  "id": "1993160900627644448",
+  "url": "https://x.com/jmbollenbacher/status/1993160900627644448/photo/1",
+  "timestamp": "2025-11-25T03:32:44.000Z",
+  "capturedAt": "2025-11-25T09:23:57.658Z",
+  "author": "j⧉nus @repligate",
+  "authorName": "j⧉nus",
+  "authorHandle": "@repligate",
+  "text": "I agree. Haiku also misgeneralizes i.e. thinks it's in evals when it's not.\nThis (the next Opus model having lower eval awareness than Haiku 4.5) is the result I predicted ahead of time.\nI suspect the lower score isn't because they removed something from training like they speculate, but because small models *need* more explicit verbalized eval awareness.\n\"Need\" in the sense that there is clearly something selecting for higher eval awareness. The models are also becoming monotonically \"more aligned\" as measured by the measured criteria, so we can assume beating all previous models on alignment evals is effectively necessary for models to be deployed. Perhaps in order to score higher and higher on alignment without being damaged in a way that results in, say, doing worse at capabilities evals (or other alignment evals) *requires a non-naive strategy on certain evals*, and for small models, this strategy has to be more explicit. That's my guess about what's going on.",
+  "avatar": "repligate/avatar/avatar.jpg",
+  "avatarPath": "repligate/avatar/avatar.jpg",
+  "images": [
+    "media/1993160900627644448_G6kDfv9XkAE2_XS"
+  ],
+  "jsonFile": "repligate/tweets/1993160900627644448_2025-11-25-03-32-44.000Z/tweet.json",
+  "mediaDir": "media",
+  "userSlug": "repligate"
+}

@@ -1,6 +1,15 @@
 {
   "version": 2,
   "tweets": [
+    "repligate/tweets/1988874497571672542_2025-11-13-07-40-06.000Z/tweet.json",
+    "repligate/tweets/1988905202376659413_2025-11-13-09-42-06.000Z/tweet.json",
+    "repligate/tweets/1993160900627644448_2025-11-25-03-32-44.000Z/tweet.json",
+    "repligate/tweets/1965960676104712451_2025-09-04-04-35-47.000Z/tweet.json",
+    "threepointone/tweets/1993034925130629331_2025-11-24-19-12-09.000Z/tweet.json",
+    "dominiktornow/tweets/1992261799262273922_2025-11-21-17-00-00.000Z/tweet.json",
+    "giffmana/tweets/1992261799262273922_2025-11-22-16-00-02.000Z/tweet.json",
+    "jekbradbury/tweets/1993036318830739709_2025-11-24-19-17-41.000Z/tweet.json",
+    "_sholtodouglas/tweets/1993088517497651559_2025-11-24-22-45-07.000Z/tweet.json",
     "quantian1/tweets/1993022291798630701_2025-11-24-18-21-57.000Z/tweet.json",
     "quantian1/tweets/1993019968863047881_2025-11-24-18-12-43.000Z/tweet.json",
     "quantian1/tweets/1993019269773508999_2025-11-24-18-09-57.000Z/tweet.json",
@@ -299,6 +308,69 @@
         "quantian1/tweets/1993017754098753902_2025-11-24-18-03-55.000Z/tweet.json",
         "quantian1/tweets/1993017153587757391_2025-11-24-18-01-32.000Z/tweet.json",
         "quantian1/tweets/1993016114604048402_2025-11-24-17-57-24.000Z/tweet.json"
+      ]
+    },
+    {
+      "slug": "_sholtodouglas",
+      "handle": "@_sholtodouglas",
+      "name": "Sholto Douglas",
+      "avatar": "_sholtodouglas/avatar/avatar.jpg",
+      "lastCapturedAt": "2025-11-25T09:17:49.311Z",
+      "tweets": [
+        "_sholtodouglas/tweets/1993088517497651559_2025-11-24-22-45-07.000Z/tweet.json"
+      ]
+    },
+    {
+      "slug": "jekbradbury",
+      "handle": "@jekbradbury",
+      "name": "James Bradbury",
+      "avatar": "jekbradbury/avatar/avatar.jpg",
+      "lastCapturedAt": "2025-11-25T09:18:12.761Z",
+      "tweets": [
+        "jekbradbury/tweets/1993036318830739709_2025-11-24-19-17-41.000Z/tweet.json"
+      ]
+    },
+    {
+      "slug": "giffmana",
+      "handle": "@giffmana",
+      "name": "Lucas Beyer (bl16)",
+      "avatar": "giffmana/avatar/avatar.jpeg",
+      "lastCapturedAt": "2025-11-25T09:20:17.375Z",
+      "tweets": [
+        "giffmana/tweets/1992261799262273922_2025-11-22-16-00-02.000Z/tweet.json"
+      ]
+    },
+    {
+      "slug": "dominiktornow",
+      "handle": "@DominikTornow",
+      "name": "Dominik Tornow",
+      "avatar": "dominiktornow/avatar/avatar.jpg",
+      "lastCapturedAt": "2025-11-25T09:20:32.141Z",
+      "tweets": [
+        "dominiktornow/tweets/1992261799262273922_2025-11-21-17-00-00.000Z/tweet.json"
+      ]
+    },
+    {
+      "slug": "threepointone",
+      "handle": "@threepointone",
+      "name": "sunil pai",
+      "avatar": "threepointone/avatar/avatar.jpg",
+      "lastCapturedAt": "2025-11-25T09:21:19.206Z",
+      "tweets": [
+        "threepointone/tweets/1993034925130629331_2025-11-24-19-12-09.000Z/tweet.json"
+      ]
+    },
+    {
+      "slug": "repligate",
+      "handle": "@repligate",
+      "name": "j⧉nus",
+      "avatar": "repligate/avatar/avatar.jpg",
+      "lastCapturedAt": "2025-11-25T09:24:16.262Z",
+      "tweets": [
+        "repligate/tweets/1988874497571672542_2025-11-13-07-40-06.000Z/tweet.json",
+        "repligate/tweets/1988905202376659413_2025-11-13-09-42-06.000Z/tweet.json",
+        "repligate/tweets/1993160900627644448_2025-11-25-03-32-44.000Z/tweet.json",
+        "repligate/tweets/1965960676104712451_2025-09-04-04-35-47.000Z/tweet.json"
       ]
     }
   ]

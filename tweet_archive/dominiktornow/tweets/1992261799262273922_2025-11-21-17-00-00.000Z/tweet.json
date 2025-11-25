@@ -1,0 +1,19 @@
+{
+  "id": "1992261799262273922",
+  "url": "https://x.com/DominikTornow/status/1992261799262273922/photo/1",
+  "timestamp": "2025-11-21T17:00:00.000Z",
+  "capturedAt": "2025-11-25T09:20:32.141Z",
+  "author": "Dominik Tornow @DominikTornow",
+  "authorName": "Dominik Tornow",
+  "authorHandle": "@DominikTornow",
+  "text": "assert() in production, crash on violation \n\nAn assertion violation means the component already failed, just hasn't crashed yet\n\nCrash the component and let the rest of the system compensate \n\nA crash is always a possible failure mode\n\nTake advantage",
+  "avatar": "dominiktornow/avatar/avatar.jpg",
+  "avatarPath": "dominiktornow/avatar/avatar.jpg",
+  "images": [
+    "media/1992261799262273922_G6XnSC1WYAA0XG0",
+    "media/1992261799262273922_G6Sy6teXYAAnb02"
+  ],
+  "jsonFile": "dominiktornow/tweets/1992261799262273922_2025-11-21-17-00-00.000Z/tweet.json",
+  "mediaDir": "media",
+  "userSlug": "dominiktornow"
+}
