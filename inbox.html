@@ -73,8 +73,16 @@
       font-size: 1rem;
       box-shadow: 0 12px 30px rgba(86, 214, 255, 0.4);
     }
+    .ghost {
+      background: #142038;
+      color: var(--text);
+      border: 1px solid var(--border);
+      box-shadow: none;
+    }
     button:disabled { opacity: 0.6; cursor: not-allowed; }
     .row { display: grid; gap: 0.75rem; }
+    .actions { display: flex; gap: 0.6rem; flex-wrap: wrap; }
+    .actions button { flex: 1 1 160px; }
     .status { color: var(--muted); font-size: 0.95rem; min-height: 1.2em; }
     .success { color: #68ffce; }
     .error { color: #ff8a9e; }
@@ -96,7 +104,10 @@
         Tweet URL
         <input id="url" name="url" type="url" placeholder="https://x.com/.../status/123" required>
       </label>
-      <button type="submit">Send to Inbox</button>
+      <div class="actions">
+        <button type="submit">Send to Inbox</button>
+        <button type="button" id="clear-btn" class="ghost">Clear Inbox</button>
+      </div>
       <div id="status" class="status"></div>
     </form>
   </main>
@@ -105,16 +116,21 @@
     const ENDPOINT = "https://puccibets-password-checker.requests-pucci.workers.dev/";
     const form = document.getElementById("form");
     const statusEl = document.getElementById("status");
+    const clearBtn = document.getElementById("clear-btn");
+    const submitBtn = form.querySelector("button[type='submit']");
+    const passwordInput = document.getElementById("password");
+    const urlInput = document.getElementById("url");
 
     form.addEventListener("submit", async (e) => {
       e.preventDefault();
       statusEl.textContent = "";
       statusEl.className = "status";
 
-      const password = document.getElementById("password").value;
-      const url = document.getElementById("url").value.trim();
+      const password = passwordInput.value;
+      const url = urlInput.value.trim();
 
-      form.querySelector("button").disabled = true;
+      submitBtn.disabled = true;
+      clearBtn.disabled = true;
       try {
         const resp = await fetch(ENDPOINT, {
           method: "POST",
@@ -132,7 +148,45 @@
         statusEl.textContent = `Failed: ${err.message}`;
         statusEl.classList.add("error");
       } finally {
-        form.querySelector("button").disabled = false;
+        submitBtn.disabled = false;
+        clearBtn.disabled = false;
+      }
+    });
+
+    clearBtn.addEventListener("click", async () => {
+      statusEl.textContent = "";
+      statusEl.className = "status";
+
+      const password = passwordInput.value;
+      if (!password) {
+        statusEl.textContent = "Password required to clear.";
+        statusEl.classList.add("error");
+        return;
+      }
+      const sure = confirm("Clear the inbox? This removes all queued tweets.");
+      if (!sure) return;
+
+      submitBtn.disabled = true;
+      clearBtn.disabled = true;
+      try {
+        const resp = await fetch(ENDPOINT, {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ password, action: "clear" })
+        });
+        const text = await resp.text();
+        if (!resp.ok) {
+          throw new Error(text || `HTTP ${resp.status}`);
+        }
+        statusEl.textContent = "Inbox cleared.";
+        statusEl.classList.add("success");
+        urlInput.value = "";
+      } catch (err) {
+        statusEl.textContent = `Failed: ${err.message}`;
+        statusEl.classList.add("error");
+      } finally {
+        submitBtn.disabled = false;
+        clearBtn.disabled = false;
       }
     });
   </script>

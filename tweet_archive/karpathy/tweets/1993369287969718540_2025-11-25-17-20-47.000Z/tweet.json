@@ -1,0 +1,16 @@
+{
+  "id": "1993369287969718540",
+  "url": "https://x.com/karpathy/status/1993369287969718540",
+  "timestamp": "2025-11-25T17:20:47.000Z",
+  "capturedAt": "2025-11-25T23:13:56.048Z",
+  "author": "Andrej Karpathy @karpathy",
+  "authorName": "Andrej Karpathy",
+  "authorHandle": "@karpathy",
+  "text": "I've had medium success asking LLMs if a thing exists, it works out of the box for some of the more well-known things (e.g. both GPT 5.1 and Gemini 3 know about this function if you describe the tensor transformation in words). For more esoteric or new libraries (e.g. uv being a recent example), I've had more success manually packaging up docs into markdown and including it as context for questions. PyTorch docs now also seem to have an \"Ask AI\" that presumably does RAG over their docs, but the model is not that bright. But you'd have to suspect it might exist and attempt to ask in the first place. I'm not sure if an LLM would \"volunteer\" such information just given a codebase.",
+  "avatar": "karpathy/avatar/avatar.jpg",
+  "avatarPath": "karpathy/avatar/avatar.jpg",
+  "images": [],
+  "jsonFile": "karpathy/tweets/1993369287969718540_2025-11-25-17-20-47.000Z/tweet.json",
+  "mediaDir": "media",
+  "userSlug": "karpathy"
+}

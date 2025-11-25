@@ -1,6 +1,7 @@
 {
   "version": 2,
   "tweets": [
+    "karpathy/tweets/1993369287969718540_2025-11-25-17-20-47.000Z/tweet.json",
     "emollick/tweets/1993422227862438031_2025-11-25-20-51-09.000Z/tweet.json",
     "willccbb/tweets/1993441195234910371_2025-11-25-22-06-31.000Z/tweet.json",
     "willccbb/tweets/1993440812097806813_2025-11-25-22-05-00.000Z/tweet.json",
@@ -185,8 +186,9 @@
       "handle": "@karpathy",
       "name": "Andrej Karpathy",
       "avatar": "karpathy/avatar/avatar.jpg",
-      "lastCapturedAt": "2025-11-24T22:37:30.359Z",
+      "lastCapturedAt": "2025-11-25T23:13:56.048Z",
       "tweets": [
+        "karpathy/tweets/1993369287969718540_2025-11-25-17-20-47.000Z/tweet.json",
         "karpathy/tweets/1993010584175141038_2025-11-24-17-35-26.000Z/tweet.json",
         "karpathy/tweets/1992381094667411768_2025-11-18-00-29-01.000Z/tweet.json"
       ]

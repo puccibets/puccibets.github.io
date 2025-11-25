@@ -29,11 +29,14 @@ export default {
       return new Response("Invalid JSON", { status: 400, headers: corsHeaders });
     }
 
-    const { url, note = "", password } = body || {};
+    const { url, note = "", password, action = "add" } = body || {};
+    if (action !== "add" && action !== "clear") {
+      return new Response("Invalid action", { status: 400, headers: corsHeaders });
+    }
     if (!password || password !== env.INBOX_PASSWORD) {
       return new Response("Unauthorized", { status: 401, headers: corsHeaders });
     }
-    if (!url || typeof url !== "string") {
+    if (action === "add" && (!url || typeof url !== "string")) {
       return new Response("Missing url", { status: 400, headers: corsHeaders });
     }
 
@@ -70,10 +73,9 @@ export default {
       return new Response("Failed to fetch inbox", { status: 502, headers: corsHeaders });
     }
 
-    const next = {
-      version,
-      items: [newItem, ...items]
-    };
+    const next = action === "clear"
+      ? { version, items: [] }
+      : { version, items: [newItem, ...items] };
 
     const encoded = btoa(unescape(encodeURIComponent(JSON.stringify(next, null, 2))));
     const putResp = await fetch(apiUrl, {
