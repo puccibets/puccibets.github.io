@@ -14,7 +14,8 @@ export default {
     };
 
     if (request.method === "OPTIONS") {
-      return new Response("ok", { status: 204, headers: corsHeaders });
+      // 204 must not include a body
+      return new Response("", { status: 204, headers: corsHeaders });
     }
 
     if (request.method !== "POST") {
