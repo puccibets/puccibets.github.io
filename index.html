@@ -42,6 +42,26 @@
       margin-bottom: 1.25rem;
     }
 
+    .section {
+      width: min(960px, 100%);
+      display: flex;
+      flex-direction: column;
+      gap: 0.35rem;
+      margin-bottom: 1.25rem;
+    }
+
+    .section-title {
+      margin: 0;
+      font-size: clamp(1.3rem, 2.5vw, 1.6rem);
+      font-weight: 700;
+    }
+
+    .section-lead {
+      margin: 0;
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
     h1 {
       margin: 0;
       font-size: clamp(1.7rem, 3vw, 2.3rem);
@@ -59,6 +79,51 @@
       width: min(960px, 100%);
       display: grid;
       gap: 1rem;
+    }
+
+    #inbox {
+      width: min(960px, 100%);
+      display: grid;
+      gap: 0.75rem;
+    }
+
+    .inbox-item {
+      background: linear-gradient(135deg, var(--card), var(--card-alt));
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 0.9rem 1rem;
+      box-shadow: var(--shadow);
+      display: grid;
+      gap: 0.45rem;
+    }
+
+    .inbox-meta {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      color: var(--muted);
+      font-size: 0.92rem;
+      flex-wrap: wrap;
+    }
+
+    .pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      padding: 0.2rem 0.55rem;
+      border-radius: 999px;
+      border: 1px solid var(--border);
+      background: rgba(86, 214, 255, 0.08);
+      color: var(--text);
+      font-size: 0.85rem;
+      letter-spacing: 0.01em;
+    }
+
+    .inbox-note {
+      color: var(--text);
+      font-weight: 500;
+      font-size: 1rem;
+      margin: 0;
     }
 
     .tweet {
@@ -164,7 +229,8 @@
       text-decoration: underline;
     }
 
-    #status {
+    #status,
+    #inbox-status {
       width: min(960px, 100%);
       color: var(--muted);
       margin-top: 1rem;
@@ -189,12 +255,21 @@
     <h1>Archived Tweets</h1>
   </header>
 
+  <section class="section">
+    <h2 class="section-title">Inbox</h2>
+    <p class="section-lead">Tweets you plan to archive when you’re back on desktop.</p>
+    <div id="inbox" aria-live="polite"></div>
+    <div id="inbox-status"></div>
+  </section>
+
   <div id="tweets" aria-live="polite"></div>
   <div id="status"></div>
 
   <script>
     const tweetsContainer = document.getElementById("tweets");
     const statusEl = document.getElementById("status");
+    const inboxContainer = document.getElementById("inbox");
+    const inboxStatusEl = document.getElementById("inbox-status");
     const ARCHIVE_ROOT = "tweet_archive";
 
     const formatDate = (iso) => {
@@ -242,6 +317,33 @@
         container.appendChild(fallback);
         console.warn("Failed to render media", mediaPath, err);
       }
+    };
+
+    const renderInboxItem = (item) => {
+      const wrap = document.createElement("article");
+      wrap.className = "inbox-item";
+
+      const note = document.createElement("p");
+      note.className = "inbox-note";
+      note.textContent = item.note || item.text || "Tweet to archive";
+
+      const meta = document.createElement("div");
+      meta.className = "inbox-meta";
+
+      const url = document.createElement("a");
+      url.href = item.url || item.tweetUrl || "#";
+      url.target = "_blank";
+      url.rel = "noopener noreferrer";
+      url.textContent = item.url || item.tweetUrl || "Open tweet";
+
+      const added = document.createElement("span");
+      added.className = "pill";
+      const date = item.addedAt || item.createdAt;
+      added.textContent = date ? `Added: ${formatDate(date)}` : "Queued";
+
+      meta.append(url, added);
+      wrap.append(note, meta);
+      inboxContainer.appendChild(wrap);
     };
 
     const renderTweet = async (data, sourcePath) => {
@@ -309,6 +411,25 @@
       tweetsContainer.appendChild(wrap);
     };
 
+    const loadInbox = async () => {
+      inboxStatusEl.textContent = "Loading inbox…";
+      try {
+        const resp = await fetch(`${ARCHIVE_ROOT}/inbox.json`, { cache: "no-store" });
+        if (!resp.ok) throw new Error(`Inbox not found (${resp.status})`);
+        const data = await resp.json();
+        const items = Array.isArray(data.items) ? data.items : [];
+        if (!items.length) {
+          inboxStatusEl.textContent = "Inbox is empty.";
+          return;
+        }
+        items.forEach(renderInboxItem);
+        inboxStatusEl.textContent = "";
+      } catch (err) {
+        inboxStatusEl.textContent = "No inbox file found. Add tweet links via the inbox form.";
+        console.warn(err);
+      }
+    };
+
     const loadTweets = async () => {
       statusEl.textContent = "Loading archived tweets…";
       try {
@@ -342,6 +463,7 @@
       }
     };
 
+    loadInbox();
     loadTweets();
   </script>
 </body>
