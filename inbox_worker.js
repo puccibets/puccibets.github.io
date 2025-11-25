@@ -7,23 +7,33 @@
 
 export default {
   async fetch(request, env) {
+    const corsHeaders = {
+      "Access-Control-Allow-Origin": "*",
+      "Access-Control-Allow-Methods": "POST, OPTIONS",
+      "Access-Control-Allow-Headers": "Content-Type",
+    };
+
+    if (request.method === "OPTIONS") {
+      return new Response("ok", { status: 204, headers: corsHeaders });
+    }
+
     if (request.method !== "POST") {
-      return new Response("POST only", { status: 405 });
+      return new Response("POST only", { status: 405, headers: corsHeaders });
     }
 
     let body = {};
     try {
       body = await request.json();
     } catch {
-      return new Response("Invalid JSON", { status: 400 });
+      return new Response("Invalid JSON", { status: 400, headers: corsHeaders });
     }
 
     const { url, note = "", password } = body || {};
     if (!password || password !== env.INBOX_PASSWORD) {
-      return new Response("Unauthorized", { status: 401 });
+      return new Response("Unauthorized", { status: 401, headers: corsHeaders });
     }
     if (!url || typeof url !== "string") {
-      return new Response("Missing url", { status: 400 });
+      return new Response("Missing url", { status: 400, headers: corsHeaders });
     }
 
     const owner = env.REPO_OWNER || "puccibets";
@@ -56,7 +66,7 @@ export default {
         // fall back to empty list
       }
     } else if (getResp.status !== 404) {
-      return new Response("Failed to fetch inbox", { status: 502 });
+      return new Response("Failed to fetch inbox", { status: 502, headers: corsHeaders });
     }
 
     const next = {
@@ -77,9 +87,9 @@ export default {
 
     if (!putResp.ok) {
       const text = await putResp.text();
-      return new Response(text || "Failed to update inbox", { status: 502 });
+      return new Response(text || "Failed to update inbox", { status: 502, headers: corsHeaders });
     }
 
-    return new Response("ok", { status: 200 });
+    return new Response("ok", { status: 200, headers: corsHeaders });
   }
 };
