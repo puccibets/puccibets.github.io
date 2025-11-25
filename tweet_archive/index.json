@@ -1,6 +1,10 @@
 {
   "version": 2,
   "tweets": [
+    "emollick/tweets/1993422227862438031_2025-11-25-20-51-09.000Z/tweet.json",
+    "willccbb/tweets/1993441195234910371_2025-11-25-22-06-31.000Z/tweet.json",
+    "willccbb/tweets/1993440812097806813_2025-11-25-22-05-00.000Z/tweet.json",
+    "kjaved_/tweets/1993371363026125147_2025-11-25-17-29-02.000Z/tweet.json",
     "jm_alexia/tweets/1993407896294654266_2025-11-25-19-54-12.000Z/tweet.json",
     "johncoogan/tweets/1993392274567475568_2025-11-25-18-52-08.000Z/tweet.json",
     "repligate/tweets/1988874497571672542_2025-11-13-07-40-06.000Z/tweet.json",
@@ -192,8 +196,10 @@
       "handle": "@willccbb",
       "name": "will brown",
       "avatar": "willccbb/avatar/avatar.jpg",
-      "lastCapturedAt": "2025-11-24T21:26:57.303Z",
+      "lastCapturedAt": "2025-11-25T22:34:44.814Z",
       "tweets": [
+        "willccbb/tweets/1993441195234910371_2025-11-25-22-06-31.000Z/tweet.json",
+        "willccbb/tweets/1993440812097806813_2025-11-25-22-05-00.000Z/tweet.json",
         "willccbb/tweets/1993009122644836831_2025-11-24-17-29-37.000Z/tweet.json"
       ]
     },
@@ -393,6 +399,26 @@
       "lastCapturedAt": "2025-11-25T22:23:36.107Z",
       "tweets": [
         "jm_alexia/tweets/1993407896294654266_2025-11-25-19-54-12.000Z/tweet.json"
+      ]
+    },
+    {
+      "slug": "kjaved_",
+      "handle": "@kjaved_",
+      "name": "Khurram Javed",
+      "avatar": "kjaved_/avatar/avatar.jpg",
+      "lastCapturedAt": "2025-11-25T22:33:40.965Z",
+      "tweets": [
+        "kjaved_/tweets/1993371363026125147_2025-11-25-17-29-02.000Z/tweet.json"
+      ]
+    },
+    {
+      "slug": "emollick",
+      "handle": "@emollick",
+      "name": "Ethan Mollick",
+      "avatar": "emollick/avatar/avatar.jpg",
+      "lastCapturedAt": "2025-11-25T22:38:00.901Z",
+      "tweets": [
+        "emollick/tweets/1993422227862438031_2025-11-25-20-51-09.000Z/tweet.json"
       ]
     }
   ]

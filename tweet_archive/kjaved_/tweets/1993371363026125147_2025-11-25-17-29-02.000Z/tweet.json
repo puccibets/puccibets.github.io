@@ -1,0 +1,16 @@
+{
+  "id": "1993371363026125147",
+  "url": "https://x.com/dwarkesh_sp/status/1993371363026125147",
+  "timestamp": "2025-11-25T17:29:02.000Z",
+  "capturedAt": "2025-11-25T22:33:40.965Z",
+  "author": "Khurram Javed @kjaved_",
+  "authorName": "Khurram Javed",
+  "authorHandle": "@kjaved_",
+  "text": "I am pleasantly surprised by Ilya. He has identified some key aspects of intelligence that are largely absent from the popular AI discourse. These are: \n\n1. Intelligence is about the ability to learn and not about knowing many things. The right goal is a system that can learn from experience in deployment.\n \n2. A value function is needed for human-like sample-efficient learning. It can provide dense feedback (TD learning) in the absence of reward.\n\nBoth of these are essential and doable. A key bottleneck is that we don't have algorithms that can learn reliably using similar amounts of compute as inference. Such algorithms are needed if we are to learn continually. I think we are close. We just don't have enough people working on finding these algorithms. \n\nI am also glad that Ilya acknowledged that to make progress we need more ideas and not just more compute. I would predict that the key algorithmic improvements can be made with a relatively small amount of compute. \n\nA handful of GPUs with many CUDA cores (5090s or better) per person, or a couple of state-of-the-art multicore CPUs (9995 WX or better) per person, are enough to find the right algorithm.\n\nLarge scale demonstrations would only be important to convince the rest of the world that you have found the right recipe for learning. \n\n*Tensor Cores are not flexible enough for trying new ideas quickly.",
+  "avatar": "kjaved_/avatar/avatar.jpg",
+  "avatarPath": "kjaved_/avatar/avatar.jpg",
+  "images": [],
+  "jsonFile": "kjaved_/tweets/1993371363026125147_2025-11-25-17-29-02.000Z/tweet.json",
+  "mediaDir": "media",
+  "userSlug": "kjaved_"
+}

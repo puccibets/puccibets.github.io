@@ -1,0 +1,19 @@
+{
+  "id": "1993422227862438031",
+  "url": "https://x.com/emollick/status/1993422227862438031",
+  "timestamp": "2025-11-25T20:51:09.000Z",
+  "capturedAt": "2025-11-25T22:38:00.901Z",
+  "author": "Ethan Mollick @emollick",
+  "authorName": "Ethan Mollick",
+  "authorHandle": "@emollick",
+  "text": "My first published academic paper was on Moore's Law and right now AI development looks similar: the exponential of Moore's Law was not the result of a single technology, but rather many different technologies over many decades that were ready when one chip-making approach faltered. The regular pace of the Law served as a coordinating function so that an ever-changing group of competitors were pressured to create a self-fulfilling prophecy of continual capability growth.\n\nSimilarly, AI development has already hit a number of speedbumps that had to be overcome with new techniques and research (synthetic data approaches, reasoning, new uses for RL). But unless you are an insider (or follow AI closely on X), you don't see those speedbumps: just steady exponential progress.\n\nGiven the amount of money and talent in the space, I expect that even if pre-training or whatever hits a wall, we will see a quick transition of the entire industry to one or more of the many other approaches people are developing. You can see this already: work on world models, alternatives to LLMs, new training methods, etc. Even alternative ecosystems that are betting on the rise of small, fine-tuned models, etc. Some of these techniques are coming from startups, others are being developed in the AI labs themselves.\n\nPeople on X tend to get into the details, treating AI like a sport, cheering for or against teams and approaches. But over any reasonable span of time, it is possible that AI development looks like a smooth exponential on many metrics to everyone else.",
+  "avatar": "emollick/avatar/avatar.jpg",
+  "avatarPath": "emollick/avatar/avatar.jpg",
+  "images": [
+    "media/1993422227862438031_G6oIyuIXAAAg0NV",
+    "media/1993422227862438031_G6oI6bCW0AAeG2-"
+  ],
+  "jsonFile": "emollick/tweets/1993422227862438031_2025-11-25-20-51-09.000Z/tweet.json",
+  "mediaDir": "media",
+  "userSlug": "emollick"
+}
