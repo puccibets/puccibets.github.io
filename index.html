@@ -439,7 +439,7 @@
     const loadTweets = async () => {
       statusEl.textContent = "Loading archived tweets…";
       try {
-        const manifestResp = await fetch(`${ARCHIVE_ROOT}/index.json`);
+        const manifestResp = await fetch(`${ARCHIVE_ROOT}/index.json`, { cache: "no-store" });
         if (!manifestResp.ok) {
           throw new Error(`Could not load manifest: ${manifestResp.status}`);
         }
@@ -453,7 +453,7 @@
 
         for (const path of list) {
           try {
-            const resp = await fetch(`${ARCHIVE_ROOT}/${path}`);
+            const resp = await fetch(`${ARCHIVE_ROOT}/${path}`, { cache: "no-store" });
             if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
             const data = await resp.json();
             await renderTweet(data, `${ARCHIVE_ROOT}/${path}`);
