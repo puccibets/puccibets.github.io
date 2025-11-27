@@ -1,0 +1,16 @@
+{
+  "id": "1993450781429657933",
+  "url": "https://x.com/yoavgo/status/1993450781429657933",
+  "timestamp": "2025-11-25T22:44:37.000Z",
+  "capturedAt": "2025-11-27T20:58:32.306Z",
+  "author": "Lucas Beyer (bl16) @giffmana",
+  "authorName": "Lucas Beyer (bl16)",
+  "authorHandle": "@giffmana",
+  "text": "OK I'm probably gonna get some flak for this, but... re the classic school(s) of RL:\n\nThey are detached from reality. The whole \"you can turn everything into mdp just fold stuff into the state until it's Markov. So algorithms that optimally solve mdps lead to general intelligence\" might be true in infinite theory, but in finite reality it makes no sense at all. That's why it's mostly ok for simple games and the music stops there, with policy gradient taking over.\n\nThat's why I --after some implementing, playing around, and thinking about both-- quickly abandoned the Bellman-school and became an adept of the Williams92 church.",
+  "avatar": "giffmana/avatar/avatar.jpeg",
+  "avatarPath": "giffmana/avatar/avatar.jpeg",
+  "images": [],
+  "jsonFile": "giffmana/tweets/1993450781429657933_2025-11-25-22-44-37.000Z/tweet.json",
+  "mediaDir": "media",
+  "userSlug": "giffmana"
+}

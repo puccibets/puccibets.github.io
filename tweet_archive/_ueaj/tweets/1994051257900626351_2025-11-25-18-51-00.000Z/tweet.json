@@ -1,0 +1,20 @@
+{
+  "id": "1994051257900626351",
+  "url": "https://x.com/_ueaj/status/1994051257900626351/photo/1",
+  "timestamp": "2025-11-25T18:51:00.000Z",
+  "capturedAt": "2025-11-27T20:58:21.539Z",
+  "author": "ueaj - NeurIPS 2025 @_ueaj",
+  "authorName": "ueaj - NeurIPS 2025",
+  "authorHandle": "@_ueaj",
+  "text": "The \"research taste\" part of the talk was the highest signal part imo and I agree completely. This is literally exactly how I approach research and it was so validating to see @ilyasut talk about it!\n\n\"The top-down belief is the thing that sustains you when the experiments contradict you. Because if you trust the data all the time, well sometimes you can be doing the correct thing but there’s a bug. But you don’t know that there is a bug. How can you tell that there is a bug? How do you know if you should keep debugging or you conclude it’s the wrong direction? It’s the top-down. You can say things have to be this way. Something like this has to work, therefore we’ve got to keep going. That’s the top-down, and it’s based on this multifaceted beauty and inspiration by the brain.\"\n\nThis is precisely the reasoning behind multiscale muon btw, the slower momentum buffers are meant to capture the higher order (what ilya calls top down beliefs) lessons from the data by integrating lessons across more samples.\n\nHe's also extremely right about brain inspiration\n\n\"The idea of the distributed representation. The idea that the brain responds to experience therefore our neural net should learn from experience. The brain learns from experience, the neural net should learn from experience. You kind of ask yourself, is something fundamental or not fundamental? How things should be.\"\n\nThis was the inspiration for the \"associative learning rule\" attempts and \"BPTT got hands\". We must find a distributable/scalable alternative to BPTT. Ilya also asks if it is something fundamental, I believe it is and I wrote about it \"cyberspace evolutionary automata\".\n\n\"I think that’s been guiding me a fair bit, thinking from multiple angles and looking for almost beauty, beauty and simplicity. Ugliness, there’s no room for ugliness. It’s beauty, simplicity, elegance, correct inspiration from the brain. All of those things need to be present at the same time. The more they are present, the more confident you can be in a top-down belief.\"\n\nMultiscale properties in my opinion is one such example of this beauty and simplicity. It is unbelievably beautiful that at every corner of our universe is some complex system, and that emergence is a fundamental property of every law of our universe. From the laws that govern evolution, neural interconnectivity, society, etc. all of them have power laws, multiscale hierarchy, etc. and from those laws emergence more scales of the hierarchy.\n\nI don't publish everything I work on b/c I don't like posting half baked or unsafe ideas (I am a safetycel), but I also have a lot of private projects in the same vein of what ilya talks about. \n\nIt's so cool to see it validated by a legend though. My blog posts are good! I try to keep them high signal and it all connects together. That's why I made the tech tree, to show people what ideas connected with what",
+  "avatar": "_ueaj/avatar/avatar.jpg",
+  "avatarPath": "_ueaj/avatar/avatar.jpg",
+  "images": [
+    "media/1994051257900626351_G6xIU5eWMAI42xm",
+    "media/1994051257900626351_G6xK4WCWEAAC-Og",
+    "media/1994051257900626351_D7EA0edASEfq2MpO.jpg"
+  ],
+  "jsonFile": "_ueaj/tweets/1994051257900626351_2025-11-25-18-51-00.000Z/tweet.json",
+  "mediaDir": "media",
+  "userSlug": "_ueaj"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "1994002701194309893",
+  "url": "https://x.com/Dorialexander/status/1994002701194309893/photo/1",
+  "timestamp": "2025-11-27T11:17:45.000Z",
+  "capturedAt": "2025-11-27T20:59:00.343Z",
+  "author": "Alexander Doria @Dorialexander",
+  "authorName": "Alexander Doria",
+  "authorHandle": "@Dorialexander",
+  "text": "So DeepSeek-Math-V2.\n\nIt could be subtitled: \"how to train better verifiers?\" and the bulk of it is simply… better data work and synth pipelines (even if all models are trained with RL).\n\nDeepSeek further distances itself from the initial promises of spontaneous self-verification held by R0, simply because the approach isn't scalable: tortuous reasoning finally yielding correct answers is still very brittle and prone to failue.\n\nThe project start with human annotation, except it's high-level expert ones and representing in itself a wider industry shift where we try to scale up/automate the absolute best data quality process we can find. Here this process leverages also something we noticed while building the math pipeline for SYNTH: humans (and properly guided models) can identify instances of tortured reasoning without any reference to the final answers. \n\nThe paper also mention a technique likely to become highly used in synthetic pipelines: \"meta-verifiers\", basically assessing the assessment process itself. Because even the verifier can get reward hacked: \"when evaluating flawed proofs (where 𝑠𝑖 < 1) during training, the verifier can receive full reward by predicting the correct scores while hallucinating non-existent issues\"\n\nHuman annotations are first done in synthetic drafts, then in turn serve to build evaluators which recursively produce better proofs and increasingly better solving paths. Overall, the process create a positive feedback loops: \"The proof verifier and generator create a synergistic cycle: the verifier improves the generator, and as the generator improves, it produces new proofs that challenge the verifier’s current capabilities.\"\n\nAll training of verifiers/meta-verifiers/final model is done with RL (which makes sense for very large models as SFT/midtrain can get quite destructive). Yet, even then, the increasing complexity of RLVR which cannot be limited to a simple formal \"verification\" calls for the development of integrated, increasingly self-sufficient synthetic pipelines. \n\nOnce more, math provers bring LLM research to the actual frontier and led to creative and elegant solution that are likely to irrigate the entire field in the months to come.",
+  "avatar": "dorialexander/avatar/avatar.png",
+  "avatarPath": "dorialexander/avatar/avatar.png",
+  "images": [
+    "media/1994002701194309893_G6we2T9W4AA34Lj"
+  ],
+  "jsonFile": "dorialexander/tweets/1994002701194309893_2025-11-27-11-17-45.000Z/tweet.json",
+  "mediaDir": "media",
+  "userSlug": "dorialexander"
+}

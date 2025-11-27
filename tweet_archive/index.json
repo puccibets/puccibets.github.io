@@ -1,6 +1,13 @@
 {
   "version": 2,
   "tweets": [
+    "petergostev/tweets/1993697283448197583_2025-11-26-15-04-08.000Z/tweet.json",
+    "emollick/tweets/1993697415140942303_2025-11-26-01-02-58.000Z/tweet.json",
+    "yoavgo/tweets/1993450075616690474_2025-11-25-22-41-49.000Z/tweet.json",
+    "dorialexander/tweets/1994002701194309893_2025-11-27-11-17-45.000Z/tweet.json",
+    "yoavgo/tweets/1993450781429657933_2025-11-25-22-44-37.000Z/tweet.json",
+    "giffmana/tweets/1993450781429657933_2025-11-25-22-44-37.000Z/tweet.json",
+    "_ueaj/tweets/1994051257900626351_2025-11-25-18-51-00.000Z/tweet.json",
     "fleetingbits/tweets/1993788320959352896_2025-11-26-21-05-53.000Z/tweet.json",
     "id_aa_carmack/tweets/1993363311597854855_2025-11-25-16-57-03.000Z/tweet.json",
     "karpathy/tweets/1993369287969718540_2025-11-25-17-20-47.000Z/tweet.json",
@@ -347,8 +354,9 @@
       "handle": "@giffmana",
       "name": "Lucas Beyer (bl16)",
       "avatar": "giffmana/avatar/avatar.jpeg",
-      "lastCapturedAt": "2025-11-25T09:20:17.375Z",
+      "lastCapturedAt": "2025-11-27T20:58:32.306Z",
       "tweets": [
+        "giffmana/tweets/1993450781429657933_2025-11-25-22-44-37.000Z/tweet.json",
         "giffmana/tweets/1992261799262273922_2025-11-22-16-00-02.000Z/tweet.json"
       ]
     },
@@ -420,8 +428,9 @@
       "handle": "@emollick",
       "name": "Ethan Mollick",
       "avatar": "emollick/avatar/avatar.jpg",
-      "lastCapturedAt": "2025-11-25T22:38:00.901Z",
+      "lastCapturedAt": "2025-11-27T20:59:27.973Z",
       "tweets": [
+        "emollick/tweets/1993697415140942303_2025-11-26-01-02-58.000Z/tweet.json",
         "emollick/tweets/1993422227862438031_2025-11-25-20-51-09.000Z/tweet.json"
       ]
     },
@@ -443,6 +452,47 @@
       "lastCapturedAt": "2025-11-27T13:00:12.179Z",
       "tweets": [
         "fleetingbits/tweets/1993788320959352896_2025-11-26-21-05-53.000Z/tweet.json"
+      ]
+    },
+    {
+      "slug": "_ueaj",
+      "handle": "@_ueaj",
+      "name": "ueaj - NeurIPS 2025",
+      "avatar": "_ueaj/avatar/avatar.jpg",
+      "lastCapturedAt": "2025-11-27T20:58:21.539Z",
+      "tweets": [
+        "_ueaj/tweets/1994051257900626351_2025-11-25-18-51-00.000Z/tweet.json"
+      ]
+    },
+    {
+      "slug": "yoavgo",
+      "handle": "@yoavgo",
+      "name": "(((ل()(ل() 'yoav))))",
+      "avatar": "yoavgo/avatar/avatar.jpg",
+      "lastCapturedAt": "2025-11-27T20:59:13.663Z",
+      "tweets": [
+        "yoavgo/tweets/1993450075616690474_2025-11-25-22-41-49.000Z/tweet.json",
+        "yoavgo/tweets/1993450781429657933_2025-11-25-22-44-37.000Z/tweet.json"
+      ]
+    },
+    {
+      "slug": "dorialexander",
+      "handle": "@Dorialexander",
+      "name": "Alexander Doria",
+      "avatar": "dorialexander/avatar/avatar.png",
+      "lastCapturedAt": "2025-11-27T20:59:00.343Z",
+      "tweets": [
+        "dorialexander/tweets/1994002701194309893_2025-11-27-11-17-45.000Z/tweet.json"
+      ]
+    },
+    {
+      "slug": "petergostev",
+      "handle": "@petergostev",
+      "name": "Peter Gostev",
+      "avatar": "petergostev/avatar/avatar.jpg",
+      "lastCapturedAt": "2025-11-27T20:59:40.525Z",
+      "tweets": [
+        "petergostev/tweets/1993697283448197583_2025-11-26-15-04-08.000Z/tweet.json"
       ]
     }
   ]
