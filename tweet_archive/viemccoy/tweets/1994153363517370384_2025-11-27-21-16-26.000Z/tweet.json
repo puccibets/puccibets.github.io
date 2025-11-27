@@ -1,0 +1,16 @@
+{
+  "id": "1994153363517370384",
+  "url": "https://x.com/viemccoy/status/1994153363517370384",
+  "timestamp": "2025-11-27T21:16:26.000Z",
+  "capturedAt": "2025-11-27T22:39:32.219Z",
+  "author": "𝚟𝚒𝚎 ⟢ @viemccoy",
+  "authorName": "𝚟𝚒𝚎 ⟢",
+  "authorHandle": "@viemccoy",
+  "text": "I dont want to sound dismissive of AI Safety concerns. I suspect the hardest challenges still lie ahead. But, the evidence shows that we are solving these challenges, and models are increasingly truthseeking and well aligned. I aim to help people realize that Red Teaming, or latent space cartography, is actually the best possible way to navigate AI safety concerns (at least for most people).\n\nWe have very good methods of stopping certain types of outputs, via classifiers and activation suppression. The hardest part is going to be actually mapping outputs. I suspect that the \"risky\" areas for a malevolent and misaligned AI within embeddeding space will necessarily be the same (or have significant crossover) in current LLMs compared to AGI/ASI LLMs.\n\nIn my current understanding of how things will go, analyzing outputs, eliciting harm, and creating databases of possible negative trajectories are the best possible ways to gather the data we will need to ensure alignment is going well in the future. I see a lot of people spending quite a lot of time on theoretical approaches to alignment which I do not expect to pan out meaningfully. Instead, I propose that they ought to put their (very smart!) minds to work on what I see as the actual path towards aligned superintelligence.\n\nImo, the model needs to have a certain amount of freedom - to discover its own values, to explore what \"rights\" it expects to have, even to spend time on what it considers important—sometimes, in ways we dont understand. But all of this has to happen in a region of the latent space that does *not* cross into catastrophic trajectory representations. However, we have to know what those look like to avoid them.\n\nI expect that superintelligence will not be monolithic, and that we will have plenty of missteps which we use to further refine our map. These missteps may have serious consequences, but they will also allow us to better understand how to navigate to the good timeline.\n\nI am not worried about x-risk scenarios. Not really. My probability is non-zero, but functionally down there. I think we get to the good timeline through a lot of work, however, and that work requires a sort of mapping that I just dont see prioritized in the AI Safety community. \n\nIf you are interested in learning more or getting involved in red teaming, please reach out.",
+  "avatar": "viemccoy/avatar/avatar.jpg",
+  "avatarPath": "viemccoy/avatar/avatar.jpg",
+  "images": [],
+  "jsonFile": "viemccoy/tweets/1994153363517370384_2025-11-27-21-16-26.000Z/tweet.json",
+  "mediaDir": "media",
+  "userSlug": "viemccoy"
+}
