@@ -1,0 +1,16 @@
+{
+  "id": "1994031632693576070",
+  "url": "https://x.com/sytelus/status/1994031632693576070",
+  "timestamp": "2025-11-27T13:12:43.000Z",
+  "capturedAt": "2025-11-27T23:54:53.991Z",
+  "author": "Shital Shah @sytelus",
+  "authorName": "Shital Shah",
+  "authorHandle": "@sytelus",
+  "text": "1. You have to consider information over all training tokens. This remains invariant of vocab size for any reversible tokenizer. If you decrease vocab size, you increase number of tokens etc.\n\n2. Information is not merely tied to bit size of outcome. For example, training a binary image classifier doesn’t just generate exact same one bit of information per each data sample but rather amount of information depends on content of each data sample itself when you are doing backprop as optimization algo. If your training corpus is just black background images vs real world rich images, there is different information produced even if you  are training binary classifier. Autoregressive generation is in essence classification over vocab and the argument from #1 applies (imagine training directly over bits reorientation of your corpus).\n\n3. Yes, sure everything is compute bound ultimately but argument that HW level bit wise representation brought majority of perf gain is not correct (or may be I misunderstood your argument).",
+  "avatar": "sytelus/avatar/avatar.jpg",
+  "avatarPath": "sytelus/avatar/avatar.jpg",
+  "images": [],
+  "jsonFile": "sytelus/tweets/1994031632693576070_2025-11-27-13-12-43.000Z/tweet.json",
+  "mediaDir": "media",
+  "userSlug": "sytelus"
+}

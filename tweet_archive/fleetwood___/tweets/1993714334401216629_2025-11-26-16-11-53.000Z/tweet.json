@@ -1,0 +1,18 @@
+{
+  "id": "1993714334401216629",
+  "url": "https://x.com/fleetwood___/status/1993714334401216629/photo/1",
+  "timestamp": "2025-11-26T16:11:53.000Z",
+  "capturedAt": "2025-11-27T23:54:21.912Z",
+  "author": "Fleetwood @fleetwood___",
+  "authorName": "Fleetwood",
+  "authorHandle": "@fleetwood___",
+  "text": "Given it's cool to be bearish right now, some thoughts on RL (most ideas from @dwarkesh_sp's post):\n\n- During early pretraining, you receive ~log2(1/(1/vocab_size)) bits of information (e.g for 256k vocab ~18 bits) PER forward pass.\n\n- During RL, given a rollout of 32k tokens, you receive optimally 1 bit of information (on a 50/50 pass rate task), 1 bit being right or wrong. So 32,000 forward passes for a single bit of information (albeit a much more valuable bit).\n\n- RL can only elicit skills latent within the pretrained model, as pass rate must be greater than 0 in order to reinforce successful rollouts.\n\n- RLVR has a massive credit assignment problem. We generate 32,000 tokens for a math problem, with a correct or incorrect answer. We cannot determine the key tokens of our correct reasoning. If we get the right answer, we upweight all of the bullshit “Ok so step 1 I am going to compute…”. Our reward is smeared across the 32,000 tokens.\n\n- Most of the hardware gains have been from reducing bit width. In scaling laws for precision (https://arxiv.org/pdf/2411.04330) Kumar at al empirically show that the optimal bit width for pretraining is somewhere around 6-8 bits. NVFP4 is already below this, we can’t go much further. So although horizontal scaling will continue, scaling vertically will drop off.\n\n- The most interesting point from Dwarkesh: when doing policy gradient rollouts, which is more likely to occur: the generation of a “general” trajectory that insightfully solves the problem class, rather than the problem instance? Or will the model generate a weak heuristic that happens to get the right answer, after which our weights are updated to increase its future likelihood.\n\n-  Overall, post training feels very anti bitter lesson pilled? We are back to hand engineering, human priors, and everything we lambasted GOFAI for?",
+  "avatar": "fleetwood___/avatar/avatar.jpg",
+  "avatarPath": "fleetwood___/avatar/avatar.jpg",
+  "images": [
+    "media/1993714334401216629_G6sXmRVWcAEUvwa"
+  ],
+  "jsonFile": "fleetwood___/tweets/1993714334401216629_2025-11-26-16-11-53.000Z/tweet.json",
+  "mediaDir": "media",
+  "userSlug": "fleetwood___"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "1993909440261587108",
+  "url": "https://x.com/sytelus/status/1993909440261587108",
+  "timestamp": "2025-11-27T05:07:10.000Z",
+  "capturedAt": "2025-11-27T23:54:41.667Z",
+  "author": "Shital Shah @sytelus",
+  "authorName": "Shital Shah",
+  "authorHandle": "@sytelus",
+  "text": "Most of these don’t seem right:\n\n1. Information gain per forward+backward pass is independent of vocab size. When you reduce vocab size, you have to compensate by increasing sequence length to keep same docs/batch. Think of batch containing net same number of docs (or otherwise you are not doing it right).\n\n2. It’s huge misnomer that RL update gives 1 bit of info. To generate each roll out, you must exercise specific combination of weight. The specific combination of weights that “activated” in forward pass represents significant amount of information that eventually gets backproped. Gain per RL update has significant amount of info but due to KL term we explicitly ask to throw away much of that info and even then it’s far more than 1 bit info.\n\n3. While bit width meaningfully contributes to HW gains, most gains are actually from proper memory management in accelerators to deal with lower memory bandwidth. NVFP4 still requires many layers to be at higher precision and it is shown that gains due to bit width are not entirely free.",
+  "avatar": "sytelus/avatar/avatar.jpg",
+  "avatarPath": "sytelus/avatar/avatar.jpg",
+  "images": [],
+  "jsonFile": "sytelus/tweets/1993909440261587108_2025-11-27-05-07-10.000Z/tweet.json",
+  "mediaDir": "media",
+  "userSlug": "sytelus"
+}

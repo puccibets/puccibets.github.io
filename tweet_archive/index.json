@@ -1,6 +1,11 @@
 {
   "version": 2,
   "tweets": [
+    "fleetwood___/tweets/1994051629063041253_2025-11-27-14-32-10.000Z/tweet.json",
+    "sytelus/tweets/1994031632693576070_2025-11-27-13-12-43.000Z/tweet.json",
+    "fleetwood___/tweets/1993940346913341749_2025-11-27-07-09-58.000Z/tweet.json",
+    "sytelus/tweets/1993909440261587108_2025-11-27-05-07-10.000Z/tweet.json",
+    "fleetwood___/tweets/1993714334401216629_2025-11-26-16-11-53.000Z/tweet.json",
     "aidenybai/tweets/1993901129210712129_2025-11-27-04-34-08.000Z/tweet.json",
     "viemccoy/tweets/1994153363517370384_2025-11-27-21-16-26.000Z/tweet.json",
     "redtachyon/tweets/1994103886580236517_2025-11-27-17-59-49.000Z/tweet.json",
@@ -548,6 +553,29 @@
       "lastCapturedAt": "2025-11-27T22:39:35.461Z",
       "tweets": [
         "aidenybai/tweets/1993901129210712129_2025-11-27-04-34-08.000Z/tweet.json"
+      ]
+    },
+    {
+      "slug": "fleetwood___",
+      "handle": "@fleetwood___",
+      "name": "Fleetwood",
+      "avatar": "fleetwood___/avatar/avatar.jpg",
+      "lastCapturedAt": "2025-11-27T23:54:59.700Z",
+      "tweets": [
+        "fleetwood___/tweets/1994051629063041253_2025-11-27-14-32-10.000Z/tweet.json",
+        "fleetwood___/tweets/1993940346913341749_2025-11-27-07-09-58.000Z/tweet.json",
+        "fleetwood___/tweets/1993714334401216629_2025-11-26-16-11-53.000Z/tweet.json"
+      ]
+    },
+    {
+      "slug": "sytelus",
+      "handle": "@sytelus",
+      "name": "Shital Shah",
+      "avatar": "sytelus/avatar/avatar.jpg",
+      "lastCapturedAt": "2025-11-27T23:54:53.991Z",
+      "tweets": [
+        "sytelus/tweets/1994031632693576070_2025-11-27-13-12-43.000Z/tweet.json",
+        "sytelus/tweets/1993909440261587108_2025-11-27-05-07-10.000Z/tweet.json"
       ]
     }
   ]

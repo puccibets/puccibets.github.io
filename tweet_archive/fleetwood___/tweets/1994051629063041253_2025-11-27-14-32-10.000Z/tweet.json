@@ -1,0 +1,16 @@
+{
+  "id": "1994051629063041253",
+  "url": "https://x.com/fleetwood___/status/1994051629063041253",
+  "timestamp": "2025-11-27T14:32:10.000Z",
+  "capturedAt": "2025-11-27T23:54:59.700Z",
+  "author": "Fleetwood @fleetwood___",
+  "authorName": "Fleetwood",
+  "authorHandle": "@fleetwood___",
+  "text": "Appreciate the response! \n1. You are correct on the corpus level, but it does not invalidate my point on the token level. I agree you can trade of vocab size against batch/seqlen, but my first bullet point was correct for step 0 in training for a single token.\n2. Your image classifier example really made me think, so thank you! I went back and reread \"LoRA without regret\" and this awesome mathematical analysis by @RichardYRLi (https://richardli.xyz/post/information-bandwidth-rl/…) which lays out clearly why it's 1 bit for policy gradient algorithms. The clearest way I can elucidate the difference between the binary image classifier and the RLVR case is: The bit of supervision for the image classifier supervises a high information INPUT (external input info). The bit of supervision for the RLVR case supervises solely the model output.\n3. The graph from NVDA in the original tweet clearly shows that for a single accelerator compute progress has been majority driven by reducing bit width.",
+  "avatar": "fleetwood___/avatar/avatar.jpg",
+  "avatarPath": "fleetwood___/avatar/avatar.jpg",
+  "images": [],
+  "jsonFile": "fleetwood___/tweets/1994051629063041253_2025-11-27-14-32-10.000Z/tweet.json",
+  "mediaDir": "media",
+  "userSlug": "fleetwood___"
+}

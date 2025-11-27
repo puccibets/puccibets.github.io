@@ -1,0 +1,16 @@
+{
+  "id": "1993940346913341749",
+  "url": "https://x.com/fleetwood___/status/1993940346913341749",
+  "timestamp": "2025-11-27T07:09:58.000Z",
+  "capturedAt": "2025-11-27T23:54:46.252Z",
+  "author": "Fleetwood @fleetwood___",
+  "authorName": "Fleetwood",
+  "authorHandle": "@fleetwood___",
+  "text": "1. At initialisation, my model outputs ~uniform probability distribution. A single token reduces my space of uncertainty by log2(vocab_size).\n2. I mean it's a binary outcome right? 1 bit is 1 bit, no matter what cascade of weight updates it causes.\n3. Large batch LLM training is compute bound, not memory bound.",
+  "avatar": "fleetwood___/avatar/avatar.jpg",
+  "avatarPath": "fleetwood___/avatar/avatar.jpg",
+  "images": [],
+  "jsonFile": "fleetwood___/tweets/1993940346913341749_2025-11-27-07-09-58.000Z/tweet.json",
+  "mediaDir": "media",
+  "userSlug": "fleetwood___"
+}
