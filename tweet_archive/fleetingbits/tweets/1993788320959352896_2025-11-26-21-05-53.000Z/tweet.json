@@ -1,0 +1,16 @@
+{
+  "id": "1993788320959352896",
+  "url": "https://x.com/fleetingbits/status/1993788320959352896/history",
+  "timestamp": "2025-11-26T21:05:53.000Z",
+  "capturedAt": "2025-11-27T13:00:12.179Z",
+  "author": "FleetingBits @fleetingbits",
+  "authorName": "FleetingBits",
+  "authorHandle": "@fleetingbits",
+  "text": "Some thoughts from the Ilya / Dwarkesh interview\n\n1) It's a sort of disappointing interview. It felt sort of contentless. So, this post is shorter than normal.\n\n2) Ilya was a very good chief scientist. All the stories that I have heard about him from people that worked with him at OpenAI point to his sort of oracular style.\n\n3) You can see it on display in the podcast; he has a very distinctive way of talking. He will point in a concrete research direction (e.g. influence functions) and then give like a set of analogies (e.g. human learning).\n\n4) I think that this works because it gives people confidence in a research direction and a framework about with which to think about it. He doesn't fill in any of the detail though.\n\n5) So, the researcher, who has been told by their boss that success is possible and who has been given a sort of framework to think about it can then fill in the details through their work.\n\n6) This has worked for him because deep learning is actually is very effective as a field and so discoveries can be actually made and this is enough to motivate them. \n\n7) He also maintains a very clear distinction between knowing an idea and the visceral feeling of belief in an idea, which I think is interesting and was the basis for things like \"Feel the AGI\".\n\n8) Other than that, it was interesting that he confirmed that he refused the Meta deal. Also, interesting that he basically confirmed a split with Daniel Gross.",
+  "avatar": "fleetingbits/avatar/avatar.jpg",
+  "avatarPath": "fleetingbits/avatar/avatar.jpg",
+  "images": [],
+  "jsonFile": "fleetingbits/tweets/1993788320959352896_2025-11-26-21-05-53.000Z/tweet.json",
+  "mediaDir": "media",
+  "userSlug": "fleetingbits"
+}

@@ -1,6 +1,7 @@
 {
   "version": 2,
   "tweets": [
+    "fleetingbits/tweets/1993788320959352896_2025-11-26-21-05-53.000Z/tweet.json",
     "id_aa_carmack/tweets/1993363311597854855_2025-11-25-16-57-03.000Z/tweet.json",
     "karpathy/tweets/1993369287969718540_2025-11-25-17-20-47.000Z/tweet.json",
     "emollick/tweets/1993422227862438031_2025-11-25-20-51-09.000Z/tweet.json",
@@ -432,6 +433,16 @@
       "lastCapturedAt": "2025-11-25T23:36:09.088Z",
       "tweets": [
         "id_aa_carmack/tweets/1993363311597854855_2025-11-25-16-57-03.000Z/tweet.json"
+      ]
+    },
+    {
+      "slug": "fleetingbits",
+      "handle": "@fleetingbits",
+      "name": "FleetingBits",
+      "avatar": "fleetingbits/avatar/avatar.jpg",
+      "lastCapturedAt": "2025-11-27T13:00:12.179Z",
+      "tweets": [
+        "fleetingbits/tweets/1993788320959352896_2025-11-26-21-05-53.000Z/tweet.json"
       ]
     }
   ]
