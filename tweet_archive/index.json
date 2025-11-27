@@ -1,6 +1,7 @@
 {
   "version": 2,
   "tweets": [
+    "onetwoval/tweets/1993801490964861189_2025-11-26-21-58-13.000Z/tweet.json",
     "presidentlin/tweets/1994067917588123669_2025-11-27-15-36-54.000Z/tweet.json",
     "petergostev/tweets/1993697283448197583_2025-11-26-15-04-08.000Z/tweet.json",
     "emollick/tweets/1993697415140942303_2025-11-26-01-02-58.000Z/tweet.json",
@@ -504,6 +505,16 @@
       "lastCapturedAt": "2025-11-27T21:33:04.637Z",
       "tweets": [
         "presidentlin/tweets/1994067917588123669_2025-11-27-15-36-54.000Z/tweet.json"
+      ]
+    },
+    {
+      "slug": "onetwoval",
+      "handle": "@onetwoval",
+      "name": "Val",
+      "avatar": "onetwoval/avatar/avatar.jpg",
+      "lastCapturedAt": "2025-11-27T21:54:25.589Z",
+      "tweets": [
+        "onetwoval/tweets/1993801490964861189_2025-11-26-21-58-13.000Z/tweet.json"
       ]
     }
   ]
