@@ -1,6 +1,7 @@
 {
   "version": 2,
   "tweets": [
+    "_ueaj/tweets/1994051257900626351_2025-11-25-18-51-00.000Z_1/tweet.json",
     "_ueaj/tweets/1994051257900626351_2025-11-25-18-51-00.000Z/tweet.json"
   ],
   "users": [],
@@ -8,5 +9,5 @@
   "handle": "@_ueaj",
   "name": "ueaj - NeurIPS 2025",
   "avatar": "_ueaj/avatar/avatar.jpg",
-  "lastCapturedAt": "2025-11-27T20:58:21.539Z"
+  "lastCapturedAt": "2025-11-27T21:03:21.850Z"
 }
