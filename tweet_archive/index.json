@@ -1,6 +1,12 @@
 {
   "version": 2,
   "tweets": [
+    "stefanfschubert/tweets/1994030933343629596_2025-11-27-13-09-56.000Z/tweet.json",
+    "noahpinion/tweets/1994157357383770318_2025-11-27-21-32-18.000Z/tweet.json",
+    "noahpinion/tweets/1994159405785641246_2025-11-27-21-40-26.000Z/tweet.json",
+    "polynoamial/tweets/1994439121243169176_2025-11-28-15-13-51.000Z/tweet.json",
+    "ilyasut/tweets/1993416904162328880_2025-11-25-20-30-00.000Z/tweet.json",
+    "teortaxestex/tweets/1994207371565125685_2025-11-27-16-12-04.000Z/tweet.json",
     "teknium/tweets/1994302644404506683_2025-11-28-07-09-37.000Z/tweet.json",
     "teknium/tweets/1994302025560150094_2025-11-28-07-07-09.000Z/tweet.json",
     "leothecurious/tweets/1988907838471590194_2025-11-13-09-52-35.000Z/tweet.json",
@@ -138,8 +144,9 @@
       "handle": "@polynoamial",
       "name": "Noam Brown",
       "avatar": "polynoamial/avatar/avatar.jpg",
-      "lastCapturedAt": "2025-11-20T20:45:50.919Z",
+      "lastCapturedAt": "2025-11-28T20:06:50.325Z",
       "tweets": [
+        "polynoamial/tweets/1994439121243169176_2025-11-28-15-13-51.000Z/tweet.json",
         "polynoamial/tweets/1991568186840686915_2025-11-20-18-24-53.000Z/tweet.json"
       ]
     },
@@ -602,6 +609,47 @@
       "tweets": [
         "teknium/tweets/1994302644404506683_2025-11-28-07-09-37.000Z/tweet.json",
         "teknium/tweets/1994302025560150094_2025-11-28-07-07-09.000Z/tweet.json"
+      ]
+    },
+    {
+      "slug": "teortaxestex",
+      "handle": "@teortaxesTex",
+      "name": "Teortaxes (DeepSeek 推特铁粉 2023 – ∞)",
+      "avatar": "teortaxestex/avatar/avatar.jpg",
+      "lastCapturedAt": "2025-11-28T20:06:44.541Z",
+      "tweets": [
+        "teortaxestex/tweets/1994207371565125685_2025-11-27-16-12-04.000Z/tweet.json"
+      ]
+    },
+    {
+      "slug": "ilyasut",
+      "handle": "@ilyasut",
+      "name": "Ilya Sutskever",
+      "avatar": "ilyasut/avatar/avatar.jpg",
+      "lastCapturedAt": "2025-11-28T20:06:47.706Z",
+      "tweets": [
+        "ilyasut/tweets/1993416904162328880_2025-11-25-20-30-00.000Z/tweet.json"
+      ]
+    },
+    {
+      "slug": "noahpinion",
+      "handle": "@Noahpinion",
+      "name": "Noah Smith",
+      "avatar": "noahpinion/avatar/avatar.jpg",
+      "lastCapturedAt": "2025-11-28T20:06:54.882Z",
+      "tweets": [
+        "noahpinion/tweets/1994157357383770318_2025-11-27-21-32-18.000Z/tweet.json",
+        "noahpinion/tweets/1994159405785641246_2025-11-27-21-40-26.000Z/tweet.json"
+      ]
+    },
+    {
+      "slug": "stefanfschubert",
+      "handle": "@StefanFSchubert",
+      "name": "Stefan Schubert",
+      "avatar": "stefanfschubert/avatar/avatar.jpg",
+      "lastCapturedAt": "2025-11-28T20:06:57.354Z",
+      "tweets": [
+        "stefanfschubert/tweets/1994030933343629596_2025-11-27-13-09-56.000Z/tweet.json"
       ]
     }
   ]

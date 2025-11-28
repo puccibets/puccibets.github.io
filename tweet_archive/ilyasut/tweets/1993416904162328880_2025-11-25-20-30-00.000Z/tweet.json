@@ -1,0 +1,16 @@
+{
+  "id": "1993416904162328880",
+  "url": "https://x.com/slow_developer/status/1993416904162328880",
+  "timestamp": "2025-11-25T20:30:00.000Z",
+  "capturedAt": "2025-11-28T20:06:47.706Z",
+  "author": "Ilya Sutskever @ilyasut",
+  "authorName": "Ilya Sutskever",
+  "authorHandle": "@ilyasut",
+  "text": "One point I made that didn’t come across:\n- Scaling the current thing will keep leading to improvements.  In particular, it won’t stall.\n- But something important will continue to be missing.",
+  "avatar": "ilyasut/avatar/avatar.jpg",
+  "avatarPath": "ilyasut/avatar/avatar.jpg",
+  "images": [],
+  "jsonFile": "ilyasut/tweets/1993416904162328880_2025-11-25-20-30-00.000Z/tweet.json",
+  "mediaDir": "media",
+  "userSlug": "ilyasut"
+}

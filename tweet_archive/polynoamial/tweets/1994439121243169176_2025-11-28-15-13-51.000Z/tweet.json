@@ -1,0 +1,16 @@
+{
+  "id": "1994439121243169176",
+  "url": "https://x.com/polynoamial/status/1994439121243169176",
+  "timestamp": "2025-11-28T15:13:51.000Z",
+  "capturedAt": "2025-11-28T20:06:50.325Z",
+  "author": "Noam Brown @polynoamial",
+  "authorName": "Noam Brown",
+  "authorHandle": "@polynoamial",
+  "text": "Social media tends to frame AI debate into two caricatures:\n(A) Skeptics who think LLMs are doomed and AI is a bunch of hype.\n(B) Fanatics who think we have all the ingredients and superintelligence is imminent.\n\nBut if you read what leading researchers actually say (beyond the headlines), there’s a surprising amount of convergence:\n\n1) The current paradigm is likely sufficient for massive economic and societal impact, even without further research breakthroughs.\n\n2) More research breakthroughs are probably needed to achieve AGI/ASI. (Continual learning and sample efficiency are two examples that researchers commonly point to.)\n\n3) We probably figure them out and get there within 20 years. @demishassabis said maybe in 5-10 years. @fchollet recently said about 5 years. @sama said ASI is possible in a few thousand days. @ylecun said about 10 years. @ilyasut said 5-20 years. @DarioAmodei is the most bullish, saying it's possible in 2 years though he also said it might take longer.\n\nNone of them are saying ASI is a fantasy, or that it's probably 100+ years away.\n\nA lot of the disagreement is in what those breakthroughs will be and how quickly they will come. But all things considered, people in the field agree on a lot more than they disagree on.",
+  "avatar": "polynoamial/avatar/avatar.jpg",
+  "avatarPath": "polynoamial/avatar/avatar.jpg",
+  "images": [],
+  "jsonFile": "polynoamial/tweets/1994439121243169176_2025-11-28-15-13-51.000Z/tweet.json",
+  "mediaDir": "media",
+  "userSlug": "polynoamial"
+}

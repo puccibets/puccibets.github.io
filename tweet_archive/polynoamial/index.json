@@ -1,6 +1,7 @@
 {
   "version": 2,
   "tweets": [
+    "polynoamial/tweets/1994439121243169176_2025-11-28-15-13-51.000Z/tweet.json",
     "polynoamial/tweets/1991568186840686915_2025-11-20-18-24-53.000Z/tweet.json"
   ],
   "users": [],
@@ -8,5 +9,5 @@
   "handle": "@polynoamial",
   "name": "Noam Brown",
   "avatar": "polynoamial/avatar/avatar.jpg",
-  "lastCapturedAt": "2025-11-20T20:45:50.919Z"
+  "lastCapturedAt": "2025-11-28T20:06:50.325Z"
 }
