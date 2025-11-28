@@ -1,6 +1,7 @@
 {
   "version": 2,
   "tweets": [
+    "schmidhuberai/tweets/1952007922721919219_2025-08-03-14-05-29.000Z/tweet.json",
     "ericzakariasson/tweets/1993876834375880874_2025-11-27-02-57-36.000Z/tweet.json",
     "kenneth0stanley/tweets/1994460584742719630_2025-11-28-15-13-51.000Z/tweet.json",
     "stefanfschubert/tweets/1994030933343629596_2025-11-27-13-09-56.000Z/tweet.json",
@@ -672,6 +673,16 @@
       "lastCapturedAt": "2025-11-28T20:55:41.616Z",
       "tweets": [
         "ericzakariasson/tweets/1993876834375880874_2025-11-27-02-57-36.000Z/tweet.json"
+      ]
+    },
+    {
+      "slug": "schmidhuberai",
+      "handle": "@SchmidhuberAI",
+      "name": "Jürgen Schmidhuber",
+      "avatar": "schmidhuberai/avatar/avatar.jpg",
+      "lastCapturedAt": "2025-11-28T21:04:46.281Z",
+      "tweets": [
+        "schmidhuberai/tweets/1952007922721919219_2025-08-03-14-05-29.000Z/tweet.json"
       ]
     }
   ]
