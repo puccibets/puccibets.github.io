@@ -1,0 +1,16 @@
+{
+  "id": "1994302025560150094",
+  "url": "https://x.com/Teknium/status/1994302025560150094",
+  "timestamp": "2025-11-28T07:07:09.000Z",
+  "capturedAt": "2025-11-28T20:04:45.114Z",
+  "author": "Teknium (e/λ) @Teknium",
+  "authorName": "Teknium (e/λ)",
+  "authorHandle": "@Teknium",
+  "text": "Ultimately we need to progress to a way to \"teach LLMs\" by explaining in english wtf they did wrong and that being converted to gradients and instill that lesson into the model that way.\n\nBinary, Scalar, whatever rewards is just not as efficient as it could be. If it could see your criticism (or even an LLM judge's criticism) and actually internalize the full feedback rather than have to deduce the feedback from differentials of scores over mass data convergence, it would learn so much faster",
+  "avatar": "teknium/avatar/avatar.jpg",
+  "avatarPath": "teknium/avatar/avatar.jpg",
+  "images": [],
+  "jsonFile": "teknium/tweets/1994302025560150094_2025-11-28-07-07-09.000Z/tweet.json",
+  "mediaDir": "media",
+  "userSlug": "teknium"
+}

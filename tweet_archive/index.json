@@ -1,6 +1,8 @@
 {
   "version": 2,
   "tweets": [
+    "teknium/tweets/1994302644404506683_2025-11-28-07-09-37.000Z/tweet.json",
+    "teknium/tweets/1994302025560150094_2025-11-28-07-07-09.000Z/tweet.json",
     "leothecurious/tweets/1988907838471590194_2025-11-13-09-52-35.000Z/tweet.json",
     "redtachyon/tweets/1990485471038714097_2025-11-17-18-21-32.000Z/tweet.json",
     "fleetwood___/tweets/1994051629063041253_2025-11-27-14-32-10.000Z/tweet.json",
@@ -589,6 +591,17 @@
       "lastCapturedAt": "2025-11-28T00:00:37.741Z",
       "tweets": [
         "leothecurious/tweets/1988907838471590194_2025-11-13-09-52-35.000Z/tweet.json"
+      ]
+    },
+    {
+      "slug": "teknium",
+      "handle": "@Teknium",
+      "name": "Teknium (e/λ)",
+      "avatar": "teknium/avatar/avatar.jpg",
+      "lastCapturedAt": "2025-11-28T20:04:57.019Z",
+      "tweets": [
+        "teknium/tweets/1994302644404506683_2025-11-28-07-09-37.000Z/tweet.json",
+        "teknium/tweets/1994302025560150094_2025-11-28-07-07-09.000Z/tweet.json"
       ]
     }
   ]
