@@ -1,6 +1,8 @@
 {
   "version": 2,
   "tweets": [
+    "sebkrier/tweets/1994497454385901808_2025-11-28-20-03-43.000Z/tweet.json",
+    "tphuang/tweets/1994234164569076062_2025-11-27-12-25-21.000Z/tweet.json",
     "schmidhuberai/tweets/1952007922721919219_2025-08-03-14-05-29.000Z/tweet.json",
     "ericzakariasson/tweets/1993876834375880874_2025-11-27-02-57-36.000Z/tweet.json",
     "kenneth0stanley/tweets/1994460584742719630_2025-11-28-15-13-51.000Z/tweet.json",
@@ -313,8 +315,9 @@
       "handle": "@tphuang",
       "name": "tphuang",
       "avatar": "tphuang/avatar/avatar.jpg",
-      "lastCapturedAt": "2025-11-24T22:29:47.235Z",
+      "lastCapturedAt": "2025-11-28T21:18:44.469Z",
       "tweets": [
+        "tphuang/tweets/1994234164569076062_2025-11-27-12-25-21.000Z/tweet.json",
         "tphuang/tweets/1983720346021670993_2025-10-30-02-19-20.000Z/tweet.json"
       ]
     },
@@ -683,6 +686,16 @@
       "lastCapturedAt": "2025-11-28T21:04:46.281Z",
       "tweets": [
         "schmidhuberai/tweets/1952007922721919219_2025-08-03-14-05-29.000Z/tweet.json"
+      ]
+    },
+    {
+      "slug": "sebkrier",
+      "handle": "@sebkrier",
+      "name": "Séb Krier",
+      "avatar": "sebkrier/avatar/avatar.jpg",
+      "lastCapturedAt": "2025-11-28T21:18:47.779Z",
+      "tweets": [
+        "sebkrier/tweets/1994497454385901808_2025-11-28-20-03-43.000Z/tweet.json"
       ]
     }
   ]
