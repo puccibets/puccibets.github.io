@@ -1,6 +1,7 @@
 {
   "version": 2,
   "tweets": [
+    "kenneth0stanley/tweets/1994460584742719630_2025-11-28-15-13-51.000Z/tweet.json",
     "stefanfschubert/tweets/1994030933343629596_2025-11-27-13-09-56.000Z/tweet.json",
     "noahpinion/tweets/1994157357383770318_2025-11-27-21-32-18.000Z/tweet.json",
     "noahpinion/tweets/1994159405785641246_2025-11-27-21-40-26.000Z/tweet.json",
@@ -650,6 +651,16 @@
       "lastCapturedAt": "2025-11-28T20:06:57.354Z",
       "tweets": [
         "stefanfschubert/tweets/1994030933343629596_2025-11-27-13-09-56.000Z/tweet.json"
+      ]
+    },
+    {
+      "slug": "kenneth0stanley",
+      "handle": "@kenneth0stanley",
+      "name": "Kenneth Stanley",
+      "avatar": "kenneth0stanley/avatar/avatar.jpg",
+      "lastCapturedAt": "2025-11-28T20:47:55.837Z",
+      "tweets": [
+        "kenneth0stanley/tweets/1994460584742719630_2025-11-28-15-13-51.000Z/tweet.json"
       ]
     }
   ]
