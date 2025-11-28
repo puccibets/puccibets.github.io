@@ -1,0 +1,18 @@
+{
+  "id": "1993876834375880874",
+  "url": "https://x.com/ericzakariasson/status/1993876834375880874/photo/1",
+  "timestamp": "2025-11-27T02:57:36.000Z",
+  "capturedAt": "2025-11-28T20:55:41.616Z",
+  "author": "eric zakariasson @ericzakariasson",
+  "authorName": "eric zakariasson",
+  "authorHandle": "@ericzakariasson",
+  "text": "turns out, senior engineers accept more agent output than juniors. this is because:\n\n- they write higher-signal prompts with tighter spec and minimal ambiguity\n- they decompose work into agent-compatible units\n- they have stronger priors for correctness, making review faster and more accurate\n- juniors generate plenty but lack the verification heuristics to confidently greenlight output\n\nshows that coding agents amplify existing engineering skill, not replace it",
+  "avatar": "ericzakariasson/avatar/avatar.jpg",
+  "avatarPath": "ericzakariasson/avatar/avatar.jpg",
+  "images": [
+    "media/1993876834375880874_G6usaisa0AAH528"
+  ],
+  "jsonFile": "ericzakariasson/tweets/1993876834375880874_2025-11-27-02-57-36.000Z/tweet.json",
+  "mediaDir": "media",
+  "userSlug": "ericzakariasson"
+}
