@@ -1,6 +1,7 @@
 {
   "version": 2,
   "tweets": [
+    "redtachyon/tweets/1990485471038714097_2025-11-17-18-21-32.000Z/tweet.json",
     "redtachyon/tweets/1994103886580236517_2025-11-27-17-59-49.000Z/tweet.json"
   ],
   "users": [],
@@ -8,5 +9,5 @@
   "handle": "@redtachyon",
   "name": "Ariel",
   "avatar": "redtachyon/avatar/avatar.jpg",
-  "lastCapturedAt": "2025-11-27T21:59:41.093Z"
+  "lastCapturedAt": "2025-11-27T23:59:48.328Z"
 }
