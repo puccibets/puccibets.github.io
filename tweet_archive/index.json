@@ -1,6 +1,8 @@
 {
   "version": 2,
   "tweets": [
+    "keytryer/tweets/1994523339101278577_2025-11-28-21-46-35.000Z/tweet.json",
+    "deanwball/tweets/1995204368144924749_2025-11-29-14-00-26.000Z/tweet.json",
     "sebkrier/tweets/1994497454385901808_2025-11-28-20-03-43.000Z/tweet.json",
     "tphuang/tweets/1994234164569076062_2025-11-27-12-25-21.000Z/tweet.json",
     "schmidhuberai/tweets/1952007922721919219_2025-08-03-14-05-29.000Z/tweet.json",
@@ -696,6 +698,26 @@
       "lastCapturedAt": "2025-11-28T21:18:47.779Z",
       "tweets": [
         "sebkrier/tweets/1994497454385901808_2025-11-28-20-03-43.000Z/tweet.json"
+      ]
+    },
+    {
+      "slug": "deanwball",
+      "handle": "@deanwball",
+      "name": "Dean W. Ball",
+      "avatar": "deanwball/avatar/avatar.jpg",
+      "lastCapturedAt": "2025-11-30T21:21:02.777Z",
+      "tweets": [
+        "deanwball/tweets/1995204368144924749_2025-11-29-14-00-26.000Z/tweet.json"
+      ]
+    },
+    {
+      "slug": "keytryer",
+      "handle": "@KeyTryer",
+      "name": "Key",
+      "avatar": "keytryer/avatar/avatar.jpg",
+      "lastCapturedAt": "2025-11-30T21:21:14.869Z",
+      "tweets": [
+        "keytryer/tweets/1994523339101278577_2025-11-28-21-46-35.000Z/tweet.json"
       ]
     }
   ]
