@@ -1,6 +1,9 @@
 {
   "version": 2,
   "tweets": [
+    "tszzl/tweets/1995322239596556461_2025-12-01-02-41-07.000Z/tweet.json",
+    "repligate/tweets/1966716141167935612_2025-11-29-09-17-07.000Z/tweet.json",
+    "sebastienbubeck/tweets/1995159227170701753_2025-11-30-15-53-22.000Z/tweet.json",
     "keytryer/tweets/1994523339101278577_2025-11-28-21-46-35.000Z/tweet.json",
     "deanwball/tweets/1995204368144924749_2025-11-29-14-00-26.000Z/tweet.json",
     "sebkrier/tweets/1994497454385901808_2025-11-28-20-03-43.000Z/tweet.json",
@@ -414,8 +417,9 @@
       "handle": "@repligate",
       "name": "j⧉nus",
       "avatar": "repligate/avatar/avatar.jpg",
-      "lastCapturedAt": "2025-11-25T09:24:16.262Z",
+      "lastCapturedAt": "2025-12-01T12:15:33.200Z",
       "tweets": [
+        "repligate/tweets/1966716141167935612_2025-11-29-09-17-07.000Z/tweet.json",
         "repligate/tweets/1988874497571672542_2025-11-13-07-40-06.000Z/tweet.json",
         "repligate/tweets/1988905202376659413_2025-11-13-09-42-06.000Z/tweet.json",
         "repligate/tweets/1993160900627644448_2025-11-25-03-32-44.000Z/tweet.json",
@@ -718,6 +722,26 @@
       "lastCapturedAt": "2025-11-30T21:21:14.869Z",
       "tweets": [
         "keytryer/tweets/1994523339101278577_2025-11-28-21-46-35.000Z/tweet.json"
+      ]
+    },
+    {
+      "slug": "sebastienbubeck",
+      "handle": "@SebastienBubeck",
+      "name": "Sebastien Bubeck",
+      "avatar": "sebastienbubeck/avatar/avatar.jpg",
+      "lastCapturedAt": "2025-11-30T21:47:11.868Z",
+      "tweets": [
+        "sebastienbubeck/tweets/1995159227170701753_2025-11-30-15-53-22.000Z/tweet.json"
+      ]
+    },
+    {
+      "slug": "tszzl",
+      "handle": "@tszzl",
+      "name": "roon",
+      "avatar": "tszzl/avatar/avatar.jpg",
+      "lastCapturedAt": "2025-12-01T15:06:46.235Z",
+      "tweets": [
+        "tszzl/tweets/1995322239596556461_2025-12-01-02-41-07.000Z/tweet.json"
       ]
     }
   ]
