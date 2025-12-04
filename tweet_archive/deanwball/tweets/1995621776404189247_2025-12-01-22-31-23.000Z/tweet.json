@@ -1,0 +1,16 @@
+{
+  "id": "1995621776404189247",
+  "url": "https://x.com/boazbaraktcs/status/1995621776404189247",
+  "timestamp": "2025-12-01T22:31:23.000Z",
+  "capturedAt": "2025-12-04T20:06:12.044Z",
+  "author": "Dean W. Ball @deanwball",
+  "authorName": "Dean W. Ball",
+  "authorHandle": "@deanwball",
+  "text": "Boaz highlights an interesting distinction here. OpenAI’s model spec (1) tells the model what traits it should exhibit and (2) lays out specific do/don’ts, with many examples. Anthropic’s on the other hand basically articulates a philosophical, moral, and ethical framework from which desirable conduct should flow (if the model generalizes sufficiently).\n\nI find myself more philosophically aligned with Anthropic’s approach. My inclination is always to create snowmass on the mountain top and let the water flow, rather than imposing a scheme of top-down irrigation. \n\nIn a sense Anthropic’s approach also bets more aggressively on model intelligence—the notion that a model, well trained, will be able to reason through ambiguity and moral complexity and will not so much need to be told what to do.\n\nAnthropic is making two bets here: a philosophical bet based upon a particular conception of virtue, and a technical bet that it is possible with deep learning to instill that conception of virtue robustly into a neural network. Right now it appears to be working, and this should probably update you slightly in various ways about things far afield of deep learning alone (read Hayek, Ferguson, and the taoists!).\n\nThe most interesting philosophy in the world is not happening in the halls of academia; it is happening in San Francisco open offices and house parties.",
+  "avatar": "deanwball/avatar/avatar.jpg",
+  "avatarPath": "deanwball/avatar/avatar.jpg",
+  "images": [],
+  "jsonFile": "deanwball/tweets/1995621776404189247_2025-12-01-22-31-23.000Z/tweet.json",
+  "mediaDir": "media",
+  "userSlug": "deanwball"
+}

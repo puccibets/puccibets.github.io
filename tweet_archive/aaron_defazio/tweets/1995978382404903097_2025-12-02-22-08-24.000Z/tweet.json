@@ -1,0 +1,16 @@
+{
+  "id": "1995978382404903097",
+  "url": "https://x.com/aaron_defazio/status/1995978382404903097",
+  "timestamp": "2025-12-02T22:08:24.000Z",
+  "capturedAt": "2025-12-04T20:06:08.758Z",
+  "author": "Aaron Defazio @aaron_defazio",
+  "authorName": "Aaron Defazio",
+  "authorHandle": "@aaron_defazio",
+  "text": "It’s still common belief that the loss landscapes of neural networks are too non-convex for averaging of model weights to work.\n\nMeanwhile, the empirical evidence is overwhelming. It works! There is a whole tutorial on it this year. \n\nAdapt your beliefs or fall behind.",
+  "avatar": "aaron_defazio/avatar/avatar.jpg",
+  "avatarPath": "aaron_defazio/avatar/avatar.jpg",
+  "images": [],
+  "jsonFile": "aaron_defazio/tweets/1995978382404903097_2025-12-02-22-08-24.000Z/tweet.json",
+  "mediaDir": "media",
+  "userSlug": "aaron_defazio"
+}

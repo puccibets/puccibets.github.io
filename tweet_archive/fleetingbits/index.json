@@ -1,6 +1,7 @@
 {
   "version": 2,
   "tweets": [
+    "fleetingbits/tweets/1995957069372162501_2025-12-02-20-43-43.000Z/tweet.json",
     "fleetingbits/tweets/1993788320959352896_2025-11-26-21-05-53.000Z/tweet.json"
   ],
   "users": [],
@@ -8,5 +9,5 @@
   "handle": "@fleetingbits",
   "name": "FleetingBits",
   "avatar": "fleetingbits/avatar/avatar.jpg",
-  "lastCapturedAt": "2025-11-27T13:00:12.179Z"
+  "lastCapturedAt": "2025-12-04T20:06:14.918Z"
 }

@@ -1,6 +1,19 @@
 {
   "version": 2,
   "tweets": [
+    "fleetingbits/tweets/1995957069372162501_2025-12-02-20-43-43.000Z/tweet.json",
+    "deanwball/tweets/1995621776404189247_2025-12-01-22-31-23.000Z/tweet.json",
+    "aaron_defazio/tweets/1995978382404903097_2025-12-02-22-08-24.000Z/tweet.json",
+    "seconds_0/tweets/1996042907472863640_2025-12-03-02-24-48.000Z/tweet.json",
+    "fchollet/tweets/1996231823521976582_2025-12-03-14-55-29.000Z/tweet.json",
+    "yampeleg/tweets/1995671800643297542_2025-12-02-01-50-09.000Z/tweet.json",
+    "fchollet/tweets/1996277344575840743_2025-12-03-17-56-22.000Z/tweet.json",
+    "deanwball/tweets/1996346930310328518_2025-12-03-22-32-53.000Z/tweet.json",
+    "sayashk/tweets/1996334941832089732_2025-12-03-21-45-14.000Z/tweet.json",
+    "puccibets/tweets/1996358848442237377_2025-12-03-23-20-14.000Z/tweet.json",
+    "dwarkesh_sp/tweets/1996266802620547187_2025-12-03-03-18-54.000Z/tweet.json",
+    "cloneofsimo/tweets/1995934138596229504_2025-12-02-19-12-35.000Z/tweet.json",
+    "fchollet/tweets/1995975387797749887_2025-12-02-21-56-30.000Z/tweet.json",
     "tszzl/tweets/1995322239596556461_2025-12-01-02-41-07.000Z/tweet.json",
     "repligate/tweets/1966716141167935612_2025-11-29-09-17-07.000Z/tweet.json",
     "sebastienbubeck/tweets/1995159227170701753_2025-11-30-15-53-22.000Z/tweet.json",
@@ -331,8 +344,9 @@
       "handle": "@PucciBets",
       "name": "Pucci",
       "avatar": "puccibets/avatar/avatar.jpg",
-      "lastCapturedAt": "2025-11-24T22:30:14.240Z",
+      "lastCapturedAt": "2025-12-04T20:05:20.904Z",
       "tweets": [
+        "puccibets/tweets/1996358848442237377_2025-12-03-23-20-14.000Z/tweet.json",
         "puccibets/tweets/1956331377529348344_2025-08-15-12-25-21.000Z/tweet.json",
         "puccibets/tweets/1956329711799325118_2025-08-15-12-18-44.000Z/tweet.json",
         "puccibets/tweets/1956328957747351575_2025-08-15-12-15-45.000Z/tweet.json",
@@ -482,8 +496,9 @@
       "handle": "@fleetingbits",
       "name": "FleetingBits",
       "avatar": "fleetingbits/avatar/avatar.jpg",
-      "lastCapturedAt": "2025-11-27T13:00:12.179Z",
+      "lastCapturedAt": "2025-12-04T20:06:14.918Z",
       "tweets": [
+        "fleetingbits/tweets/1995957069372162501_2025-12-02-20-43-43.000Z/tweet.json",
         "fleetingbits/tweets/1993788320959352896_2025-11-26-21-05-53.000Z/tweet.json"
       ]
     },
@@ -709,8 +724,10 @@
       "handle": "@deanwball",
       "name": "Dean W. Ball",
       "avatar": "deanwball/avatar/avatar.jpg",
-      "lastCapturedAt": "2025-11-30T21:21:02.777Z",
+      "lastCapturedAt": "2025-12-04T20:06:12.044Z",
       "tweets": [
+        "deanwball/tweets/1995621776404189247_2025-12-01-22-31-23.000Z/tweet.json",
+        "deanwball/tweets/1996346930310328518_2025-12-03-22-32-53.000Z/tweet.json",
         "deanwball/tweets/1995204368144924749_2025-11-29-14-00-26.000Z/tweet.json"
       ]
     },
@@ -742,6 +759,78 @@
       "lastCapturedAt": "2025-12-01T15:06:46.235Z",
       "tweets": [
         "tszzl/tweets/1995322239596556461_2025-12-01-02-41-07.000Z/tweet.json"
+      ]
+    },
+    {
+      "slug": "fchollet",
+      "handle": "@fchollet",
+      "name": "François Chollet",
+      "avatar": "fchollet/avatar/avatar.jpg",
+      "lastCapturedAt": "2025-12-04T20:06:00.213Z",
+      "tweets": [
+        "fchollet/tweets/1996231823521976582_2025-12-03-14-55-29.000Z/tweet.json",
+        "fchollet/tweets/1996277344575840743_2025-12-03-17-56-22.000Z/tweet.json",
+        "fchollet/tweets/1995975387797749887_2025-12-02-21-56-30.000Z/tweet.json"
+      ]
+    },
+    {
+      "slug": "cloneofsimo",
+      "handle": "@cloneofsimo",
+      "name": "Simo Ryu",
+      "avatar": "cloneofsimo/avatar/avatar.jpg",
+      "lastCapturedAt": "2025-12-04T20:05:08.705Z",
+      "tweets": [
+        "cloneofsimo/tweets/1995934138596229504_2025-12-02-19-12-35.000Z/tweet.json"
+      ]
+    },
+    {
+      "slug": "dwarkesh_sp",
+      "handle": "@dwarkesh_sp",
+      "name": "Dwarkesh Patel",
+      "avatar": "dwarkesh_sp/avatar/avatar.jpg",
+      "lastCapturedAt": "2025-12-04T20:05:15.986Z",
+      "tweets": [
+        "dwarkesh_sp/tweets/1996266802620547187_2025-12-03-03-18-54.000Z/tweet.json"
+      ]
+    },
+    {
+      "slug": "sayashk",
+      "handle": "@sayashk",
+      "name": "Sayash Kapoor",
+      "avatar": "sayashk/avatar/avatar.jpg",
+      "lastCapturedAt": "2025-12-04T20:05:31.225Z",
+      "tweets": [
+        "sayashk/tweets/1996334941832089732_2025-12-03-21-45-14.000Z/tweet.json"
+      ]
+    },
+    {
+      "slug": "yampeleg",
+      "handle": "@Yampeleg",
+      "name": "Yam Peleg",
+      "avatar": "yampeleg/avatar/avatar.jpg",
+      "lastCapturedAt": "2025-12-04T20:05:56.604Z",
+      "tweets": [
+        "yampeleg/tweets/1995671800643297542_2025-12-02-01-50-09.000Z/tweet.json"
+      ]
+    },
+    {
+      "slug": "seconds_0",
+      "handle": "@seconds_0",
+      "name": "0.005 Seconds (3/694)",
+      "avatar": "seconds_0/avatar/avatar.png",
+      "lastCapturedAt": "2025-12-04T20:06:04.495Z",
+      "tweets": [
+        "seconds_0/tweets/1996042907472863640_2025-12-03-02-24-48.000Z/tweet.json"
+      ]
+    },
+    {
+      "slug": "aaron_defazio",
+      "handle": "@aaron_defazio",
+      "name": "Aaron Defazio",
+      "avatar": "aaron_defazio/avatar/avatar.jpg",
+      "lastCapturedAt": "2025-12-04T20:06:08.758Z",
+      "tweets": [
+        "aaron_defazio/tweets/1995978382404903097_2025-12-02-22-08-24.000Z/tweet.json"
       ]
     }
   ]

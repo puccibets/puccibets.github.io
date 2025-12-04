@@ -1,0 +1,16 @@
+{
+  "id": "1996231823521976582",
+  "url": "https://x.com/fchollet/status/1996231823521976582",
+  "timestamp": "2025-12-03T14:55:29.000Z",
+  "capturedAt": "2025-12-04T20:06:00.213Z",
+  "author": "François Chollet @fchollet",
+  "authorName": "François Chollet",
+  "authorHandle": "@fchollet",
+  "text": "To perfectly understand a phenomenon is to perfectly compress it, to have a model of it that cannot be made any simpler.\n\nIf a DL model requires millions parameters to model something that can be described by a differential equation of three terms, it has not really understood it, it has merely cached the data.",
+  "avatar": "fchollet/avatar/avatar.jpg",
+  "avatarPath": "fchollet/avatar/avatar.jpg",
+  "images": [],
+  "jsonFile": "fchollet/tweets/1996231823521976582_2025-12-03-14-55-29.000Z/tweet.json",
+  "mediaDir": "media",
+  "userSlug": "fchollet"
+}

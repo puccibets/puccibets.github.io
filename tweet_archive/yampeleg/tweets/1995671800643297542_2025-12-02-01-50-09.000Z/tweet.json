@@ -1,0 +1,18 @@
+{
+  "id": "1995671800643297542",
+  "url": "https://x.com/ericzakariasson/status/1995671800643297542/photo/1",
+  "timestamp": "2025-12-02T01:50:09.000Z",
+  "capturedAt": "2025-12-04T20:05:56.604Z",
+  "author": "Yam Peleg @Yampeleg",
+  "authorName": "Yam Peleg",
+  "authorHandle": "@Yampeleg",
+  "text": "T H I S :\n\n“””\n   # Remove AI code slop\n\n   Check the diff against main, \n   and remove all AI generated slop \n   introduced in this branch.\n\n   This includes:\n      - Extra comments that a human wouldn't \n         add or is inconsistent with the rest \n         of the file\n      - Extra defensive checks or try/catch\n         blocks that are abnormal for that area\n         of the codebase (especially if called by \n         trusted / validated codepaths)\n      - Casts to any to get around type issues\n      - Any other style that is inconsistent with \n         the file\n\n      Report at the end with only a 1-3 \n      sentence summary of what you changed\n“””",
+  "avatar": "yampeleg/avatar/avatar.jpg",
+  "avatarPath": "yampeleg/avatar/avatar.jpg",
+  "images": [
+    "media/1995671800643297542_G7IM05tbYAAjE8U"
+  ],
+  "jsonFile": "yampeleg/tweets/1995671800643297542_2025-12-02-01-50-09.000Z/tweet.json",
+  "mediaDir": "media",
+  "userSlug": "yampeleg"
+}

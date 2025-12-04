@@ -1,0 +1,16 @@
+{
+  "id": "1996277344575840743",
+  "url": "https://x.com/fchollet/status/1996277344575840743",
+  "timestamp": "2025-12-03T17:56:22.000Z",
+  "capturedAt": "2025-12-04T20:05:52.012Z",
+  "author": "François Chollet @fchollet",
+  "authorName": "François Chollet",
+  "authorHandle": "@fchollet",
+  "text": "There's a specific threshold of complexity and self-direction below which a system degenerates, and above which it can open-endedly self-improve.\n\nCurrent AI systems aren't close to it yet. But it's inevitable we will reach this point eventually. When we do, we won't see a sudden explosion, more like consistently self-sustaining linear-ish progress. Like the pace of Science itself (which itself clearly a self-improving system)",
+  "avatar": "fchollet/avatar/avatar.jpg",
+  "avatarPath": "fchollet/avatar/avatar.jpg",
+  "images": [],
+  "jsonFile": "fchollet/tweets/1996277344575840743_2025-12-03-17-56-22.000Z/tweet.json",
+  "mediaDir": "media",
+  "userSlug": "fchollet"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "1996266802620547187",
+  "url": "https://x.com/dwarkesh_sp/status/1996266802620547187/photo/1",
+  "timestamp": "2025-12-03T03:18:54.000Z",
+  "capturedAt": "2025-12-04T20:05:15.986Z",
+  "author": "Dwarkesh Patel @dwarkesh_sp",
+  "authorName": "Dwarkesh Patel",
+  "authorHandle": "@dwarkesh_sp",
+  "text": "I totally buy that AI has made you more productive. And I buy that if other lawyers were more agentic, they could also get more productivity gains from AI.\n\nBut I think you're making my point for me. The reason it takes lawyers all this schlep and agency to integrate these models is because they're not actually AGI!\n\nA human on a server wouldn't need some special Westlaw/Lexis connection - she could just directly use the software. A human on a server would improve directly from her own experience with the job, and pretty soon be autonomously generating a lot of productivity. She wouldn't need you to put off your other deadlines in order to micromanage the increments of her work, or turn what you're observing into better prompts and few shot examples. \n\nWhile I don't know the actual workflow for lawyers (and I'm curious to learn more), I've sunk a lot of time in trying to get these models to be useful  for my work, and on tasks that seemed like they should be dead center in their text-in-text-out repertoire (identifying good clips, writing copy, finding guests, etc).\n\nAnd this experience has made me quite skeptical that there's a bunch of net productivity gains currently available from building autonomous agentic loops. \n\nChatting with these models has definitely made me more productive (but in the way that a better Google search would also make me more productive).  The argument I was trying to make in the post was not that the models aren't useful. \n\nI'm saying that the trillions of dollars in revenue we'd expect from actual AGI are not being held up because people aren't willing to try the technology. Rather, that it's just genuinely super schleppy and difficult to get human-like labor out of these models.",
+  "avatar": "dwarkesh_sp/avatar/avatar.jpg",
+  "avatarPath": "dwarkesh_sp/avatar/avatar.jpg",
+  "images": [
+    "media/1996266802620547187_G7Qpnp1aIAAdWNE"
+  ],
+  "jsonFile": "dwarkesh_sp/tweets/1996266802620547187_2025-12-03-03-18-54.000Z/tweet.json",
+  "mediaDir": "media",
+  "userSlug": "dwarkesh_sp"
+}
