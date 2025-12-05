@@ -1,6 +1,8 @@
 {
   "version": 2,
   "tweets": [
+    "shreyasgite/tweets/1996554176004804902_2025-12-04-03-50-11.000Z/tweet.json",
+    "tokenbender/tweets/1996802319992902134_2025-12-03-21-45-14.000Z/tweet.json",
     "puccibets/tweets/1988907924526071832_2025-11-13-09-52-55.000Z/tweet.json",
     "fleetingbits/tweets/1995957069372162501_2025-12-02-20-43-43.000Z/tweet.json",
     "deanwball/tweets/1995621776404189247_2025-12-01-22-31-23.000Z/tweet.json",
@@ -833,6 +835,26 @@
       "lastCapturedAt": "2025-12-04T20:06:08.758Z",
       "tweets": [
         "aaron_defazio/tweets/1995978382404903097_2025-12-02-22-08-24.000Z/tweet.json"
+      ]
+    },
+    {
+      "slug": "tokenbender",
+      "handle": "@tokenbender",
+      "name": "tokenbender",
+      "avatar": "tokenbender/avatar/avatar.jpg",
+      "lastCapturedAt": "2025-12-05T18:43:05.812Z",
+      "tweets": [
+        "tokenbender/tweets/1996802319992902134_2025-12-03-21-45-14.000Z/tweet.json"
+      ]
+    },
+    {
+      "slug": "shreyasgite",
+      "handle": "@shreyasgite",
+      "name": "Shreyas Gite",
+      "avatar": "shreyasgite/avatar/avatar.jpg",
+      "lastCapturedAt": "2025-12-05T18:43:10.835Z",
+      "tweets": [
+        "shreyasgite/tweets/1996554176004804902_2025-12-04-03-50-11.000Z/tweet.json"
       ]
     }
   ]

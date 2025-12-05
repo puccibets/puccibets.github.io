@@ -1,0 +1,19 @@
+{
+  "id": "1996802319992902134",
+  "url": "https://x.com/tokenbender/status/1996802319992902134/photo/1",
+  "timestamp": "2025-12-03T21:45:14.000Z",
+  "capturedAt": "2025-12-05T18:43:05.812Z",
+  "author": "tokenbender @tokenbender",
+  "authorName": "tokenbender",
+  "authorHandle": "@tokenbender",
+  "text": "“i told you so”\n> We were surprised to find that Claude Code with Opus 4.5 dramatically outperformed the CORE-Agent scaffold, even without fixing incorrect test cases (78% vs 42%).\n> We are unsure what led to this difference. One hypothesis is that the Claude 4.5 series of models is much better tuned to work with Claude Code.\n> We think studying the coupling between models and scaffolds is an important research direction going forward",
+  "avatar": "tokenbender/avatar/avatar.jpg",
+  "avatarPath": "tokenbender/avatar/avatar.jpg",
+  "images": [
+    "media/1996802319992902134_G7YRH2LbcAAoJR0",
+    "media/1996802319992902134_G7RnSaOWAAAxuiy"
+  ],
+  "jsonFile": "tokenbender/tweets/1996802319992902134_2025-12-03-21-45-14.000Z/tweet.json",
+  "mediaDir": "media",
+  "userSlug": "tokenbender"
+}
