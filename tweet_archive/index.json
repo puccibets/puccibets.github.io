@@ -1,6 +1,9 @@
 {
   "version": 2,
   "tweets": [
+    "dwarkesh_sp/tweets/1997757515371864348_2025-12-07-19-58-02.000Z/tweet.json",
+    "karpathy/tweets/1997731268969304070_2025-12-07-18-13-45.000Z/tweet.json",
+    "voooooogel/tweets/1997410683370283349_2025-12-06-14-27-40.000Z/tweet.json",
     "shreyasgite/tweets/1996554176004804902_2025-12-04-03-50-11.000Z/tweet.json",
     "tokenbender/tweets/1996802319992902134_2025-12-03-21-45-14.000Z/tweet.json",
     "puccibets/tweets/1988907924526071832_2025-11-13-09-52-55.000Z/tweet.json",
@@ -242,8 +245,9 @@
       "handle": "@karpathy",
       "name": "Andrej Karpathy",
       "avatar": "karpathy/avatar/avatar.jpg",
-      "lastCapturedAt": "2025-11-25T23:13:56.048Z",
+      "lastCapturedAt": "2025-12-07T18:48:33.822Z",
       "tweets": [
+        "karpathy/tweets/1997731268969304070_2025-12-07-18-13-45.000Z/tweet.json",
         "karpathy/tweets/1993369287969718540_2025-11-25-17-20-47.000Z/tweet.json",
         "karpathy/tweets/1993010584175141038_2025-11-24-17-35-26.000Z/tweet.json",
         "karpathy/tweets/1992381094667411768_2025-11-18-00-29-01.000Z/tweet.json"
@@ -792,8 +796,9 @@
       "handle": "@dwarkesh_sp",
       "name": "Dwarkesh Patel",
       "avatar": "dwarkesh_sp/avatar/avatar.jpg",
-      "lastCapturedAt": "2025-12-04T20:05:15.986Z",
+      "lastCapturedAt": "2025-12-07T20:37:47.499Z",
       "tweets": [
+        "dwarkesh_sp/tweets/1997757515371864348_2025-12-07-19-58-02.000Z/tweet.json",
         "dwarkesh_sp/tweets/1996266802620547187_2025-12-03-03-18-54.000Z/tweet.json"
       ]
     },
@@ -855,6 +860,16 @@
       "lastCapturedAt": "2025-12-05T18:43:10.835Z",
       "tweets": [
         "shreyasgite/tweets/1996554176004804902_2025-12-04-03-50-11.000Z/tweet.json"
+      ]
+    },
+    {
+      "slug": "voooooogel",
+      "handle": "@voooooogel",
+      "name": "thebes",
+      "avatar": "voooooogel/avatar/avatar.jpg",
+      "lastCapturedAt": "2025-12-07T15:40:48.187Z",
+      "tweets": [
+        "voooooogel/tweets/1997410683370283349_2025-12-06-14-27-40.000Z/tweet.json"
       ]
     }
   ]

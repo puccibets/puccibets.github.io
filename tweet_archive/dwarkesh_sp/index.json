@@ -1,6 +1,7 @@
 {
   "version": 2,
   "tweets": [
+    "dwarkesh_sp/tweets/1997757515371864348_2025-12-07-19-58-02.000Z/tweet.json",
     "dwarkesh_sp/tweets/1996266802620547187_2025-12-03-03-18-54.000Z/tweet.json"
   ],
   "users": [],
@@ -8,5 +9,5 @@
   "handle": "@dwarkesh_sp",
   "name": "Dwarkesh Patel",
   "avatar": "dwarkesh_sp/avatar/avatar.jpg",
-  "lastCapturedAt": "2025-12-04T20:05:15.986Z"
+  "lastCapturedAt": "2025-12-07T20:37:47.499Z"
 }
