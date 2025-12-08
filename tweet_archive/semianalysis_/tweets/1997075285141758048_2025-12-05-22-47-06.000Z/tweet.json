@@ -1,0 +1,18 @@
+{
+  "id": "1997075285141758048",
+  "url": "https://x.com/SemiAnalysis_/status/1997075285141758048/photo/1",
+  "timestamp": "2025-12-05T22:47:06.000Z",
+  "capturedAt": "2025-12-08T17:19:11.262Z",
+  "author": "SemiAnalysis @SemiAnalysis_",
+  "authorName": "SemiAnalysis",
+  "authorHandle": "@SemiAnalysis_",
+  "text": "IMPORTANT: A common misconception about OpenAI's upcoming custom chip is that since it is a custom chip, it won't be flexible and will be a dataflow machine. OpenAI has recognized that the 100x efficiency gains for training and inference happen at the algorithm layer, and the hardware chip needs to be flexible enough to accommodate these algorithm changes.\n\nWe went from just pre-training transformers to now doing RL post-training on transformers. We went from dense transformers to MoE transformers to soon ultra-sparse transformers that have 4 active experts per token out of 2,048 total experts. We went from causal MHA attention to MQA to GQA to attention sink sliding attention to now even learned sparse attention.\n\nDespite what AI tourists think, the chip OpenAI is building with Broadcom will be far more flexible than TPUs, despite most of OpenAI's chip team being poached from Google's TPU team.",
+  "avatar": "semianalysis_/avatar/avatar.jpg",
+  "avatarPath": "semianalysis_/avatar/avatar.jpg",
+  "images": [
+    "media/1997075285141758048_G7cGBgRWEAAYX_u"
+  ],
+  "jsonFile": "semianalysis_/tweets/1997075285141758048_2025-12-05-22-47-06.000Z/tweet.json",
+  "mediaDir": "media",
+  "userSlug": "semianalysis_"
+}

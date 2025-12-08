@@ -1,6 +1,11 @@
 {
   "version": 2,
   "tweets": [
+    "qorprate/tweets/1997285333382172737_2025-12-06-12-41-45.000Z/tweet.json",
+    "neil_chilson/tweets/1998031538991099961_2025-12-08-14-06-55.000Z/tweet.json",
+    "bengoertzel/tweets/1997144515061469642_2025-12-06-03-22-12.000Z/tweet.json",
+    "semianalysis_/tweets/1997075285141758048_2025-12-05-22-47-06.000Z/tweet.json",
+    "moleh1ll/tweets/1997285333382172737_2025-12-06-12-41-45.000Z/tweet.json",
     "dwarkesh_sp/tweets/1997757515371864348_2025-12-07-19-58-02.000Z/tweet.json",
     "karpathy/tweets/1997731268969304070_2025-12-07-18-13-45.000Z/tweet.json",
     "voooooogel/tweets/1997410683370283349_2025-12-06-14-27-40.000Z/tweet.json",
@@ -870,6 +875,56 @@
       "lastCapturedAt": "2025-12-07T15:40:48.187Z",
       "tweets": [
         "voooooogel/tweets/1997410683370283349_2025-12-06-14-27-40.000Z/tweet.json"
+      ]
+    },
+    {
+      "slug": "moleh1ll",
+      "handle": "@Moleh1ll",
+      "name": "Moll",
+      "avatar": "moleh1ll/avatar/avatar.jpg",
+      "lastCapturedAt": "2025-12-08T17:18:30.846Z",
+      "tweets": [
+        "moleh1ll/tweets/1997285333382172737_2025-12-06-12-41-45.000Z/tweet.json"
+      ]
+    },
+    {
+      "slug": "semianalysis_",
+      "handle": "@SemiAnalysis_",
+      "name": "SemiAnalysis",
+      "avatar": "semianalysis_/avatar/avatar.jpg",
+      "lastCapturedAt": "2025-12-08T17:19:11.262Z",
+      "tweets": [
+        "semianalysis_/tweets/1997075285141758048_2025-12-05-22-47-06.000Z/tweet.json"
+      ]
+    },
+    {
+      "slug": "bengoertzel",
+      "handle": "@bengoertzel",
+      "name": "Ben Goertzel",
+      "avatar": "bengoertzel/avatar/avatar.png",
+      "lastCapturedAt": "2025-12-08T17:19:14.973Z",
+      "tweets": [
+        "bengoertzel/tweets/1997144515061469642_2025-12-06-03-22-12.000Z/tweet.json"
+      ]
+    },
+    {
+      "slug": "neil_chilson",
+      "handle": "@neil_chilson",
+      "name": "Neil Chilson",
+      "avatar": "neil_chilson/avatar/avatar.jpg",
+      "lastCapturedAt": "2025-12-08T17:19:18.789Z",
+      "tweets": [
+        "neil_chilson/tweets/1998031538991099961_2025-12-08-14-06-55.000Z/tweet.json"
+      ]
+    },
+    {
+      "slug": "qorprate",
+      "handle": "@qorprate",
+      "name": "snav",
+      "avatar": "qorprate/avatar/avatar.jpg",
+      "lastCapturedAt": "2025-12-08T17:19:22.023Z",
+      "tweets": [
+        "qorprate/tweets/1997285333382172737_2025-12-06-12-41-45.000Z/tweet.json"
       ]
     }
   ]
