@@ -1,6 +1,13 @@
 {
   "version": 2,
   "tweets": [
+    "hanchunglee/tweets/1997865123055325243_2025-12-08-03-05-38.000Z/tweet.json",
+    "karpathy/tweets/1998236299862659485_2025-12-09-03-40-33.000Z/tweet.json",
+    "vitalikbuterin/tweets/1998353879260344396_2025-12-09-11-27-47.000Z/tweet.json",
+    "neil_chilson/tweets/1998183971587338699_2025-12-08-21-42-25.000Z/tweet.json",
+    "zephyr_z9/tweets/1998440647481765901_2025-12-09-17-12-34.000Z_1/tweet.json",
+    "zephyr_z9/tweets/1998440647481765901_2025-12-09-17-12-34.000Z/tweet.json",
+    "thestalwart/tweets/1998443442251125184_2025-12-09-17-23-40.000Z/tweet.json",
     "johncoogan/tweets/1997887746816532853_2025-12-08-04-35-32.000Z/tweet.json",
     "qorprate/tweets/1997285333382172737_2025-12-06-12-41-45.000Z/tweet.json",
     "neil_chilson/tweets/1998031538991099961_2025-12-08-14-06-55.000Z/tweet.json",
@@ -139,8 +146,10 @@
       "handle": "@zephyr_z9",
       "name": "Zephyr",
       "avatar": "zephyr_z9/avatar/avatar.jpg",
-      "lastCapturedAt": "2025-11-20T20:37:19.961Z",
+      "lastCapturedAt": "2025-12-10T00:18:42.317Z",
       "tweets": [
+        "zephyr_z9/tweets/1998440647481765901_2025-12-09-17-12-34.000Z_1/tweet.json",
+        "zephyr_z9/tweets/1998440647481765901_2025-12-09-17-12-34.000Z/tweet.json",
         "zephyr_z9/tweets/1991483439447687331_2025-11-20-12-27-06.000Z/tweet.json"
       ]
     },
@@ -251,8 +260,9 @@
       "handle": "@karpathy",
       "name": "Andrej Karpathy",
       "avatar": "karpathy/avatar/avatar.jpg",
-      "lastCapturedAt": "2025-12-07T18:48:33.822Z",
+      "lastCapturedAt": "2025-12-10T00:18:52.021Z",
       "tweets": [
+        "karpathy/tweets/1998236299862659485_2025-12-09-03-40-33.000Z/tweet.json",
         "karpathy/tweets/1997731268969304070_2025-12-07-18-13-45.000Z/tweet.json",
         "karpathy/tweets/1993369287969718540_2025-11-25-17-20-47.000Z/tweet.json",
         "karpathy/tweets/1993010584175141038_2025-11-24-17-35-26.000Z/tweet.json",
@@ -914,8 +924,9 @@
       "handle": "@neil_chilson",
       "name": "Neil Chilson",
       "avatar": "neil_chilson/avatar/avatar.jpg",
-      "lastCapturedAt": "2025-12-08T17:19:18.789Z",
+      "lastCapturedAt": "2025-12-10T00:18:45.913Z",
       "tweets": [
+        "neil_chilson/tweets/1998183971587338699_2025-12-08-21-42-25.000Z/tweet.json",
         "neil_chilson/tweets/1998031538991099961_2025-12-08-14-06-55.000Z/tweet.json"
       ]
     },
@@ -927,6 +938,36 @@
       "lastCapturedAt": "2025-12-08T17:19:22.023Z",
       "tweets": [
         "qorprate/tweets/1997285333382172737_2025-12-06-12-41-45.000Z/tweet.json"
+      ]
+    },
+    {
+      "slug": "thestalwart",
+      "handle": "@TheStalwart",
+      "name": "Joe Weisenthal",
+      "avatar": "thestalwart/avatar/avatar.jpg",
+      "lastCapturedAt": "2025-12-10T00:18:15.911Z",
+      "tweets": [
+        "thestalwart/tweets/1998443442251125184_2025-12-09-17-23-40.000Z/tweet.json"
+      ]
+    },
+    {
+      "slug": "vitalikbuterin",
+      "handle": "@VitalikButerin",
+      "name": "vitalik.eth",
+      "avatar": "vitalikbuterin/avatar/avatar.jpg",
+      "lastCapturedAt": "2025-12-10T00:18:48.631Z",
+      "tweets": [
+        "vitalikbuterin/tweets/1998353879260344396_2025-12-09-11-27-47.000Z/tweet.json"
+      ]
+    },
+    {
+      "slug": "hanchunglee",
+      "handle": "@HanchungLee",
+      "name": "Han",
+      "avatar": "hanchunglee/avatar/avatar.jpg",
+      "lastCapturedAt": "2025-12-10T00:18:58.352Z",
+      "tweets": [
+        "hanchunglee/tweets/1997865123055325243_2025-12-08-03-05-38.000Z/tweet.json"
       ]
     }
   ]

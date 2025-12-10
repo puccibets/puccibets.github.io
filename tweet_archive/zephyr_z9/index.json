@@ -1,6 +1,8 @@
 {
   "version": 2,
   "tweets": [
+    "zephyr_z9/tweets/1998440647481765901_2025-12-09-17-12-34.000Z_1/tweet.json",
+    "zephyr_z9/tweets/1998440647481765901_2025-12-09-17-12-34.000Z/tweet.json",
     "zephyr_z9/tweets/1991483439447687331_2025-11-20-12-27-06.000Z/tweet.json"
   ],
   "users": [],
@@ -8,5 +10,5 @@
   "handle": "@zephyr_z9",
   "name": "Zephyr",
   "avatar": "zephyr_z9/avatar/avatar.jpg",
-  "lastCapturedAt": "2025-11-20T20:37:19.961Z"
+  "lastCapturedAt": "2025-12-10T00:18:42.317Z"
 }

@@ -1,0 +1,18 @@
+{
+  "id": "1998440647481765901",
+  "url": "https://x.com/zephyr_z9/status/1998440647481765901",
+  "timestamp": "2025-12-09T17:12:34.000Z",
+  "capturedAt": "2025-12-10T00:18:42.317Z",
+  "author": "Zephyr @zephyr_z9",
+  "authorName": "Zephyr",
+  "authorHandle": "@zephyr_z9",
+  "text": "The funny thing is that Jensen, Satya, and Demis never had short timelines\nJensen has always pushed \"AI factories,\" not \"AGI.\"\nThe vibes changed after RL didn't generalize that well, and Karpathy & Ilya started extending their timelines\nSacks and Sriram understand AI economics quite well\n\nUnlike traditional software, where the marginal cost of distribution is zero, AI software has substantial inference/distribution costs (hardware eats the margins)\nNot allowing Nvidia hardware in China is basically hurting Nvidia's topline and creating an opportunity to create another AI stack \n\nNow that \"AGI 2027\" won't happen, allowing better hardware into China is quite logical",
+  "avatar": "zephyr_z9/avatar/avatar.jpg",
+  "avatarPath": "zephyr_z9/avatar/avatar.jpg",
+  "images": [
+    "media/1998440647481765901_G7vihyjaMAE_ZAf"
+  ],
+  "jsonFile": "zephyr_z9/tweets/1998440647481765901_2025-12-09-17-12-34.000Z_1/tweet.json",
+  "mediaDir": "media",
+  "userSlug": "zephyr_z9"
+}

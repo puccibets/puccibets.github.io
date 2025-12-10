@@ -1,0 +1,18 @@
+{
+  "id": "1998236299862659485",
+  "url": "https://x.com/karpathy/status/1998236299862659485/photo/1",
+  "timestamp": "2025-12-09T03:40:33.000Z",
+  "capturedAt": "2025-12-10T00:18:52.021Z",
+  "author": "Andrej Karpathy @karpathy",
+  "authorName": "Andrej Karpathy",
+  "authorHandle": "@karpathy",
+  "text": "In today's episode of programming horror...\n\nIn the Python docs of random.seed() def,  we're told\n\"If a is an int, it is used directly.\" [1]\n\nBut if you seed with 3 or -3, you actually get the exact same rng object, producing the same streams. (TIL). In nanochat I was using the sign as a (what I thought was) clever way to get different rng sequences for train/test splits. Hence gnarly bug because now train=test.\n\nI found the CPython code responsible in cpython/Modules/_randommodule.c [2], where on line 321 we see in a comment:\n\n\"This algorithm relies on the number being unsigned. So: if the arg is a PyLong, use its absolute value.\" followed by\n\nn = PyNumber_Absolute(arg);\n\nwhich explicitly calls abs() on your seed to make it positive, discarding the sign bit.\n\nBut this comment is actually wrong/misleading too. Under the hood, Python calls the Mersenne Twister MT19937 algorithm, which in the general case has 19937 (non-zero) bits state. Python takes your int (or other objects) and \"spreads out\" that information across these bits. In principle, the sign bit could have been used to augment the state bits. There is nothing about the algorithm that \"relies on the number being unsigned\". A decision was made to not incorporate the sign bit (which imo was a mistake). One trivial example could have been to map n -> 2*abs(n) + int(n < 0).\n\nFinally this leads us to the contract of Python's random, which is also not fully spelled out in the docs. The contract that is mentioned is that:\n\nsame seed => same sequence.\n\nBut no guarantee is made that different seeds produce different sequences. So in principle, Python makes no promises that e.g. seed(5) and seed(6) are different rng streams. (Though this quite commonly implicitly assumed in many applications.) Indeed, we see that seed(5) and seed(-5) are identical streams. And you should probably not use them to separate your train/test behaviors in machine learning. One of the more amusing programming horror footguns I've encountered recently. We'll see you in the next episode.\n\n[1] https://docs.python.org/3/library/random.html…\n[2] https://github.com/python/cpython/blob/main/Modules/_randommodule.c#L321C13-L321C30…",
+  "avatar": "karpathy/avatar/avatar.jpg",
+  "avatarPath": "karpathy/avatar/avatar.jpg",
+  "images": [
+    "media/1998236299862659485_G7sc167aMAAuZi5"
+  ],
+  "jsonFile": "karpathy/tweets/1998236299862659485_2025-12-09-03-40-33.000Z/tweet.json",
+  "mediaDir": "media",
+  "userSlug": "karpathy"
+}

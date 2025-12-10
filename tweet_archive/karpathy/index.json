@@ -1,6 +1,7 @@
 {
   "version": 2,
   "tweets": [
+    "karpathy/tweets/1998236299862659485_2025-12-09-03-40-33.000Z/tweet.json",
     "karpathy/tweets/1997731268969304070_2025-12-07-18-13-45.000Z/tweet.json",
     "karpathy/tweets/1993369287969718540_2025-11-25-17-20-47.000Z/tweet.json",
     "karpathy/tweets/1993010584175141038_2025-11-24-17-35-26.000Z/tweet.json",
@@ -11,5 +12,5 @@
   "handle": "@karpathy",
   "name": "Andrej Karpathy",
   "avatar": "karpathy/avatar/avatar.jpg",
-  "lastCapturedAt": "2025-12-07T18:48:33.822Z"
+  "lastCapturedAt": "2025-12-10T00:18:52.021Z"
 }
