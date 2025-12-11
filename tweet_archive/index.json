@@ -1,6 +1,7 @@
 {
   "version": 2,
   "tweets": [
+    "teortaxestex/tweets/1999226960464015437_2023-08-24-21-58-12.000Z/tweet.json",
     "hanchunglee/tweets/1997865123055325243_2025-12-08-03-05-38.000Z/tweet.json",
     "karpathy/tweets/1998236299862659485_2025-12-09-03-40-33.000Z/tweet.json",
     "vitalikbuterin/tweets/1998353879260344396_2025-12-09-11-27-47.000Z/tweet.json",
@@ -668,8 +669,9 @@
       "handle": "@teortaxesTex",
       "name": "Teortaxes (DeepSeek 推特铁粉 2023 – ∞)",
       "avatar": "teortaxestex/avatar/avatar.jpg",
-      "lastCapturedAt": "2025-11-28T20:06:44.541Z",
+      "lastCapturedAt": "2025-12-11T21:58:24.017Z",
       "tweets": [
+        "teortaxestex/tweets/1999226960464015437_2023-08-24-21-58-12.000Z/tweet.json",
         "teortaxestex/tweets/1994207371565125685_2025-11-27-16-12-04.000Z/tweet.json"
       ]
     },
