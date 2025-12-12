@@ -1,6 +1,8 @@
 {
   "version": 2,
   "tweets": [
+    "kalomaze/tweets/1998760481008624042_2025-12-10-14-23-28.000Z/tweet.json",
+    "arcprize/tweets/1999182732845547795_2025-12-11-18-21-21.000Z/tweet.json",
     "teortaxestex/tweets/1999226960464015437_2023-08-24-21-58-12.000Z/tweet.json",
     "hanchunglee/tweets/1997865123055325243_2025-12-08-03-05-38.000Z/tweet.json",
     "karpathy/tweets/1998236299862659485_2025-12-09-03-40-33.000Z/tweet.json",
@@ -970,6 +972,26 @@
       "lastCapturedAt": "2025-12-10T00:18:58.352Z",
       "tweets": [
         "hanchunglee/tweets/1997865123055325243_2025-12-08-03-05-38.000Z/tweet.json"
+      ]
+    },
+    {
+      "slug": "arcprize",
+      "handle": "@arcprize",
+      "name": "ARC Prize",
+      "avatar": "arcprize/avatar/avatar.jpg",
+      "lastCapturedAt": "2025-12-11T21:59:11.687Z",
+      "tweets": [
+        "arcprize/tweets/1999182732845547795_2025-12-11-18-21-21.000Z/tweet.json"
+      ]
+    },
+    {
+      "slug": "kalomaze",
+      "handle": "@kalomaze",
+      "name": "kalomaze",
+      "avatar": "kalomaze/avatar/avatar.jpg",
+      "lastCapturedAt": "2025-12-11T21:59:19.891Z",
+      "tweets": [
+        "kalomaze/tweets/1998760481008624042_2025-12-10-14-23-28.000Z/tweet.json"
       ]
     }
   ]

@@ -1,0 +1,18 @@
+{
+  "id": "1999182732845547795",
+  "url": "https://x.com/arcprize/status/1999182732845547795/photo/1",
+  "timestamp": "2025-12-11T18:21:21.000Z",
+  "capturedAt": "2025-12-11T21:59:11.687Z",
+  "author": "ARC Prize @arcprize",
+  "authorName": "ARC Prize",
+  "authorHandle": "@arcprize",
+  "text": "A year ago, we verified a preview of an unreleased version of @OpenAI o3 (High) that scored 88% on ARC-AGI-1 at est. $4.5k/task\n\nToday, we’ve verified a new GPT-5.2 Pro (X-High) SOTA score of 90.5% at $11.64/task\n\nThis represents a ~390X efficiency improvement in one year",
+  "avatar": "arcprize/avatar/avatar.jpg",
+  "avatarPath": "arcprize/avatar/avatar.jpg",
+  "images": [
+    "media/1999182732845547795_G76GGZwagAUn7ub"
+  ],
+  "jsonFile": "arcprize/tweets/1999182732845547795_2025-12-11-18-21-21.000Z/tweet.json",
+  "mediaDir": "media",
+  "userSlug": "arcprize"
+}
