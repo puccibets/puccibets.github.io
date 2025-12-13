@@ -1,7 +1,7 @@
 tweet archive for now, site might expand at some point.
 
 ## Inbox (add tweets from phone)
-- `tweet_archive/inbox.json` holds queued tweets; the site shows them above archived tweets.
+- Inbox is now conflict-safe: each queued tweet lives in `tweet_archive/inbox/items/<id>.json`, and a manifest at `tweet_archive/inbox/manifest.json` lists them. The site reads the manifest. The old `inbox.json` is still read as a fallback only if the manifest is missing.
 - Use `inbox.html` (static form) to POST `{ url, password }` to your Worker endpoint (`https://puccibets-password-checker.requests-pucci.workers.dev/`). There’s also a “Clear Inbox” button (sends `{ action: "clear", password }`). The password is not stored in GitHub.
 - Cloudflare Worker sample: `inbox_worker.js`. Set env vars in the Worker:
   - `INBOX_PASSWORD`: the password you type into the form.
@@ -9,3 +9,8 @@ tweet archive for now, site might expand at some point.
   - `REPO_OWNER`, `REPO_NAME`: defaults to `puccibets` / `puccibets.github.io`.
 - Deploy the Worker (free tier is fine), point `inbox.html` at its URL, and type the password when adding items.
 - The native host removes matching inbox entries automatically when you archive a tweet on desktop.
+
+## Archive layout (scaled for >1k tweets)
+- The homepage loads a small feed `tweet_archive/index.json` (latest ~200) and older shards under `tweet_archive/pages/page-XXXX.json` (newest-to-oldest). `tweet_archive/manifest.json` lists the shard files.
+- Per-user indices under `tweet_archive/<user>/index.json` remain unchanged.
+- Migration helper: `node tools/migrate_archive.js` will split the legacy `index.json` into feed + pages and convert `inbox.json` into per-item files, leaving backups (`index_legacy.json`, `inbox_legacy.json`).

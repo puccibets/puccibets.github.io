@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Archived Tweets | Pucci Bets</title>
+  <title>Archived Tweets | Pucci</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Chivo:wght@400;500&display=swap" rel="stylesheet">
@@ -75,12 +75,7 @@
       font-size: 0.98rem;
     }
 
-    #tweets {
-      width: min(960px, 100%);
-      display: grid;
-      gap: 1rem;
-    }
-
+    #tweets,
     #inbox {
       width: min(960px, 100%);
       display: grid;
@@ -237,6 +232,29 @@
       font-size: 0.95rem;
     }
 
+    #load-more {
+      margin: 0.5rem 0 0;
+      padding: 0.65rem 1rem;
+      border-radius: 12px;
+      border: 1px solid var(--border);
+      background: #142038;
+      color: var(--text);
+      cursor: pointer;
+      font-weight: 600;
+      transition: transform 120ms ease, opacity 120ms ease;
+      width: min(960px, 100%);
+    }
+
+    #load-more:hover {
+      transform: translateY(-1px);
+    }
+
+    #load-more:disabled {
+      opacity: 0.55;
+      cursor: not-allowed;
+      transform: none;
+    }
+
     @media (max-width: 540px) {
       .tweet {
         padding: 0.9rem;
@@ -265,6 +283,7 @@
   </section>
 
   <div id="tweets" aria-live="polite"></div>
+  <button id="load-more" style="display:none;">Load older tweets</button>
   <div id="status"></div>
 
   <script>
@@ -273,6 +292,7 @@
     const inboxSection = document.getElementById("inbox-section");
     const inboxContainer = document.getElementById("inbox");
     const inboxStatusEl = document.getElementById("inbox-status");
+    const loadMoreBtn = document.getElementById("load-more");
     const ARCHIVE_ROOT = "tweet_archive";
 
     const formatDate = (iso) => {
@@ -418,56 +438,160 @@
       tweetsContainer.appendChild(wrap);
     };
 
+    const fetchJson = async (path) => {
+      const resp = await fetch(`${ARCHIVE_ROOT}/${path}`, { cache: "no-store" });
+      if (!resp.ok) throw new Error(`HTTP ${resp.status} for ${path}`);
+      return resp.json();
+    };
+
     const loadInbox = async () => {
       if (inboxStatusEl) inboxStatusEl.textContent = "";
-      try {
-        const resp = await fetch(`${ARCHIVE_ROOT}/inbox.json`, { cache: "no-store" });
-        if (!resp.ok) throw new Error(`Inbox not found (${resp.status})`);
-        const data = await resp.json();
-        const items = Array.isArray(data.items) ? data.items : [];
-        if (!items.length) {
-          hideInboxSection();
+      // Prefer new manifest; fall back to legacy inbox.json
+      const tryPaths = ["inbox/manifest.json", "inbox.json"];
+      for (const rel of tryPaths) {
+        try {
+          const data = await fetchJson(rel);
+          const items = Array.isArray(data.items) ? data.items : [];
+          if (!items.length) {
+            hideInboxSection();
+            return;
+          }
+          items.forEach(renderInboxItem);
           return;
+        } catch {
+          continue;
         }
-        items.forEach(renderInboxItem);
+      }
+      hideInboxSection();
+    };
+
+    const state = {
+      manifest: null,
+      pagesQueue: [],
+      loadingPage: false,
+      rendered: new Set()
+    };
+
+    const renderTweetPath = async (path) => {
+      if (state.rendered.has(path)) return;
+      try {
+        const resp = await fetch(`${ARCHIVE_ROOT}/${path}`, { cache: "no-store" });
+        if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+        const data = await resp.json();
+        await renderTweet(data, `${ARCHIVE_ROOT}/${path}`);
+        state.rendered.add(path);
       } catch (err) {
-        hideInboxSection();
-        console.warn(err);
+        console.error("Failed to render tweet", path, err);
+      }
+    };
+
+    const renderBatch = async (list) => {
+      for (const path of list) {
+        if (typeof path !== "string") continue;
+        await renderTweetPath(path);
+      }
+    };
+
+    const loadManifest = async () => {
+      try {
+        const data = await fetchJson("manifest.json");
+        return data && typeof data === "object" ? data : null;
+      } catch {
+        return null;
+      }
+    };
+
+    const loadFeed = async (feedPath) => {
+      try {
+        const data = await fetchJson(feedPath);
+        return Array.isArray(data?.tweets) ? data.tweets : [];
+      } catch (err) {
+        throw new Error(`Could not load feed (${feedPath}): ${err.message}`);
+      }
+    };
+
+    const preparePages = (manifest) => {
+      const pages = Array.isArray(manifest?.pages) ? manifest.pages : [];
+      const names = pages
+        .map((p) => (typeof p === "string" ? p : p?.name))
+        .filter(Boolean);
+      state.pagesQueue = names;
+      if (names.length) {
+        loadMoreBtn.style.display = "block";
+        loadMoreBtn.disabled = false;
+      } else {
+        loadMoreBtn.style.display = "none";
+      }
+    };
+
+    const loadNextPage = async () => {
+      if (state.loadingPage) return;
+      const next = state.pagesQueue.shift();
+      if (!next) {
+        loadMoreBtn.style.display = "none";
+        return;
+      }
+      state.loadingPage = true;
+      loadMoreBtn.disabled = true;
+      loadMoreBtn.textContent = "Loading…";
+      try {
+        const data = await fetchJson(next);
+        const list = Array.isArray(data?.tweets) ? data.tweets : [];
+        await renderBatch(list);
+        if (!state.pagesQueue.length) {
+          loadMoreBtn.style.display = "none";
+        } else {
+          loadMoreBtn.textContent = "Load older tweets";
+          loadMoreBtn.disabled = false;
+        }
+      } catch (err) {
+        console.error(err);
+        state.pagesQueue.unshift(next);
+        statusEl.textContent = `Failed to load ${next}: ${err.message}`;
+        loadMoreBtn.disabled = false;
+        loadMoreBtn.textContent = "Retry loading";
+      } finally {
+        state.loadingPage = false;
       }
     };
 
     const loadTweets = async () => {
       statusEl.textContent = "Loading archived tweets…";
       try {
-        const manifestResp = await fetch(`${ARCHIVE_ROOT}/index.json`, { cache: "no-store" });
-        if (!manifestResp.ok) {
-          throw new Error(`Could not load manifest: ${manifestResp.status}`);
+        const manifest = await loadManifest();
+        if (manifest) {
+          state.manifest = manifest;
+          const feedPath = manifest.feedPath || "index.json";
+          const feed = await loadFeed(feedPath);
+          if (!feed.length && (!manifest.pages || !manifest.pages.length)) {
+            statusEl.textContent = "No archived tweets found.";
+            loadMoreBtn.style.display = "none";
+            return;
+          }
+          await renderBatch(feed);
+          preparePages(manifest);
+          statusEl.textContent = "";
+          return;
         }
-        const manifest = await manifestResp.json();
-        const list = Array.isArray(manifest.tweets) ? manifest.tweets : [];
 
+        // Legacy fallback: load the monolithic index.json
+        const legacy = await fetchJson("index.json");
+        const list = Array.isArray(legacy?.tweets) ? legacy.tweets : [];
         if (!list.length) {
           statusEl.textContent = "No archived tweets found.";
           return;
         }
-
-        for (const path of list) {
-          try {
-            const resp = await fetch(`${ARCHIVE_ROOT}/${path}`, { cache: "no-store" });
-            if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
-            const data = await resp.json();
-            await renderTweet(data, `${ARCHIVE_ROOT}/${path}`);
-          } catch (err) {
-            console.error("Failed to render tweet", path, err);
-          }
-        }
-
+        await renderBatch(list);
         statusEl.textContent = "";
       } catch (err) {
         console.error(err);
         statusEl.textContent = "Failed to load tweets. Make sure the archive files are present.";
       }
     };
+
+    loadMoreBtn?.addEventListener("click", () => {
+      loadNextPage();
+    });
 
     loadInbox();
     loadTweets();
