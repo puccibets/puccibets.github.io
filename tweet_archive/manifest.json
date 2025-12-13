@@ -1,8 +1,8 @@
 {
   "version": 3,
   "feedPath": "index.json",
-  "feedSize": 200,
   "pageDir": "pages",
+  "feedSize": 200,
   "pageSize": 500,
   "pages": []
 }

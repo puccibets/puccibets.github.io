@@ -1,6 +1,9 @@
 {
   "version": 3,
   "tweets": [
+    "brianzhan1/tweets/1999606379431243951_2025-12-12-22-24-46.000Z/tweet.json",
+    "repligate/tweets/1999566235890253957_2025-12-12-19-45-15.000Z/tweet.json",
+    "solarapparition/tweets/1999566235890253957_2025-12-12-19-45-15.000Z/tweet.json",
     "jordihays/tweets/1953264193890861114_2025-08-07-01-17-28.000Z/tweet.json",
     "fchollet/tweets/1999553766891123060_2025-12-11-19-07-41.000Z/tweet.json",
     "fchollet/tweets/1999504459341459843_2025-12-12-06-21-38.000Z/tweet.json",
@@ -463,8 +466,9 @@
       "handle": "@repligate",
       "name": "j⧉nus",
       "avatar": "repligate/avatar/avatar.jpg",
-      "lastCapturedAt": "2025-12-01T12:15:33.200Z",
+      "lastCapturedAt": "2025-12-13T15:02:31.305Z",
       "tweets": [
+        "repligate/tweets/1999566235890253957_2025-12-12-19-45-15.000Z/tweet.json",
         "repligate/tweets/1966716141167935612_2025-11-29-09-17-07.000Z/tweet.json",
         "repligate/tweets/1988874497571672542_2025-11-13-07-40-06.000Z/tweet.json",
         "repligate/tweets/1988905202376659413_2025-11-13-09-42-06.000Z/tweet.json",
@@ -1020,6 +1024,26 @@
       "lastCapturedAt": "2025-12-13T14:03:40.032Z",
       "tweets": [
         "jordihays/tweets/1953264193890861114_2025-08-07-01-17-28.000Z/tweet.json"
+      ]
+    },
+    {
+      "slug": "solarapparition",
+      "handle": "@solarapparition",
+      "name": "solarapparition",
+      "avatar": "solarapparition/avatar/avatar.jpg",
+      "lastCapturedAt": "2025-12-13T15:02:22.954Z",
+      "tweets": [
+        "solarapparition/tweets/1999566235890253957_2025-12-12-19-45-15.000Z/tweet.json"
+      ]
+    },
+    {
+      "slug": "brianzhan1",
+      "handle": "@brianzhan1",
+      "name": "Brian Zhan",
+      "avatar": "brianzhan1/avatar/avatar.jpg",
+      "lastCapturedAt": "2025-12-13T15:06:03.582Z",
+      "tweets": [
+        "brianzhan1/tweets/1999606379431243951_2025-12-12-22-24-46.000Z/tweet.json"
       ]
     }
   ]

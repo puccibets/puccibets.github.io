@@ -1,0 +1,16 @@
+{
+  "id": "1999606379431243951",
+  "url": "https://x.com/brianzhan1/status/1999606379431243951",
+  "timestamp": "2025-12-12T22:24:46.000Z",
+  "capturedAt": "2025-12-13T15:06:03.582Z",
+  "author": "Brian Zhan @brianzhan1",
+  "authorName": "Brian Zhan",
+  "authorHandle": "@brianzhan1",
+  "text": "Tinker from Thinking Machines being GA is one of the first launches in a while that actually feels like training as a product.\n\nMost hosted fine-tune APIs (OpenAI-style included) are awesome when all you need is a clean SFT run, but the second you want to do anything even slightly spicy: custom curricula, online eval, reward-shaped post-training, RL-ish loops, weird batching/packing tricks: you hit the ceiling fast and end up rebuilding half a training stack. \n\nTinker basically flips that: it hands you a training API with low-level primitives (sample / forward_backward / optim_step / save_state), so you write the loop you actually want, and they take care of the parts that normally turn into a month of infra work (scheduling, scaling, preemptions, failure recovery, the why did this job die at 93% stuff). \n\nIt’s also LoRA-first, which is exactly the right default for customization: you iterate faster, costs stay sane, you can keep multiple variants around without duplicating giant checkpoints, and serving becomes way more practical. I also like that the story isn’t hand-wavy: LoRA really can match full fine-tuning on a lot of post-training datasets when you set it up right, but if you’re trying to cram a massive behavior shift into a small adapter (or your dataset just dwarfs the adapter’s effective capacity), you’ll feel that bottleneck and it won’t magically disappear. \n\nOnly real downside I’m seeing is the small-model floor: if your goal is tiny edge SLMs, this probably isn’t the tool. Still, I’m excited about it. Can’t wait to see what people build.",
+  "avatar": "brianzhan1/avatar/avatar.jpg",
+  "avatarPath": "brianzhan1/avatar/avatar.jpg",
+  "images": [],
+  "jsonFile": "brianzhan1/tweets/1999606379431243951_2025-12-12-22-24-46.000Z/tweet.json",
+  "mediaDir": "media",
+  "userSlug": "brianzhan1"
+}
