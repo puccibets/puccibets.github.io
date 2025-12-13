@@ -1,6 +1,11 @@
 {
   "version": 2,
   "tweets": [
+    "jordihays/tweets/1953264193890861114_2025-08-07-01-17-28.000Z/tweet.json",
+    "fchollet/tweets/1999553766891123060_2025-12-11-19-07-41.000Z/tweet.json",
+    "fchollet/tweets/1999504459341459843_2025-12-12-06-21-38.000Z/tweet.json",
+    "teortaxestex/tweets/1999218937188208734_2025-12-11-20-45-12.000Z/tweet.json",
+    "vfinnishprobs/tweets/1999458997150089671_2025-12-12-12-39-07.000Z/tweet.json",
     "kalomaze/tweets/1998760481008624042_2025-12-10-14-23-28.000Z/tweet.json",
     "arcprize/tweets/1999182732845547795_2025-12-11-18-21-21.000Z/tweet.json",
     "teortaxestex/tweets/1999226960464015437_2023-08-24-21-58-12.000Z/tweet.json",
@@ -671,8 +676,9 @@
       "handle": "@teortaxesTex",
       "name": "Teortaxes (DeepSeek 推特铁粉 2023 – ∞)",
       "avatar": "teortaxestex/avatar/avatar.jpg",
-      "lastCapturedAt": "2025-12-11T21:58:24.017Z",
+      "lastCapturedAt": "2025-12-13T14:02:31.650Z",
       "tweets": [
+        "teortaxestex/tweets/1999218937188208734_2025-12-11-20-45-12.000Z/tweet.json",
         "teortaxestex/tweets/1999226960464015437_2023-08-24-21-58-12.000Z/tweet.json",
         "teortaxestex/tweets/1994207371565125685_2025-11-27-16-12-04.000Z/tweet.json"
       ]
@@ -795,8 +801,10 @@
       "handle": "@fchollet",
       "name": "François Chollet",
       "avatar": "fchollet/avatar/avatar.jpg",
-      "lastCapturedAt": "2025-12-04T20:06:00.213Z",
+      "lastCapturedAt": "2025-12-13T14:03:26.008Z",
       "tweets": [
+        "fchollet/tweets/1999553766891123060_2025-12-11-19-07-41.000Z/tweet.json",
+        "fchollet/tweets/1999504459341459843_2025-12-12-06-21-38.000Z/tweet.json",
         "fchollet/tweets/1996231823521976582_2025-12-03-14-55-29.000Z/tweet.json",
         "fchollet/tweets/1996277344575840743_2025-12-03-17-56-22.000Z/tweet.json",
         "fchollet/tweets/1995975387797749887_2025-12-02-21-56-30.000Z/tweet.json"
@@ -992,6 +1000,26 @@
       "lastCapturedAt": "2025-12-11T21:59:19.891Z",
       "tweets": [
         "kalomaze/tweets/1998760481008624042_2025-12-10-14-23-28.000Z/tweet.json"
+      ]
+    },
+    {
+      "slug": "vfinnishprobs",
+      "handle": "@VFinnishProbs",
+      "name": "Very Finnish Problems",
+      "avatar": "vfinnishprobs/avatar/avatar.jpg",
+      "lastCapturedAt": "2025-12-13T14:01:45.750Z",
+      "tweets": [
+        "vfinnishprobs/tweets/1999458997150089671_2025-12-12-12-39-07.000Z/tweet.json"
+      ]
+    },
+    {
+      "slug": "jordihays",
+      "handle": "@jordihays",
+      "name": "Jordi Hays",
+      "avatar": "jordihays/avatar/avatar.jpg",
+      "lastCapturedAt": "2025-12-13T14:03:40.032Z",
+      "tweets": [
+        "jordihays/tweets/1953264193890861114_2025-08-07-01-17-28.000Z/tweet.json"
       ]
     }
   ]

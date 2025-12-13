@@ -1,0 +1,18 @@
+{
+  "id": "1999504459341459843",
+  "url": "https://x.com/fchollet/status/1999504459341459843/photo/1",
+  "timestamp": "2025-12-12T06:21:38.000Z",
+  "capturedAt": "2025-12-13T14:03:21.672Z",
+  "author": "François Chollet @fchollet",
+  "authorName": "François Chollet",
+  "authorHandle": "@fchollet",
+  "text": "Fluid intelligence as measured by ARC 1 & 2 is your ability to turn information into a model that will generalize. That's not the only thing you need to make an intelligent agent.\n\nTo start with, when you're an agent in the real world, information is not provided to you, passively. You have to go get it. That's \"exploration\": the agent's ability to efficiently acquire useful information (to turn into a world model) by interacting with its environment.\n\nNext, in the real world, you aren't provided instructions. There's no fixed goal. You have to figure what to do. That's \"goal-setting\": the ability to identify interesting or desirable future world states, via your intrinsic and extrinsic drives. This is a core part of being autonomous. \n\nFinally, \"planning\" represents the ability to accurately and efficiently map out and execute an action path from the current state to the desired goal, including the ability to course correct. That is also different from the ability to turn information into a model -- it's an application of having a model.\n\nAll of these problems are still largely open. They're all much easier than solving fluid intelligence, in my opinion. Among them, the hardest one is exploration and the easiest one is planning.",
+  "avatar": "fchollet/avatar/avatar.jpg",
+  "avatarPath": "fchollet/avatar/avatar.jpg",
+  "images": [
+    "media/1999504459341459843_G7-qWjRagAQJQb4"
+  ],
+  "jsonFile": "fchollet/tweets/1999504459341459843_2025-12-12-06-21-38.000Z/tweet.json",
+  "mediaDir": "media",
+  "userSlug": "fchollet"
+}
