@@ -5,7 +5,7 @@
 // - REPO_OWNER: e.g., "puccibets"
 // - REPO_NAME: e.g., "puccibets.github.io"
 
-const INBOX_DIR = "tweet_archive/inbox";
+const INBOX_DIR = "inbox";
 const ITEMS_DIR = `${INBOX_DIR}/items`;
 const MANIFEST_PATH = `${INBOX_DIR}/manifest.json`;
 

@@ -294,6 +294,7 @@
     const inboxStatusEl = document.getElementById("inbox-status");
     const loadMoreBtn = document.getElementById("load-more");
     const ARCHIVE_ROOT = "tweet_archive";
+    const INBOX_ROOT = "inbox";
 
     const formatDate = (iso) => {
       const parsed = new Date(iso);
@@ -446,11 +447,18 @@
 
     const loadInbox = async () => {
       if (inboxStatusEl) inboxStatusEl.textContent = "";
-      // Prefer new manifest; fall back to legacy inbox.json
-      const tryPaths = ["inbox/manifest.json", "inbox.json"];
+      // Prefer new manifest in /inbox; fall back to legacy paths
+      const tryPaths = [
+        `${INBOX_ROOT}/manifest.json`,
+        `${ARCHIVE_ROOT}/inbox/manifest.json`,
+        `${ARCHIVE_ROOT}/inbox.json`
+      ];
       for (const rel of tryPaths) {
         try {
-          const data = await fetchJson(rel);
+          const data = await fetch(rel, { cache: "no-store" }).then((r) => {
+            if (!r.ok) throw new Error(`HTTP ${r.status}`);
+            return r.json();
+          });
           const items = Array.isArray(data.items) ? data.items : [];
           if (!items.length) {
             hideInboxSection();

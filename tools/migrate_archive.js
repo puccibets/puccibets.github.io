@@ -6,6 +6,8 @@ const crypto = require("crypto");
 
 const ROOT = path.join(__dirname, "..");
 const ARCHIVE_DIR = path.join(ROOT, "tweet_archive");
+const NEW_INBOX_DIR = path.join(ROOT, "inbox");
+const OLD_INBOX_DIR = path.join(ARCHIVE_DIR, "inbox");
 const FEED_LIMIT = 200;
 const PAGE_SIZE = 500;
 
@@ -82,29 +84,31 @@ function migrateIndex() {
 }
 
 function migrateInbox() {
-  const manifestPath = path.join(ARCHIVE_DIR, "inbox", "manifest.json");
-  if (fs.existsSync(manifestPath)) {
-    console.log("inbox manifest already exists; skipping inbox migration");
+  const newManifestPath = path.join(NEW_INBOX_DIR, "manifest.json");
+  if (fs.existsSync(newManifestPath)) {
+    console.log("inbox manifest already exists in /inbox; skipping inbox migration");
     return;
   }
 
-  const inboxPath = path.join(ARCHIVE_DIR, "inbox.json");
-  if (!fs.existsSync(inboxPath)) {
-    console.warn("No inbox.json found; skipping inbox migration");
-    return;
+  const oldManifestPath = path.join(OLD_INBOX_DIR, "manifest.json");
+  const legacyInboxPath = path.join(ARCHIVE_DIR, "inbox.json");
+
+  let items = [];
+  let source = "none";
+
+  if (fs.existsSync(oldManifestPath)) {
+    const data = readJson(oldManifestPath, { items: [] });
+    items = Array.isArray(data.items) ? data.items : [];
+    source = "manifest";
+    copyIfMissing(oldManifestPath, path.join(OLD_INBOX_DIR, "manifest_legacy.json"));
+  } else if (fs.existsSync(legacyInboxPath)) {
+    const data = readJson(legacyInboxPath, { items: [] });
+    items = Array.isArray(data.items) ? data.items : [];
+    source = "inbox.json";
+    copyIfMissing(legacyInboxPath, path.join(ARCHIVE_DIR, "inbox_legacy.json"));
   }
 
-  const data = readJson(inboxPath, { items: [] });
-  const items = Array.isArray(data.items) ? data.items : [];
-  if (!items.length) {
-    console.log("Inbox is empty; writing empty manifest");
-    writeJson(manifestPath, { version: 1, items: [] });
-    return;
-  }
-
-  copyIfMissing(inboxPath, path.join(ARCHIVE_DIR, "inbox_legacy.json"));
-
-  const itemsDir = path.join(ARCHIVE_DIR, "inbox", "items");
+  const itemsDir = path.join(NEW_INBOX_DIR, "items");
   ensureDir(itemsDir);
 
   const manifestItems = [];
@@ -120,20 +124,26 @@ function migrateInbox() {
       note: item.note || item.text || "",
       addedAt: item.addedAt || item.createdAt || item.timestamp || null
     };
-    const relFile = path.join("inbox", "items", `${id}.json`);
-    writeJson(path.join(ARCHIVE_DIR, relFile), payload);
+    const relFile = path.join("items", `${id}.json`);
+    writeJson(path.join(NEW_INBOX_DIR, relFile), payload);
     manifestItems.push({
       id,
       url: payload.url,
       note: payload.note,
       addedAt: payload.addedAt,
-      file: relFile
+      file: path.join("inbox", relFile)
     });
   }
 
   manifestItems.sort((a, b) => (a.addedAt || "").localeCompare(b.addedAt || "")).reverse();
-  writeJson(manifestPath, { version: 1, items: manifestItems });
-  console.log(`Migrated ${manifestItems.length} inbox item(s) to per-file storage.`);
+  ensureDir(NEW_INBOX_DIR);
+  writeJson(newManifestPath, { version: 1, items: manifestItems });
+
+  if (source === "none") {
+    console.log("No existing inbox found; wrote empty manifest to /inbox");
+  } else {
+    console.log(`Migrated ${manifestItems.length} inbox item(s) from ${source} to /inbox`);
+  }
 }
 
 function main() {
