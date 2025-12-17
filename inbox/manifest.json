@@ -1,45 +1,4 @@
 {
   "version": 1,
-  "items": [
-    {
-      "id": "75b7459e-4411-4049-88ac-783633ed13c4",
-      "url": "https://x.com/willdepue/status/2001024738584674398",
-      "note": "",
-      "addedAt": "2025-12-16T20:53:48.185Z",
-      "file": "inbox/items/75b7459e-4411-4049-88ac-783633ed13c4.json",
-      "sha": "adb1d4722dc5489bc0749946240433f562b37425"
-    },
-    {
-      "id": "aa0acf97-8d56-4a71-b8e7-c085d9a405e6",
-      "url": "https://x.com/eigenron/status/2000983235749351733",
-      "note": "",
-      "addedAt": "2025-12-16T20:53:25.960Z",
-      "file": "inbox/items/aa0acf97-8d56-4a71-b8e7-c085d9a405e6.json",
-      "sha": "1b76c747c293f1b6f22df0c05123d9b679036a82"
-    },
-    {
-      "id": "606ef567-5f3e-4011-8f3f-ad92a5d3e5cb",
-      "url": "https://x.com/_sholtodouglas/status/2001019484119912742",
-      "note": "",
-      "addedAt": "2025-12-16T20:20:40.702Z",
-      "file": "inbox/items/606ef567-5f3e-4011-8f3f-ad92a5d3e5cb.json",
-      "sha": "a28ac8ffb8f33b72f42319cf8f3baeb6b51bf0b0"
-    },
-    {
-      "id": "4257d442-8f87-46fc-befa-4b58b0ebd971",
-      "url": "https://x.com/aakashg0/status/2000072743363232193",
-      "note": "",
-      "addedAt": "2025-12-14T10:40:14.608Z",
-      "file": "inbox/items/4257d442-8f87-46fc-befa-4b58b0ebd971.json",
-      "sha": "a108396487bf48e7542a6b5100a6d3083e859c5d"
-    },
-    {
-      "id": "2ee4ab0d-7337-414b-93bf-0a40af45ce35",
-      "url": "https://x.com/JosephPolitano/status/1999978315856441719",
-      "note": "",
-      "addedAt": "2025-12-14T10:36:51.948Z",
-      "file": "inbox/items/2ee4ab0d-7337-414b-93bf-0a40af45ce35.json",
-      "sha": "7570f362141a1e26bfa3c34b1a83b5b73db6b0a8"
-    }
-  ]
+  "items": []
 }
