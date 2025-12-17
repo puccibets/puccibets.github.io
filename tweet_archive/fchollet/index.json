@@ -1,6 +1,7 @@
 {
   "version": 2,
   "tweets": [
+    "fchollet/tweets/2001327140579762418_2025-12-16-16-00-00.000Z/tweet.json",
     "fchollet/tweets/1999553766891123060_2025-12-11-19-07-41.000Z/tweet.json",
     "fchollet/tweets/1999504459341459843_2025-12-12-06-21-38.000Z/tweet.json",
     "fchollet/tweets/1996231823521976582_2025-12-03-14-55-29.000Z/tweet.json",
@@ -12,5 +13,5 @@
   "handle": "@fchollet",
   "name": "François Chollet",
   "avatar": "fchollet/avatar/avatar.jpg",
-  "lastCapturedAt": "2025-12-13T14:03:26.008Z"
+  "lastCapturedAt": "2025-12-17T18:19:26.491Z"
 }

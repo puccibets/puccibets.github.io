@@ -1,0 +1,16 @@
+{
+  "id": "2000983235749351733",
+  "url": "https://x.com/eigenron/status/2000983235749351733",
+  "timestamp": "2025-12-16T17:35:54.000Z",
+  "capturedAt": "2025-12-17T18:19:41.052Z",
+  "author": "will depue @willdepue",
+  "authorName": "will depue",
+  "authorHandle": "@willdepue",
+  "text": "you tend to hear this a lot from people outside or new to ML, and I often point to a talk Ilya gave a few years back:\n\n1) think of any decent deep neural net that has enough memory and sequential ops as just a big parallel computer \n\n2) training this neural net is doing search over computer programs that maximize your objective\n\n3)unless you have some large bottleneck (and given you can successfully optimize this system) you’ll find that these parallel computers are highly robust to architectural changes.\n\n4) this is because computers are great at simulating each other. your new architecture can usually be straightforwardly simulated ‘inside’ your old architecture.\n\n5) it’s not that architecture doesn’t matter, but it mostly matters with respect to (1) fundamental bottlenecks in this parallel computer (2) modifications that make models easier to optimize, since this argument only holds if your optimization is good (3) compute efficiency/system efficiency wins that make learning easier or faster.\n\n6) it’s quite possible that new architectures will lead to breakthroughs in machine learning, but we should first start with bottlenecks, not naturalist intuitions about the ‘form’ of AI should take. until you understand this it seems surprising that small models trained longer are better than undertrained big models, that depth and width are surprisingly interchangeable, that talking to a model with an MoE or sparse attention or linear attention is approximately the same iso evals.",
+  "avatar": "willdepue/avatar/avatar.jpg",
+  "avatarPath": "willdepue/avatar/avatar.jpg",
+  "images": [],
+  "jsonFile": "willdepue/tweets/2000983235749351733_2025-12-16-17-35-54.000Z/tweet.json",
+  "mediaDir": "media",
+  "userSlug": "willdepue"
+}

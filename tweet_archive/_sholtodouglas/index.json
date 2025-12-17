@@ -1,6 +1,7 @@
 {
   "version": 2,
   "tweets": [
+    "_sholtodouglas/tweets/2001001447836754236_2025-12-16-18-48-16.000Z/tweet.json",
     "_sholtodouglas/tweets/1993088517497651559_2025-11-24-22-45-07.000Z/tweet.json"
   ],
   "users": [],
@@ -8,5 +9,5 @@
   "handle": "@_sholtodouglas",
   "name": "Sholto Douglas",
   "avatar": "_sholtodouglas/avatar/avatar.jpg",
-  "lastCapturedAt": "2025-11-25T09:17:49.311Z"
+  "lastCapturedAt": "2025-12-17T18:20:01.750Z"
 }

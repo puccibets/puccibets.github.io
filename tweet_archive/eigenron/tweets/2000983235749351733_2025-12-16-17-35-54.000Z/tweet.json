@@ -1,0 +1,16 @@
+{
+  "id": "2000983235749351733",
+  "url": "https://x.com/eigenron/status/2000983235749351733",
+  "timestamp": "2025-12-16T17:35:54.000Z",
+  "capturedAt": "2025-12-17T18:19:50.450Z",
+  "author": "eigenron @eigenron",
+  "authorName": "eigenron",
+  "authorHandle": "@eigenron",
+  "text": "It’s strange how most of modern ML research fixates on post-training objectives: fine-tuning, RL, alignment, while largely ignoring the architecture itself in the quest for building AGI. It’s as if there’s an unspoken assumption that intelligence will simply emerge if we optimize the right loss long enough. Like what?\n\nBut if we were truly trying to build a human-level AGI, wouldn’t the first question be architectural? The very machine that determines how information is transformed, compressed, and recursively embedded within the system sounds way more fundamental than how we tweak its behavior after the fact. Focusing almost exclusively on post-training feels like polishing the outputs of a black box whose internal geometry we have no clue about.",
+  "avatar": "eigenron/avatar/avatar.jpg",
+  "avatarPath": "eigenron/avatar/avatar.jpg",
+  "images": [],
+  "jsonFile": "eigenron/tweets/2000983235749351733_2025-12-16-17-35-54.000Z/tweet.json",
+  "mediaDir": "media",
+  "userSlug": "eigenron"
+}

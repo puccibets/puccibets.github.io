@@ -1,0 +1,18 @@
+{
+  "id": "1999700260491251981",
+  "url": "https://x.com/Enscion25/status/1999700260491251981",
+  "timestamp": "2025-12-13T04:37:49.000Z",
+  "capturedAt": "2025-12-17T18:20:10.735Z",
+  "author": "Aakash Gupta @aakashg0",
+  "authorName": "Aakash Gupta",
+  "authorHandle": "@aakashg0",
+  "text": "Ilya said the quiet part out loud on Dwarkesh's pod, but most people still aren't processing what it means.\n\nHere's what's actually happening inside AI labs. \n\nResearch teams have entire divisions that do nothing but create new RL training environments specifically designed to boost benchmark scores. They treat AIME, SWE-bench, and MMLU like standardized tests. The model practices 10,000 hours on competitive programming problems until every proof technique is at its fingertips.\n\nThen it fails to fix a simple bug in production without introducing two new ones.\n\nSutskever used the perfect analogy. Student A grinds 10,000 hours of competitive programming. Memorizes every algorithm, every edge case, every proof technique. Becomes the #1 ranked competitive coder in the world. Student B practices 100 hours but has \"it.\" Intuition. Taste. The ability to learn new things quickly.\n\nWho has the better career? Student B. Current AI models are all Student A.\n\nThe benchmark gaming runs deeper than most realize. Studies have shown data contamination inflates model scores by 20-80% on popular benchmarks. The training-test boundary is porous. Models memorize answers rather than learn concepts. And when you control for contamination, much of what looks like intelligence is pattern-matching on seen data.\n\nThis explains the economic puzzle Ilya pointed to. Models score 100% on AIME 2025. They hit 70%+ on GDPval beating human professionals. Yet businesses still struggle to extract value. The benchmark performance says genius. The P&L says otherwise.\n\nThe sample efficiency gap tells you everything. A human teenager learns to drive any car after 10 hours. An AI model might need millions of examples and still fail on slight variations. A human learns a concept once and applies it everywhere. Models need to see the exact pattern thousands of times and still choke when the formatting changes slightly.\n\nSutskever's diagnosis: we're moving from the \"age of scaling\" (2020-2025) back to the \"age of research.\" The belief that 100x more compute would transform everything is dying. His $3B company SSI is betting that the next breakthrough comes from solving generalization, not stacking more GPUs.\n\nThe labs know this. \n\nThat's why the benchmark arms race is accelerating. \n\nIt's easier to show impressive numbers than admit the fundamental approach might be plateauing.",
+  "avatar": "aakashg0/avatar/avatar.jpg",
+  "avatarPath": "aakashg0/avatar/avatar.jpg",
+  "images": [
+    "media/1999700260491251981_PmpIDeQr_rua4lCd.jpg"
+  ],
+  "jsonFile": "aakashg0/tweets/1999700260491251981_2025-12-13-04-37-49.000Z/tweet.json",
+  "mediaDir": "media",
+  "userSlug": "aakashg0"
+}
