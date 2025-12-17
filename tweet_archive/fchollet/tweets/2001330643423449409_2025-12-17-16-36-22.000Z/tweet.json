@@ -1,0 +1,18 @@
+{
+  "id": "2001330643423449409",
+  "url": "https://x.com/fchollet/status/2001330643423449409",
+  "timestamp": "2025-12-17T16:36:22.000Z",
+  "capturedAt": "2025-12-17T19:00:56.284Z",
+  "author": "François Chollet @fchollet",
+  "authorName": "François Chollet",
+  "authorHandle": "@fchollet",
+  "text": "Gemini 3 Flash across different test-time compute levels (green line below) represents a new score/cost Pareto frontier on ARC-AGI-2.\n\nCongrats to @demishassabis and @sundarpichai on the launch!",
+  "avatar": "fchollet/avatar/avatar.jpg",
+  "avatarPath": "fchollet/avatar/avatar.jpg",
+  "images": [
+    "media/2001330643423449409_G8YnXYbaEAAGzpV"
+  ],
+  "jsonFile": "fchollet/tweets/2001330643423449409_2025-12-17-16-36-22.000Z/tweet.json",
+  "mediaDir": "media",
+  "userSlug": "fchollet"
+}

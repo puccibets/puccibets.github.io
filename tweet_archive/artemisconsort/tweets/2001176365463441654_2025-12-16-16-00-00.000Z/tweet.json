@@ -1,0 +1,18 @@
+{
+  "id": "2001176365463441654",
+  "url": "https://x.com/ArtemisConsort/status/2001176365463441654",
+  "timestamp": "2025-12-16T16:00:00.000Z",
+  "capturedAt": "2025-12-17T19:04:01.350Z",
+  "author": "Hunter Ash @ArtemisConsort",
+  "authorName": "Hunter Ash",
+  "authorHandle": "@ArtemisConsort",
+  "text": "If Yann can reason about intelligence in general, then he can reason about the things intelligence can do in general, which means he is a general intelligence.\n\nHe says we suck at chess. And we do, compared to modern computers. But we can play chess, and moreover we can understand why certain strategies tend to succeed or fail. We can do the same for any other game. We might be better or worse at any particular game than some other entity, but we can play all games. This is not true of e.g. tigers. They aren’t just worse at chess than us. They can’t play it at all.\n\nThere is very clearly a leap to universality in intelligence, as @DavidDeutschOxf describes.\n\nThere are limits. Turing completeness, from which Deutsch and others analogize, only applies to systems with infinite memory and time.\n\nBut there are axiom schema that, given infinite tape, are general, and ones that are not. Similarly, there will be architectures for AI that, given infinite tape, *would be* general, and ones that would not be.\n\nWe may have already found the general architecture and just need to work on tools and memory. Or we might need some new insight. But to doubt the in-principle possibility of general intelligence is very bizarre.",
+  "avatar": "artemisconsort/avatar/avatar.jpg",
+  "avatarPath": "artemisconsort/avatar/avatar.jpg",
+  "images": [
+    "media/2001176365463441654_LJ9Os7rqoFrpWH05.jpg"
+  ],
+  "jsonFile": "artemisconsort/tweets/2001176365463441654_2025-12-16-16-00-00.000Z/tweet.json",
+  "mediaDir": "media",
+  "userSlug": "artemisconsort"
+}
