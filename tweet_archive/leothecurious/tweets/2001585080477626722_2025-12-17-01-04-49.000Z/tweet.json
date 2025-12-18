@@ -1,0 +1,16 @@
+{
+  "id": "2001585080477626722",
+  "url": "https://x.com/leothecurious/status/2001585080477626722/history",
+  "timestamp": "2025-12-17T01:04:49.000Z",
+  "capturedAt": "2025-12-18T18:41:03.589Z",
+  "author": "davinci @leothecurious",
+  "authorName": "davinci",
+  "authorHandle": "@leothecurious",
+  "text": "mirror neurons evolved in animals with diverse action spaces as a computationally efficient mechanism which allows the brain to reuse egocentric motor circuitry for modeling any observed action in general. these latent representations generalize across viewpoints and embodiments, allowing for imitation-based supervision to emerge at scale even outside the confines of ones on body or species. the cheapest way to model a sufficiently similar agent is to reuse existing abstractions linked to behavior. despite not observing any human data throughout pretraining, the sheer diversity of the robot-centric data observed by this policy model has pushed the representations away from those that are niche, appearance-specific, and superficial, to ones that are more abstracted, embodiment-agnostic, and goal-based (rather than method-based) in a way that mirrors the \"grokking\" phenomenon. such representations are exactly the kind of emergent abstraction one can expect from a well-fit foundation model, and resemble the emergence of perspective-agnostic mirror neurons for generalized action modeling in some advanced primates. by the time the policy model has reached the finetuning stage, it's cross-embodiment action representations from pretraining are sufficiently abstracted that adapting them to the humanoid embodiment becomes arguably trivial for the model compared to alternatives. true \"imitation learning\", in the original biomimetic sense, involves learning all sorts of behavior not from cloned egocentric recordings of experts at scale but simply from observing them behave in the wild and indirectly extracting supervision from that.",
+  "avatar": "leothecurious/avatar/avatar.jpg",
+  "avatarPath": "leothecurious/avatar/avatar.jpg",
+  "images": [],
+  "jsonFile": "leothecurious/tweets/2001585080477626722_2025-12-17-01-04-49.000Z/tweet.json",
+  "mediaDir": "media",
+  "userSlug": "leothecurious"
+}

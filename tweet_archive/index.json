@@ -1,6 +1,7 @@
 {
   "version": 3,
   "tweets": [
+    "leothecurious/tweets/2001585080477626722_2025-12-17-01-04-49.000Z/tweet.json",
     "asmongold/tweets/2001112651246522561_2025-12-17-02-10-09.000Z/tweet.json",
     "deepfates/tweets/2001047747110334516_2025-12-16-21-04-48.000Z/tweet.json",
     "fchollet/tweets/2001401002625237071_2025-12-17-21-15-57.000Z/tweet.json",
@@ -676,8 +677,9 @@
       "handle": "@leothecurious",
       "name": "davinci",
       "avatar": "leothecurious/avatar/avatar.jpg",
-      "lastCapturedAt": "2025-11-28T00:00:37.741Z",
+      "lastCapturedAt": "2025-12-18T18:41:03.589Z",
       "tweets": [
+        "leothecurious/tweets/2001585080477626722_2025-12-17-01-04-49.000Z/tweet.json",
         "leothecurious/tweets/1988907838471590194_2025-11-13-09-52-35.000Z/tweet.json"
       ]
     },
