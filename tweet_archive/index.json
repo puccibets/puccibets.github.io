@@ -1,6 +1,13 @@
 {
   "version": 3,
   "tweets": [
+    "asmongold/tweets/2001112651246522561_2025-12-17-02-10-09.000Z/tweet.json",
+    "deepfates/tweets/2001047747110334516_2025-12-16-21-04-48.000Z/tweet.json",
+    "fchollet/tweets/2001401002625237071_2025-12-17-21-15-57.000Z/tweet.json",
+    "fchollet/tweets/2001400457504452754_2025-12-17-21-13-47.000Z/tweet.json",
+    "tylerglaiel/tweets/2001393993502851102_2025-12-17-20-48-06.000Z/tweet.json",
+    "linkofsunshine/tweets/2001441463326957975_2025-12-17-23-56-44.000Z/tweet.json",
+    "elvenmaidinn/tweets/2001011042642505833_2025-12-16-19-26-24.000Z/tweet.json",
     "artemisconsort/tweets/2001176365463441654_2025-12-16-16-00-00.000Z/tweet.json",
     "fchollet/tweets/2001330643423449409_2025-12-17-16-36-22.000Z/tweet.json",
     "josephpolitano/tweets/1999978315856441719_2025-12-13-23-02-42.000Z/tweet.json",
@@ -267,10 +274,11 @@
     {
       "slug": "deepfates",
       "handle": "@deepfates",
-      "name": "deepfates",
+      "name": "@deepfates",
       "avatar": "deepfates/avatar/avatar.png",
-      "lastCapturedAt": "2025-11-24T14:35:22.317Z",
+      "lastCapturedAt": "2025-12-18T16:54:54.119Z",
       "tweets": [
+        "deepfates/tweets/2001047747110334516_2025-12-16-21-04-48.000Z/tweet.json",
         "deepfates/tweets/1992649868637315468_2025-11-23-17-42-04.000Z/tweet.json"
       ]
     },
@@ -814,8 +822,10 @@
       "handle": "@fchollet",
       "name": "François Chollet",
       "avatar": "fchollet/avatar/avatar.jpg",
-      "lastCapturedAt": "2025-12-17T19:00:56.284Z",
+      "lastCapturedAt": "2025-12-18T16:54:47.918Z",
       "tweets": [
+        "fchollet/tweets/2001401002625237071_2025-12-17-21-15-57.000Z/tweet.json",
+        "fchollet/tweets/2001400457504452754_2025-12-17-21-13-47.000Z/tweet.json",
         "fchollet/tweets/2001330643423449409_2025-12-17-16-36-22.000Z/tweet.json",
         "fchollet/tweets/2001327140579762418_2025-12-16-16-00-00.000Z/tweet.json",
         "fchollet/tweets/1999553766891123060_2025-12-11-19-07-41.000Z/tweet.json",
@@ -1105,6 +1115,46 @@
       "lastCapturedAt": "2025-12-17T19:04:01.350Z",
       "tweets": [
         "artemisconsort/tweets/2001176365463441654_2025-12-16-16-00-00.000Z/tweet.json"
+      ]
+    },
+    {
+      "slug": "elvenmaidinn",
+      "handle": "@elvenmaidinn",
+      "name": "Elven Maid Inn",
+      "avatar": "elvenmaidinn/avatar/avatar.jpg",
+      "lastCapturedAt": "2025-12-18T16:53:51.798Z",
+      "tweets": [
+        "elvenmaidinn/tweets/2001011042642505833_2025-12-16-19-26-24.000Z/tweet.json"
+      ]
+    },
+    {
+      "slug": "linkofsunshine",
+      "handle": "@LinkofSunshine",
+      "name": "Basil",
+      "avatar": "linkofsunshine/avatar/avatar.jpg",
+      "lastCapturedAt": "2025-12-18T16:54:06.638Z",
+      "tweets": [
+        "linkofsunshine/tweets/2001441463326957975_2025-12-17-23-56-44.000Z/tweet.json"
+      ]
+    },
+    {
+      "slug": "tylerglaiel",
+      "handle": "@TylerGlaiel",
+      "name": "Tyler Glaiel",
+      "avatar": "tylerglaiel/avatar/avatar.png",
+      "lastCapturedAt": "2025-12-18T16:54:17.556Z",
+      "tweets": [
+        "tylerglaiel/tweets/2001393993502851102_2025-12-17-20-48-06.000Z/tweet.json"
+      ]
+    },
+    {
+      "slug": "asmongold",
+      "handle": "@Asmongold",
+      "name": "Zack",
+      "avatar": "asmongold/avatar/avatar.jpg",
+      "lastCapturedAt": "2025-12-18T16:54:59.698Z",
+      "tweets": [
+        "asmongold/tweets/2001112651246522561_2025-12-17-02-10-09.000Z/tweet.json"
       ]
     }
   ]
