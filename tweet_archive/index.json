@@ -1,6 +1,11 @@
 {
   "version": 3,
   "tweets": [
+    "denny_zhou/tweets/2001688296863514735_2025-12-18-16-17-34.000Z/tweet.json",
+    "giansegato/tweets/2002203155262812529_2025-12-20-02-23-26.000Z/tweet.json",
+    "jam3scampbell/tweets/2002471916729438712_2025-12-20-20-11-23.000Z/tweet.json",
+    "jam3scampbell/tweets/2002471918516252765_2025-12-20-20-11-24.000Z/tweet.json",
+    "jam3scampbell/tweets/2002471920663670990_2025-12-20-20-11-24.000Z/tweet.json",
     "mohammed_hijab/tweets/2002314057949589690_2025-12-20-09-44-07.000Z/tweet.json",
     "tszzl/tweets/2001751273566322845_2025-12-18-20-27-49.000Z/tweet.json",
     "peterschiff/tweets/2001643126784471085_2025-12-16-22-29-02.000Z/tweet.json",
@@ -1181,6 +1186,38 @@
       "lastCapturedAt": "2025-12-20T19:30:50.492Z",
       "tweets": [
         "mohammed_hijab/tweets/2002314057949589690_2025-12-20-09-44-07.000Z/tweet.json"
+      ]
+    },
+    {
+      "slug": "jam3scampbell",
+      "handle": "@jam3scampbell",
+      "name": "James Campbell",
+      "avatar": "jam3scampbell/avatar/avatar.jpg",
+      "lastCapturedAt": "2025-12-21T14:44:41.676Z",
+      "tweets": [
+        "jam3scampbell/tweets/2002471916729438712_2025-12-20-20-11-23.000Z/tweet.json",
+        "jam3scampbell/tweets/2002471918516252765_2025-12-20-20-11-24.000Z/tweet.json",
+        "jam3scampbell/tweets/2002471920663670990_2025-12-20-20-11-24.000Z/tweet.json"
+      ]
+    },
+    {
+      "slug": "giansegato",
+      "handle": "@giansegato",
+      "name": "gian",
+      "avatar": "giansegato/avatar/avatar.jpg",
+      "lastCapturedAt": "2025-12-21T14:44:48.647Z",
+      "tweets": [
+        "giansegato/tweets/2002203155262812529_2025-12-20-02-23-26.000Z/tweet.json"
+      ]
+    },
+    {
+      "slug": "denny_zhou",
+      "handle": "@denny_zhou",
+      "name": "Denny Zhou",
+      "avatar": "denny_zhou/avatar/avatar.jpg",
+      "lastCapturedAt": "2025-12-21T14:44:52.811Z",
+      "tweets": [
+        "denny_zhou/tweets/2001688296863514735_2025-12-18-16-17-34.000Z/tweet.json"
       ]
     }
   ]
