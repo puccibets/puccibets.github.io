@@ -1,6 +1,9 @@
 {
   "version": 3,
   "tweets": [
+    "mohammed_hijab/tweets/2002314057949589690_2025-12-20-09-44-07.000Z/tweet.json",
+    "tszzl/tweets/2001751273566322845_2025-12-18-20-27-49.000Z/tweet.json",
+    "peterschiff/tweets/2001643126784471085_2025-12-16-22-29-02.000Z/tweet.json",
     "leothecurious/tweets/2001585080477626722_2025-12-17-01-04-49.000Z/tweet.json",
     "asmongold/tweets/2001112651246522561_2025-12-17-02-10-09.000Z/tweet.json",
     "deepfates/tweets/2001047747110334516_2025-12-16-21-04-48.000Z/tweet.json",
@@ -814,8 +817,9 @@
       "handle": "@tszzl",
       "name": "roon",
       "avatar": "tszzl/avatar/avatar.jpg",
-      "lastCapturedAt": "2025-12-01T15:06:46.235Z",
+      "lastCapturedAt": "2025-12-18T21:52:05.779Z",
       "tweets": [
+        "tszzl/tweets/2001751273566322845_2025-12-18-20-27-49.000Z/tweet.json",
         "tszzl/tweets/1995322239596556461_2025-12-01-02-41-07.000Z/tweet.json"
       ]
     },
@@ -1157,6 +1161,26 @@
       "lastCapturedAt": "2025-12-18T16:54:59.698Z",
       "tweets": [
         "asmongold/tweets/2001112651246522561_2025-12-17-02-10-09.000Z/tweet.json"
+      ]
+    },
+    {
+      "slug": "peterschiff",
+      "handle": "@PeterSchiff",
+      "name": "Peter Schiff",
+      "avatar": "peterschiff/avatar/avatar.jpg",
+      "lastCapturedAt": "2025-12-18T18:42:01.933Z",
+      "tweets": [
+        "peterschiff/tweets/2001643126784471085_2025-12-16-22-29-02.000Z/tweet.json"
+      ]
+    },
+    {
+      "slug": "mohammed_hijab",
+      "handle": "@mohammed_hijab",
+      "name": "Mohammed Hijab",
+      "avatar": "mohammed_hijab/avatar/avatar.jpg",
+      "lastCapturedAt": "2025-12-20T19:30:50.492Z",
+      "tweets": [
+        "mohammed_hijab/tweets/2002314057949589690_2025-12-20-09-44-07.000Z/tweet.json"
       ]
     }
   ]
