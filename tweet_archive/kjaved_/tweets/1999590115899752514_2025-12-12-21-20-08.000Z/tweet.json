@@ -1,0 +1,18 @@
+{
+  "id": "1999590115899752514",
+  "url": "https://x.com/kjaved_/status/1999590115899752514/photo/1",
+  "timestamp": "2025-12-12T21:20:08.000Z",
+  "capturedAt": "2025-12-21T17:29:38.389Z",
+  "author": "Khurram Javed @kjaved_",
+  "authorName": "Khurram Javed",
+  "authorHandle": "@kjaved_",
+  "text": "Some interesting results from the physical Atari setup after ~6 hours of learning on different games.\n\nPolicies learned on one robot performed noticeably worse on a second robot. Both robots were built by 3D printing the same models, used the same servos, and were tested in similar settings.\n\nDespite being built in a similar way, the robots are not identical. Different CX40+ Atari joysticks are also not identical.\n\nThe small differences result in a subtle distribution shift when policies learned on one robot are deployed on the other. The performance degradation is especially visible in games that require well-timed movements (e.g., Pong, in which moving the paddle a fraction of a second earlier is enough to miss the ball).\n\nNow it is possible to fix this gap by building the robots more precisely, but this significantly increases their cost. Not only do we have to make the systems with higher precision, but we also have to continually maintain the bodies to prevent slow changes over time due to wear. This makes the endeavor to build reliable and affordable consumer robots look hopeless.\n\n\n\nThis subtle distribution shift is also the primary reason soft robots have been stuck in research labs; it is hard to manufacture them with a high degree of precision. \n\nThe scalable way to fix this gap is by learning on the robots directly. We don't have to learn everything from scratch for every robot---robots can start from generic policies that are then specialized with experience---but we do have to do learn continually on every individual robot for sustained performance.",
+  "avatar": "kjaved_/avatar/avatar.jpg",
+  "avatarPath": "kjaved_/avatar/avatar.jpg",
+  "images": [
+    "media/1999590115899752514_G7_xEWwWwAAavMT"
+  ],
+  "jsonFile": "kjaved_/tweets/1999590115899752514_2025-12-12-21-20-08.000Z/tweet.json",
+  "mediaDir": "media",
+  "userSlug": "kjaved_"
+}

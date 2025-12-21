@@ -1,0 +1,19 @@
+{
+  "id": "2002080785311125915",
+  "url": "https://x.com/kjaved_/status/2002080785311125915/photo/1",
+  "timestamp": "2025-12-12T21:20:08.000Z",
+  "capturedAt": "2025-12-21T17:29:43.190Z",
+  "author": "Khurram Javed @kjaved_",
+  "authorName": "Khurram Javed",
+  "authorHandle": "@kjaved_",
+  "text": "Following up with some perhaps obvious but interesting results. \n\nThe old result was that policies learned on one robot body performed noticeably worse when transferred to a different but identically built body. The minor differences between the two bodies could not be ignored.\n\nThe new result is that if the agent learns continually, then it can overcome this distribution shift (as it should).\n\nOne interesting observation is that, contrary to what some people believe, a small amount of learning is not enough here. The slope of improvement after the transfer is comparable to that of learning from scratch.\n\nIf the small differences in the two bodies can have a measurable impact on performance, then we should expect transfer from learning in inaccurate simulations to be much worse. This remains to be tested.\n\nOne reason these results might differ from other work in robotics is that to perform well in Atari games, you have to learn fast and reactive policies. You cannot play Pong in slow motion, just like you cannot juggle balls in slow motion. \n\nThis means that many methods that enable zero-shot transfer (e.g., policies that self-correct using visual feedback) are just not reactive enough to do well here. Some tasks can be done arbitrarily slowly, such as folding clothes, which is why many companies focus on them. \n\nThe statement that tasks that require reactive policies rule out certain solution methods makes a subtle but important point that is worth pondering. \n\nLeBron James can do seemingly impossible feats because he learned policies with his body without any unknown distribution shifts. If he had to learn policies that worked across bodies, he would be much more limited. \n\nSimilarly, the way to move past slow policies on robots is to continually learn on every individual robot body. Some would call this overfitting to the individual body but that kind of thinking is a remnant of not committing to continual learning. \n\n(I added a result for continual learning from the same body as a sanity check that my setup for storing and restoring network parameters is not buggy.)",
+  "avatar": "kjaved_/avatar/avatar.jpg",
+  "avatarPath": "kjaved_/avatar/avatar.jpg",
+  "images": [
+    "media/2002080785311125915_G8jItieWUAAr6Gp",
+    "media/2002080785311125915_G7_xEWwWwAAavMT"
+  ],
+  "jsonFile": "kjaved_/tweets/2002080785311125915_2025-12-12-21-20-08.000Z/tweet.json",
+  "mediaDir": "media",
+  "userSlug": "kjaved_"
+}

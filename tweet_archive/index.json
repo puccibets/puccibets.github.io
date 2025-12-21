@@ -1,6 +1,9 @@
 {
   "version": 3,
   "tweets": [
+    "karpathy/tweets/2002118205729562949_2025-12-19-20-45-52.000Z/tweet.json",
+    "kjaved_/tweets/2002080785311125915_2025-12-12-21-20-08.000Z/tweet.json",
+    "kjaved_/tweets/1999590115899752514_2025-12-12-21-20-08.000Z/tweet.json",
     "denny_zhou/tweets/2001688296863514735_2025-12-18-16-17-34.000Z/tweet.json",
     "giansegato/tweets/2002203155262812529_2025-12-20-02-23-26.000Z/tweet.json",
     "jam3scampbell/tweets/2002471916729438712_2025-12-20-20-11-23.000Z/tweet.json",
@@ -296,8 +299,9 @@
       "handle": "@karpathy",
       "name": "Andrej Karpathy",
       "avatar": "karpathy/avatar/avatar.jpg",
-      "lastCapturedAt": "2025-12-10T00:18:52.021Z",
+      "lastCapturedAt": "2025-12-21T17:32:21.201Z",
       "tweets": [
+        "karpathy/tweets/2002118205729562949_2025-12-19-20-45-52.000Z/tweet.json",
         "karpathy/tweets/1998236299862659485_2025-12-09-03-40-33.000Z/tweet.json",
         "karpathy/tweets/1997731268969304070_2025-12-07-18-13-45.000Z/tweet.json",
         "karpathy/tweets/1993369287969718540_2025-11-25-17-20-47.000Z/tweet.json",
@@ -528,8 +532,10 @@
       "handle": "@kjaved_",
       "name": "Khurram Javed",
       "avatar": "kjaved_/avatar/avatar.jpg",
-      "lastCapturedAt": "2025-11-25T22:33:40.965Z",
+      "lastCapturedAt": "2025-12-21T17:29:43.190Z",
       "tweets": [
+        "kjaved_/tweets/2002080785311125915_2025-12-12-21-20-08.000Z/tweet.json",
+        "kjaved_/tweets/1999590115899752514_2025-12-12-21-20-08.000Z/tweet.json",
         "kjaved_/tweets/1993371363026125147_2025-11-25-17-29-02.000Z/tweet.json"
       ]
     },
