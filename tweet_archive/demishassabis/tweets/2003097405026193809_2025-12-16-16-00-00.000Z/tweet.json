@@ -1,0 +1,16 @@
+{
+  "id": "2003097405026193809",
+  "url": "https://x.com/demishassabis/status/2003097405026193809",
+  "timestamp": "2025-12-16T16:00:00.000Z",
+  "capturedAt": "2025-12-22T14:44:13.446Z",
+  "author": "Demis Hassabis @demishassabis",
+  "authorName": "Demis Hassabis",
+  "authorHandle": "@demishassabis",
+  "text": "Yann is just plain incorrect here, he’s confusing general intelligence with universal intelligence.\n\nBrains are the most exquis​ite and complex phenomena we know of in the universe (so far), and they are in fact extremely general.\n\nObviously one can’t circumvent the no free lunch theorem so in a practical and finite system there always has to be some degree of specialisation around the ​target distribution that is being learnt.\n\nBut the point about generality is that in theory, in the Turing Machine sense​, the architecture of ​s​uch a general system is capable of learning anything computable given enough time and memory​ (and data), and the human brain (and AI foundation models) are approximate Turing Machines.\n\nFinally, with ​regards to ​Yann's comments about chess players, it’s amazing that humans could have invented chess ​in the first place (and all the other ​a​spects ​o​f modern civilization ​from science to 747s!) let alone get as brilliant at it as someone like Magnus. He may not be ​strictly optimal (after all he has finite memory and limited time to make a decision) but it’s incredible what he and we can do with our brains given they were evolved for hunter gathering.",
+  "avatar": "demishassabis/avatar/avatar.jpg",
+  "avatarPath": "demishassabis/avatar/avatar.jpg",
+  "images": [],
+  "jsonFile": "demishassabis/tweets/2003097405026193809_2025-12-16-16-00-00.000Z/tweet.json",
+  "mediaDir": "media",
+  "userSlug": "demishassabis"
+}

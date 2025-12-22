@@ -1,6 +1,7 @@
 {
   "version": 2,
   "tweets": [
+    "willccbb/tweets/2002403959676317774_2025-12-20-15-41-21.000Z/tweet.json",
     "willccbb/tweets/1993441195234910371_2025-11-25-22-06-31.000Z/tweet.json",
     "willccbb/tweets/1993440812097806813_2025-11-25-22-05-00.000Z/tweet.json",
     "willccbb/tweets/1993009122644836831_2025-11-24-17-29-37.000Z/tweet.json"
@@ -10,5 +11,5 @@
   "handle": "@willccbb",
   "name": "will brown",
   "avatar": "willccbb/avatar/avatar.jpg",
-  "lastCapturedAt": "2025-11-25T22:34:44.814Z"
+  "lastCapturedAt": "2025-12-22T14:45:48.269Z"
 }

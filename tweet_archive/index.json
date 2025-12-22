@@ -1,6 +1,12 @@
 {
   "version": 3,
   "tweets": [
+    "voooooogel/tweets/2002490401111093269_2025-12-20-21-24-50.000Z/tweet.json",
+    "anjneymidha/tweets/2002488418887168297_2025-12-20-21-16-58.000Z/tweet.json",
+    "willccbb/tweets/2002403959676317774_2025-12-20-15-41-21.000Z/tweet.json",
+    "tszzl/tweets/2002924510455251161_2025-12-22-02-09-50.000Z/tweet.json",
+    "deanwball/tweets/2002807917339373957_2025-12-21-18-26-32.000Z/tweet.json",
+    "demishassabis/tweets/2003097405026193809_2025-12-16-16-00-00.000Z/tweet.json",
     "karpathy/tweets/2002118205729562949_2025-12-19-20-45-52.000Z/tweet.json",
     "kjaved_/tweets/2002080785311125915_2025-12-12-21-20-08.000Z/tweet.json",
     "kjaved_/tweets/1999590115899752514_2025-12-12-21-20-08.000Z/tweet.json",
@@ -314,8 +320,9 @@
       "handle": "@willccbb",
       "name": "will brown",
       "avatar": "willccbb/avatar/avatar.jpg",
-      "lastCapturedAt": "2025-11-25T22:34:44.814Z",
+      "lastCapturedAt": "2025-12-22T14:45:48.269Z",
       "tweets": [
+        "willccbb/tweets/2002403959676317774_2025-12-20-15-41-21.000Z/tweet.json",
         "willccbb/tweets/1993441195234910371_2025-11-25-22-06-31.000Z/tweet.json",
         "willccbb/tweets/1993440812097806813_2025-11-25-22-05-00.000Z/tweet.json",
         "willccbb/tweets/1993009122644836831_2025-11-24-17-29-37.000Z/tweet.json"
@@ -796,8 +803,9 @@
       "handle": "@deanwball",
       "name": "Dean W. Ball",
       "avatar": "deanwball/avatar/avatar.jpg",
-      "lastCapturedAt": "2025-12-04T20:06:12.044Z",
+      "lastCapturedAt": "2025-12-22T14:45:16.187Z",
       "tweets": [
+        "deanwball/tweets/2002807917339373957_2025-12-21-18-26-32.000Z/tweet.json",
         "deanwball/tweets/1995621776404189247_2025-12-01-22-31-23.000Z/tweet.json",
         "deanwball/tweets/1996346930310328518_2025-12-03-22-32-53.000Z/tweet.json",
         "deanwball/tweets/1995204368144924749_2025-11-29-14-00-26.000Z/tweet.json"
@@ -828,8 +836,9 @@
       "handle": "@tszzl",
       "name": "roon",
       "avatar": "tszzl/avatar/avatar.jpg",
-      "lastCapturedAt": "2025-12-18T21:52:05.779Z",
+      "lastCapturedAt": "2025-12-22T14:45:31.186Z",
       "tweets": [
+        "tszzl/tweets/2002924510455251161_2025-12-22-02-09-50.000Z/tweet.json",
         "tszzl/tweets/2001751273566322845_2025-12-18-20-27-49.000Z/tweet.json",
         "tszzl/tweets/1995322239596556461_2025-12-01-02-41-07.000Z/tweet.json"
       ]
@@ -938,8 +947,9 @@
       "handle": "@voooooogel",
       "name": "thebes",
       "avatar": "voooooogel/avatar/avatar.jpg",
-      "lastCapturedAt": "2025-12-07T15:40:48.187Z",
+      "lastCapturedAt": "2025-12-22T14:45:58.534Z",
       "tweets": [
+        "voooooogel/tweets/2002490401111093269_2025-12-20-21-24-50.000Z/tweet.json",
         "voooooogel/tweets/1997410683370283349_2025-12-06-14-27-40.000Z/tweet.json"
       ]
     },
@@ -1224,6 +1234,26 @@
       "lastCapturedAt": "2025-12-21T14:44:52.811Z",
       "tweets": [
         "denny_zhou/tweets/2001688296863514735_2025-12-18-16-17-34.000Z/tweet.json"
+      ]
+    },
+    {
+      "slug": "demishassabis",
+      "handle": "@demishassabis",
+      "name": "Demis Hassabis",
+      "avatar": "demishassabis/avatar/avatar.jpg",
+      "lastCapturedAt": "2025-12-22T14:44:13.446Z",
+      "tweets": [
+        "demishassabis/tweets/2003097405026193809_2025-12-16-16-00-00.000Z/tweet.json"
+      ]
+    },
+    {
+      "slug": "anjneymidha",
+      "handle": "@AnjneyMidha",
+      "name": "Anjney Midha",
+      "avatar": "anjneymidha/avatar/avatar.jpg",
+      "lastCapturedAt": "2025-12-22T14:45:53.315Z",
+      "tweets": [
+        "anjneymidha/tweets/2002488418887168297_2025-12-20-21-16-58.000Z/tweet.json"
       ]
     }
   ]

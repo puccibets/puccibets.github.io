@@ -1,6 +1,7 @@
 {
   "version": 2,
   "tweets": [
+    "deanwball/tweets/2002807917339373957_2025-12-21-18-26-32.000Z/tweet.json",
     "deanwball/tweets/1995621776404189247_2025-12-01-22-31-23.000Z/tweet.json",
     "deanwball/tweets/1996346930310328518_2025-12-03-22-32-53.000Z/tweet.json",
     "deanwball/tweets/1995204368144924749_2025-11-29-14-00-26.000Z/tweet.json"
@@ -10,5 +11,5 @@
   "handle": "@deanwball",
   "name": "Dean W. Ball",
   "avatar": "deanwball/avatar/avatar.jpg",
-  "lastCapturedAt": "2025-12-04T20:06:12.044Z"
+  "lastCapturedAt": "2025-12-22T14:45:16.187Z"
 }
