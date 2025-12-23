@@ -1,0 +1,16 @@
+{
+  "id": "2003227257587007712",
+  "url": "https://x.com/ylecun/status/2003227257587007712",
+  "timestamp": "2025-12-22T22:12:51.000Z",
+  "capturedAt": "2025-12-23T00:47:33.936Z",
+  "author": "Yann LeCun @ylecun",
+  "authorName": "Yann LeCun",
+  "authorHandle": "@ylecun",
+  "text": "I think the disagreement is largely one of vocabulary.\nI object to the use of \"general\" to designate \"human level\" because humans are extremely specialized.\n\nYou may disagree that the human mind is specialized, but it really is. It's not just a question of theoretical power but also a question of practical efficiency.\nClearly, a properly trained human brain with an infinite supply of pens and paper is Turing complete.\nBut for the vast majority of computational problems, it's horribly inefficient, which makes it highly suboptimal under bounded resources (like playing a chess game). \n\nLet me give an analogy: in theory, a 2-layer neural net can approximate any function as close as you want. In practice, almost every interesting function requires a impractically large number of units in the hidden layer. So we use multi-layer networks (that's actually the raison d'être for deep learning).\n\nHere is another argument: the optic nerve has 1 million nerve fiber. Let's make the simplifying assumption that the signals are binary. A vision task is therefore a boolean function from 1E6 bits to 1 bit.\nAmong all the possible such functions, what proportion are implementable by the brain?\nThe answer is: an infinitesimal proportion.\nThe number of boolean functions of 1 million bits is 2^(2^1E6), which an unimaginably large number, about 2^(1E301030) or 10^(3x1E301029).\nNow, assuming that the human brain has 1E11 neurons, and perhaps 1E14 synapses, each represented on, say, 32 bits. The total number of bits to specify the entire connectome is at most 3.2E15. This means the total number of boolean function representable (computable) by the entire human brain is at most 2^(3.2E15).\nThis is a teeny-tiny number compared to 2^(1E301030).\nNot only are we not general, we are *ridiculously* specialized.\nThe space of possible function is vast. \nWe don't realize it because most of those functions are unfathomably complicated to and us and look completely random.\nI love this quote from Albert Einstein: \"the most incomprehensible thing about the world is that the world is comprehensible\"\nIt's pretty incredible that among all the random ways the world could be organized, we can actually find a way to understand a tiny part of it.\nThe part we don't understand, we call entropy.\nMost of the information content of the universe is entropy: things we simply cannot understand with our feeble minds and choose to ignore.",
+  "avatar": "ylecun/avatar/avatar.jpg",
+  "avatarPath": "ylecun/avatar/avatar.jpg",
+  "images": [],
+  "jsonFile": "ylecun/tweets/2003227257587007712_2025-12-22-22-12-51.000Z/tweet.json",
+  "mediaDir": "media",
+  "userSlug": "ylecun"
+}

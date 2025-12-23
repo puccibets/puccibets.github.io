@@ -1,6 +1,8 @@
 {
   "version": 3,
   "tweets": [
+    "ylecun/tweets/2003227257587007712_2025-12-22-22-12-51.000Z/tweet.json",
+    "deepfates/tweets/2002419560662905041_2025-12-20-16-43-21.000Z/tweet.json",
     "voooooogel/tweets/2002490401111093269_2025-12-20-21-24-50.000Z/tweet.json",
     "anjneymidha/tweets/2002488418887168297_2025-12-20-21-16-58.000Z/tweet.json",
     "willccbb/tweets/2002403959676317774_2025-12-20-15-41-21.000Z/tweet.json",
@@ -294,8 +296,9 @@
       "handle": "@deepfates",
       "name": "@deepfates",
       "avatar": "deepfates/avatar/avatar.png",
-      "lastCapturedAt": "2025-12-18T16:54:54.119Z",
+      "lastCapturedAt": "2025-12-22T15:23:32.228Z",
       "tweets": [
+        "deepfates/tweets/2002419560662905041_2025-12-20-16-43-21.000Z/tweet.json",
         "deepfates/tweets/2001047747110334516_2025-12-16-21-04-48.000Z/tweet.json",
         "deepfates/tweets/1992649868637315468_2025-11-23-17-42-04.000Z/tweet.json"
       ]
@@ -1254,6 +1257,16 @@
       "lastCapturedAt": "2025-12-22T14:45:53.315Z",
       "tweets": [
         "anjneymidha/tweets/2002488418887168297_2025-12-20-21-16-58.000Z/tweet.json"
+      ]
+    },
+    {
+      "slug": "ylecun",
+      "handle": "@ylecun",
+      "name": "Yann LeCun",
+      "avatar": "ylecun/avatar/avatar.jpg",
+      "lastCapturedAt": "2025-12-23T00:47:33.936Z",
+      "tweets": [
+        "ylecun/tweets/2003227257587007712_2025-12-22-22-12-51.000Z/tweet.json"
       ]
     }
   ]
