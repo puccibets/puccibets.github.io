@@ -1,0 +1,16 @@
+{
+  "id": "2003523368805630450",
+  "url": "https://x.com/fchollet/status/2003523368805630450",
+  "timestamp": "2025-12-23T17:49:29.000Z",
+  "capturedAt": "2025-12-23T18:57:23.720Z",
+  "author": "François Chollet @fchollet",
+  "authorName": "François Chollet",
+  "authorHandle": "@fchollet",
+  "text": "The Transformer architecture is fundamentally a parallel processor of context, but reasoning is a sequential, iterative process.\n\nTo solve complex problems, a model needs a \"scratchpad\" not just in its output CoT, but in its internal state. A differentiable way to loop, branch, and backtrack until the model finds a solution that works.",
+  "avatar": "fchollet/avatar/avatar.jpg",
+  "avatarPath": "fchollet/avatar/avatar.jpg",
+  "images": [],
+  "jsonFile": "fchollet/tweets/2003523368805630450_2025-12-23-17-49-29.000Z/tweet.json",
+  "mediaDir": "media",
+  "userSlug": "fchollet"
+}

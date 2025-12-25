@@ -1,0 +1,16 @@
+{
+  "id": "2001327140579762418",
+  "url": "https://x.com/fchollet/status/2001327140579762418",
+  "timestamp": "2025-12-17T16:22:27.000Z",
+  "capturedAt": "2025-12-25T01:59:34.909Z",
+  "author": "Machine Learning Street Talk @MLStreetTalk",
+  "authorName": "Machine Learning Street Talk",
+  "authorHandle": "@MLStreetTalk",
+  "text": "100% -- there is no such thing as \"universal intelligence\" as a practical matter. We need to erase this term from our collective consciousness. Can we stop talking about ridiculously abstract notions that have no relevance whatsoever to the world we live in, and how we might actually build AI systems? Notions like this are also the \"gateway drug\" for believing in \"recursively improving superintelligence\". \n\nIt's like saying \"physics can in principle describe any physical system\" i.e. it tells you nothing about aerodynamics or protein folding or why birds fly the way they do.\n\nUsually this is coming from computationalists / functionalists who think that everything is a computation and it's sufficient to describe intelligence in terms of the space of possible computations rather than about the actual structure, physical constitution, dynamics, and/or mechanisms.\n\n\"Universal Intelligence\" is a massive distraction. It's not too dissimilar to arguing that deep learning models are \"universal function approximations\" -- that tells you nothing useful whatsoever about how deep learning actually works in practice.",
+  "avatar": "mlstreettalk/avatar/avatar.jpg",
+  "avatarPath": "mlstreettalk/avatar/avatar.jpg",
+  "images": [],
+  "jsonFile": "mlstreettalk/tweets/2001327140579762418_2025-12-17-16-22-27.000Z/tweet.json",
+  "mediaDir": "media",
+  "userSlug": "mlstreettalk"
+}

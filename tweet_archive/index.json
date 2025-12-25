@@ -1,6 +1,9 @@
 {
   "version": 3,
   "tweets": [
+    "mlstreettalk/tweets/2001327140579762418_2025-12-17-16-22-27.000Z/tweet.json",
+    "daniel_mac8/tweets/2003933645887725940_2025-12-24-20-59-47.000Z/tweet.json",
+    "fchollet/tweets/2003523368805630450_2025-12-23-17-49-29.000Z/tweet.json",
     "ylecun/tweets/2003227257587007712_2025-12-22-22-12-51.000Z/tweet.json",
     "deepfates/tweets/2002419560662905041_2025-12-20-16-43-21.000Z/tweet.json",
     "voooooogel/tweets/2002490401111093269_2025-12-20-21-24-50.000Z/tweet.json",
@@ -851,8 +854,9 @@
       "handle": "@fchollet",
       "name": "François Chollet",
       "avatar": "fchollet/avatar/avatar.jpg",
-      "lastCapturedAt": "2025-12-18T16:54:47.918Z",
+      "lastCapturedAt": "2025-12-23T18:57:23.720Z",
       "tweets": [
+        "fchollet/tweets/2003523368805630450_2025-12-23-17-49-29.000Z/tweet.json",
         "fchollet/tweets/2001401002625237071_2025-12-17-21-15-57.000Z/tweet.json",
         "fchollet/tweets/2001400457504452754_2025-12-17-21-13-47.000Z/tweet.json",
         "fchollet/tweets/2001330643423449409_2025-12-17-16-36-22.000Z/tweet.json",
@@ -1267,6 +1271,26 @@
       "lastCapturedAt": "2025-12-23T00:47:33.936Z",
       "tweets": [
         "ylecun/tweets/2003227257587007712_2025-12-22-22-12-51.000Z/tweet.json"
+      ]
+    },
+    {
+      "slug": "daniel_mac8",
+      "handle": "@daniel_mac8",
+      "name": "Dan McAteer",
+      "avatar": "daniel_mac8/avatar/avatar.jpg",
+      "lastCapturedAt": "2025-12-25T01:57:16.980Z",
+      "tweets": [
+        "daniel_mac8/tweets/2003933645887725940_2025-12-24-20-59-47.000Z/tweet.json"
+      ]
+    },
+    {
+      "slug": "mlstreettalk",
+      "handle": "@MLStreetTalk",
+      "name": "Machine Learning Street Talk",
+      "avatar": "mlstreettalk/avatar/avatar.jpg",
+      "lastCapturedAt": "2025-12-25T01:59:34.909Z",
+      "tweets": [
+        "mlstreettalk/tweets/2001327140579762418_2025-12-17-16-22-27.000Z/tweet.json"
       ]
     }
   ]
