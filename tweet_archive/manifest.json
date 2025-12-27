@@ -4,5 +4,10 @@
   "pageDir": "pages",
   "feedSize": 200,
   "pageSize": 500,
-  "pages": []
+  "pages": [
+    {
+      "name": "pages/page-0001.json",
+      "count": 387
+    }
+  ]
 }
