@@ -1,0 +1,18 @@
+{
+  "id": "2003874472051269689",
+  "url": "https://x.com/littmath/status/2003874472051269689/photo/1",
+  "timestamp": "2025-12-24T17:04:38.000Z",
+  "capturedAt": "2025-12-28T18:34:07.711Z",
+  "author": "Daniel Litt @littmath",
+  "authorName": "Daniel Litt",
+  "authorHandle": "@littmath",
+  "text": "Wonderful, thanks so much David. Really appreciate the donation. Unfortunately, I don’t think I can currently recommend the tool you are using to anyone hoping to do correct mathematics.\n\nThe upshot is that the argument is incorrect. In the first part every claim is either underspecified or unjustified. In the second part, every line makes a false assertion. Moreover Part II never even uses the purported input from Part I.\n\nBefore diving into line-by-line comments, it’s worth noting that, to the extent a strategy exists here, it was doomed from the start: if X is rigid, spreading out etc. can’t give you any juice.\n\nHere is a list of errors and gaps:\n\nl.1: What are the desired properties of X—>S? E.g. if X is rigid, this gives you nothing. Generally \\xi will not “spread out” to a global cohomology class.\n\nl.3: Definition of Hodge locus is not right, since \\xi need not be monodromy-invariant.\n\nl.5: This doesn’t follow, and in general the conclusion that a Hodge locus is defined over Q is false. At best one could hope these loci are defined over Q-bar; the text makes no progress on this problem (and does not appear to be aware it’s open). “\\xi is defined over Q” is a category error—it’s in rational singular cohomology, not algebraic de Rham cohomology.\n\nl.7 Doesn’t follow. For example, each component could be defined over Q, but HL(\\xi) could be empty while HL(\\xi^\\sigma) could be empty.\nl.10: Not possible in general, most varieties provably do not appear in universal families over such M.\n\nl.11: Incorrect use of Leray, there can be Hodge classes arising from “mixed terms” in the Leray spectral sequence.\n\nl.12: False in general, such \\Gamma/D can have lots of non-algebraic cohomology.\n\nl.13: Meaningless nonsense\n\nl.14: Incorrect -- not all classes on X need come from U.",
+  "avatar": "littmath/avatar/avatar.jpg",
+  "avatarPath": "littmath/avatar/avatar.jpg",
+  "images": [
+    "media/2003874472051269689_G88w-srXMAA8yka"
+  ],
+  "jsonFile": "littmath/tweets/2003874472051269689_2025-12-24-17-04-38.000Z/tweet.json",
+  "mediaDir": "media",
+  "userSlug": "littmath"
+}

@@ -1,6 +1,10 @@
 {
   "version": 2,
   "tweets": [
+    "karpathy/tweets/2004974725320347884_2025-12-27-17-56-39.000Z/tweet.json",
+    "karpathy/tweets/2004628491862696070_2025-12-26-19-00-51.000Z/tweet.json",
+    "karpathy/tweets/2004607146781278521_2025-12-26-17-36-02.000Z/tweet.json",
+    "karpathy/tweets/2002506706622767573_2025-12-20-22-29-38.000Z/tweet.json",
     "karpathy/tweets/2002118205729562949_2025-12-19-20-45-52.000Z/tweet.json",
     "karpathy/tweets/1998236299862659485_2025-12-09-03-40-33.000Z/tweet.json",
     "karpathy/tweets/1997731268969304070_2025-12-07-18-13-45.000Z/tweet.json",
@@ -13,5 +17,5 @@
   "handle": "@karpathy",
   "name": "Andrej Karpathy",
   "avatar": "karpathy/avatar/avatar.jpg",
-  "lastCapturedAt": "2025-12-21T17:32:21.201Z"
+  "lastCapturedAt": "2025-12-28T18:32:41.685Z"
 }

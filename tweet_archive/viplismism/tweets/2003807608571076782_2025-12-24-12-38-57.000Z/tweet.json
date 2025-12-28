@@ -1,0 +1,18 @@
+{
+  "id": "2003807608571076782",
+  "url": "https://x.com/viplismism/status/2003807608571076782/photo/1",
+  "timestamp": "2025-12-24T12:38:57.000Z",
+  "capturedAt": "2025-12-28T18:33:45.039Z",
+  "author": "vipli @viplismism",
+  "authorName": "vipli",
+  "authorHandle": "@viplismism",
+  "text": "why is scaling attention scores by 1/√d_k so critical for transformers? \n\nok well without this scaling, dot products (q•k) grow unstable as dimension increases. here's a bit of math behind it : \n\nuhhm, now in multi-head attention, each head operates on dimension d_k right (where d_k = embedding_dim / num_heads) so now when you compute q•k right, you're literally summing up d_k multiplication terms:\n\nq•k = q₁k₁ + q₂k₂ + ... + q_d_k × k_d_k\n\nand to think about it, the more terms you add, the larger the final sum can get! think about it - adding 64 numbers vs adding 512 numbers, the second one naturally produces bigger values! \n\nso larger d_k → bigger dot product values → some scores get extremely large → softmax saturates! \n\nand this is the problem, now as \n\nsoftmax(x_i) = e^(x_i)/Σ(e^(x_j)), \n\nwhen any dot product value dominates, it pushes the attention distribution to become nearly one-hot \n\n(e.g., [0,0,1,0,0]).\n\nand that's where the gradient problem kicks in:\n\nsince ∇softmax ∝ p(1-p), we get:\n\nwhen p→1 for the winner token\nwhen p→0 for all others\n\nso now the gradients effectively vanish for all tokens because p(1-p) approaches zero in both cases, it's like saying for the attention, we will only grab the attention for some specific tokens, and what's the point of attention then, that's where dividing by √d_k compensates for this \"adding more terms\" effect as it just keeps the distribution stay \"soft\" enough\n\ncool stuff!",
+  "avatar": "viplismism/avatar/avatar.jpg",
+  "avatarPath": "viplismism/avatar/avatar.jpg",
+  "images": [
+    "media/2003807608571076782_G87w4zBakAE36gK"
+  ],
+  "jsonFile": "viplismism/tweets/2003807608571076782_2025-12-24-12-38-57.000Z/tweet.json",
+  "mediaDir": "media",
+  "userSlug": "viplismism"
+}

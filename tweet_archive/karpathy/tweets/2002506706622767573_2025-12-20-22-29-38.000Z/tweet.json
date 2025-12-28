@@ -1,0 +1,18 @@
+{
+  "id": "2002506706622767573",
+  "url": "https://x.com/cyp_ll/status/2002506706622767573/photo/1",
+  "timestamp": "2025-12-20T22:29:38.000Z",
+  "capturedAt": "2025-12-28T18:31:22.871Z",
+  "author": "Andrej Karpathy @karpathy",
+  "authorName": "Andrej Karpathy",
+  "authorHandle": "@karpathy",
+  "text": "I was inspired by this so I wanted to see if Claude Code can get into my Lutron home automation system.\n\n- it found my Lutron controllers on the local wifi network\n- checked for open ports, connected, got some metadata and identified the devices and their firmware\n- searched the internet, found the pdf for my system\n- instructed me on what button to press to pair and get the certificates\n- it connected to the system and found all the home devices (lights, shades, HVAC temperature control, motion sensors etc.)\n- it turned on and off my kitchen lights to check that things are working (lol!)\n\nI am now vibe coding the home automation master command center, the potential is .And I'm throwing away the crappy, janky, slow Lutron iOS app I've been using so far. Insanely fun :D :D",
+  "avatar": "karpathy/avatar/avatar.jpg",
+  "avatarPath": "karpathy/avatar/avatar.jpg",
+  "images": [
+    "media/2002506706622767573_G8pVPH-XEAAjMWd"
+  ],
+  "jsonFile": "karpathy/tweets/2002506706622767573_2025-12-20-22-29-38.000Z/tweet.json",
+  "mediaDir": "media",
+  "userSlug": "karpathy"
+}

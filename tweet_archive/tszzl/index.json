@@ -1,6 +1,7 @@
 {
   "version": 2,
   "tweets": [
+    "tszzl/tweets/2004678617914331320_2025-12-26-22-20-02.000Z/tweet.json",
     "tszzl/tweets/2002924510455251161_2025-12-22-02-09-50.000Z/tweet.json",
     "tszzl/tweets/2001751273566322845_2025-12-18-20-27-49.000Z/tweet.json",
     "tszzl/tweets/1995322239596556461_2025-12-01-02-41-07.000Z/tweet.json"
@@ -10,5 +11,5 @@
   "handle": "@tszzl",
   "name": "roon",
   "avatar": "tszzl/avatar/avatar.jpg",
-  "lastCapturedAt": "2025-12-22T14:45:31.186Z"
+  "lastCapturedAt": "2025-12-28T18:33:10.834Z"
 }

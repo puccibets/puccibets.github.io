@@ -1,6 +1,31 @@
 {
   "version": 3,
   "tweets": [
+    "voooooogel/tweets/2003569994840601049_2025-12-23-20-54-45.000Z/tweet.json",
+    "repligate/tweets/1840739102687158634_2025-12-23-12-21-35.000Z/tweet.json",
+    "littmath/tweets/2003874472051269689_2025-12-24-17-04-38.000Z/tweet.json",
+    "viplismism/tweets/2003807608571076782_2025-12-24-12-38-57.000Z/tweet.json",
+    "uneventual/tweets/2003864326059479507_2025-12-24-16-24-19.000Z/tweet.json",
+    "tszzl/tweets/2004678617914331320_2025-12-26-22-20-02.000Z/tweet.json",
+    "karpathy/tweets/2004974725320347884_2025-12-27-17-56-39.000Z/tweet.json",
+    "karpathy/tweets/2004628491862696070_2025-12-26-19-00-51.000Z/tweet.json",
+    "karpathy/tweets/2004607146781278521_2025-12-26-17-36-02.000Z/tweet.json",
+    "tobi/tweets/2004689887451308440_2025-12-26-23-04-49.000Z/tweet.json",
+    "nearcyan/tweets/2004694140559524335_2025-12-26-23-04-49.000Z/tweet.json",
+    "1thousandfaces_/tweets/2004706904325718209_2025-12-27-00-12-26.000Z/tweet.json",
+    "karpathy/tweets/2002506706622767573_2025-12-20-22-29-38.000Z/tweet.json",
+    "vasuman/tweets/2004803875103277427_2025-12-27-06-37-45.000Z/tweet.json",
+    "tenobrus/tweets/2004987343485501926_2025-12-27-18-46-48.000Z/tweet.json",
+    "tenobrus/tweets/2004987340427870305_2025-12-27-18-46-47.000Z/tweet.json",
+    "tenobrus/tweets/2004987337613459605_2025-12-27-18-46-46.000Z/tweet.json",
+    "tenobrus/tweets/2004987334463222085_2025-12-27-18-46-46.000Z/tweet.json",
+    "tenobrus/tweets/2004987331393323466_2025-12-27-18-46-45.000Z/tweet.json",
+    "tenobrus/tweets/2004987328419561612_2025-12-27-18-46-44.000Z/tweet.json",
+    "tenobrus/tweets/2004987324938276954_2025-12-27-18-46-43.000Z/tweet.json",
+    "tenobrus/tweets/2004987322081968342_2025-12-27-18-46-43.000Z/tweet.json",
+    "tenobrus/tweets/2004987319305339234_2025-12-27-18-46-42.000Z/tweet.json",
+    "anjneymidha/tweets/2004959468896092511_2025-12-27-16-56-02.000Z/tweet.json",
+    "johannes_hage/tweets/2005160688822399037_2025-12-27-12-47-15.000Z/tweet.json",
     "mlstreettalk/tweets/2001327140579762418_2025-12-17-16-22-27.000Z/tweet.json",
     "daniel_mac8/tweets/2003933645887725940_2025-12-24-20-59-47.000Z/tweet.json",
     "fchollet/tweets/2003523368805630450_2025-12-23-17-49-29.000Z/tweet.json",
@@ -175,9 +200,7 @@
     "polynoamial/tweets/1991568186840686915_2025-11-20-18-24-53.000Z/tweet.json",
     "_tomhoward/tweets/1991544753821790401_2025-11-20-14-31-08.000Z/tweet.json",
     "gavinsbaker/tweets/1991248768654803337_2025-11-19-20-54-36.000Z/tweet.json",
-    "bigeagle_xd/tweets/1991349976346018037_2025-11-20-03-36-46.000Z/tweet.json",
-    "zephyr_z9/tweets/1991483439447687331_2025-11-20-12-27-06.000Z/tweet.json",
-    "signulll/tweets/1991291683468664969_2025-11-19-23-45-08.000Z/tweet.json"
+    "bigeagle_xd/tweets/1991349976346018037_2025-11-20-03-36-46.000Z/tweet.json"
   ],
   "users": [
     {
@@ -256,8 +279,9 @@
       "handle": "@voooooogel",
       "name": "thebes",
       "avatar": "voooooogel/avatar/avatar.jpg",
-      "lastCapturedAt": "2025-12-22T14:45:58.534Z",
+      "lastCapturedAt": "2025-12-28T18:34:44.554Z",
       "tweets": [
+        "voooooogel/tweets/2003569994840601049_2025-12-23-20-54-45.000Z/tweet.json",
         "voooooogel/tweets/2002490401111093269_2025-12-20-21-24-50.000Z/tweet.json",
         "voooooogel/tweets/1997410683370283349_2025-12-06-14-27-40.000Z/tweet.json"
       ]
@@ -267,8 +291,9 @@
       "handle": "@AnjneyMidha",
       "name": "Anjney Midha",
       "avatar": "anjneymidha/avatar/avatar.jpg",
-      "lastCapturedAt": "2025-12-22T14:45:53.315Z",
+      "lastCapturedAt": "2025-12-28T18:28:52.879Z",
       "tweets": [
+        "anjneymidha/tweets/2004959468896092511_2025-12-27-16-56-02.000Z/tweet.json",
         "anjneymidha/tweets/2002488418887168297_2025-12-20-21-16-58.000Z/tweet.json"
       ]
     },
@@ -290,8 +315,9 @@
       "handle": "@tszzl",
       "name": "roon",
       "avatar": "tszzl/avatar/avatar.jpg",
-      "lastCapturedAt": "2025-12-22T14:45:31.186Z",
+      "lastCapturedAt": "2025-12-28T18:33:10.834Z",
       "tweets": [
+        "tszzl/tweets/2004678617914331320_2025-12-26-22-20-02.000Z/tweet.json",
         "tszzl/tweets/2002924510455251161_2025-12-22-02-09-50.000Z/tweet.json",
         "tszzl/tweets/2001751273566322845_2025-12-18-20-27-49.000Z/tweet.json",
         "tszzl/tweets/1995322239596556461_2025-12-01-02-41-07.000Z/tweet.json"
@@ -325,8 +351,12 @@
       "handle": "@karpathy",
       "name": "Andrej Karpathy",
       "avatar": "karpathy/avatar/avatar.jpg",
-      "lastCapturedAt": "2025-12-21T17:32:21.201Z",
+      "lastCapturedAt": "2025-12-28T18:32:41.685Z",
       "tweets": [
+        "karpathy/tweets/2004974725320347884_2025-12-27-17-56-39.000Z/tweet.json",
+        "karpathy/tweets/2004628491862696070_2025-12-26-19-00-51.000Z/tweet.json",
+        "karpathy/tweets/2004607146781278521_2025-12-26-17-36-02.000Z/tweet.json",
+        "karpathy/tweets/2002506706622767573_2025-12-20-22-29-38.000Z/tweet.json",
         "karpathy/tweets/2002118205729562949_2025-12-19-20-45-52.000Z/tweet.json",
         "karpathy/tweets/1998236299862659485_2025-12-09-03-40-33.000Z/tweet.json",
         "karpathy/tweets/1997731268969304070_2025-12-07-18-13-45.000Z/tweet.json",
@@ -526,8 +556,9 @@
       "handle": "@repligate",
       "name": "j⧉nus",
       "avatar": "repligate/avatar/avatar.jpg",
-      "lastCapturedAt": "2025-12-13T15:02:31.305Z",
+      "lastCapturedAt": "2025-12-28T18:34:28.419Z",
       "tweets": [
+        "repligate/tweets/1840739102687158634_2025-12-23-12-21-35.000Z/tweet.json",
         "repligate/tweets/1999566235890253957_2025-12-12-19-45-15.000Z/tweet.json",
         "repligate/tweets/1966716141167935612_2025-11-29-09-17-07.000Z/tweet.json",
         "repligate/tweets/1988874497571672542_2025-11-13-07-40-06.000Z/tweet.json",
@@ -1301,6 +1332,104 @@
       "lastCapturedAt": "2025-11-20T20:36:12.438Z",
       "tweets": [
         "signulll/tweets/1991291683468664969_2025-11-19-23-45-08.000Z/tweet.json"
+      ]
+    },
+    {
+      "slug": "johannes_hage",
+      "handle": "@johannes_hage",
+      "name": "Johannes Hagemann",
+      "avatar": "johannes_hage/avatar/avatar.jpg",
+      "lastCapturedAt": "2025-12-28T18:25:26.042Z",
+      "tweets": [
+        "johannes_hage/tweets/2005160688822399037_2025-12-27-12-47-15.000Z/tweet.json"
+      ]
+    },
+    {
+      "slug": "tenobrus",
+      "handle": "@tenobrus",
+      "name": "Tenobrus",
+      "avatar": "tenobrus/avatar/avatar.png",
+      "lastCapturedAt": "2025-12-28T18:29:37.445Z",
+      "tweets": [
+        "tenobrus/tweets/2004987343485501926_2025-12-27-18-46-48.000Z/tweet.json",
+        "tenobrus/tweets/2004987340427870305_2025-12-27-18-46-47.000Z/tweet.json",
+        "tenobrus/tweets/2004987337613459605_2025-12-27-18-46-46.000Z/tweet.json",
+        "tenobrus/tweets/2004987334463222085_2025-12-27-18-46-46.000Z/tweet.json",
+        "tenobrus/tweets/2004987331393323466_2025-12-27-18-46-45.000Z/tweet.json",
+        "tenobrus/tweets/2004987328419561612_2025-12-27-18-46-44.000Z/tweet.json",
+        "tenobrus/tweets/2004987324938276954_2025-12-27-18-46-43.000Z/tweet.json",
+        "tenobrus/tweets/2004987322081968342_2025-12-27-18-46-43.000Z/tweet.json",
+        "tenobrus/tweets/2004987319305339234_2025-12-27-18-46-42.000Z/tweet.json"
+      ]
+    },
+    {
+      "slug": "vasuman",
+      "handle": "@vasuman",
+      "name": "vas",
+      "avatar": "vasuman/avatar/avatar.jpg",
+      "lastCapturedAt": "2025-12-28T18:31:06.319Z",
+      "tweets": [
+        "vasuman/tweets/2004803875103277427_2025-12-27-06-37-45.000Z/tweet.json"
+      ]
+    },
+    {
+      "slug": "1thousandfaces_",
+      "handle": "@1thousandfaces_",
+      "name": "Hero Thousandfaces",
+      "avatar": "1thousandfaces_/avatar/avatar.png",
+      "lastCapturedAt": "2025-12-28T18:31:40.718Z",
+      "tweets": [
+        "1thousandfaces_/tweets/2004706904325718209_2025-12-27-00-12-26.000Z/tweet.json"
+      ]
+    },
+    {
+      "slug": "nearcyan",
+      "handle": "@nearcyan",
+      "name": "near",
+      "avatar": "nearcyan/avatar/avatar.jpg",
+      "lastCapturedAt": "2025-12-28T18:31:59.354Z",
+      "tweets": [
+        "nearcyan/tweets/2004694140559524335_2025-12-26-23-04-49.000Z/tweet.json"
+      ]
+    },
+    {
+      "slug": "tobi",
+      "handle": "@tobi",
+      "name": "tobi lutke",
+      "avatar": "tobi/avatar/avatar.jpg",
+      "lastCapturedAt": "2025-12-28T18:32:06.212Z",
+      "tweets": [
+        "tobi/tweets/2004689887451308440_2025-12-26-23-04-49.000Z/tweet.json"
+      ]
+    },
+    {
+      "slug": "uneventual",
+      "handle": "@uneventual",
+      "name": "lucy",
+      "avatar": "uneventual/avatar/avatar.jpg",
+      "lastCapturedAt": "2025-12-28T18:33:24.465Z",
+      "tweets": [
+        "uneventual/tweets/2003864326059479507_2025-12-24-16-24-19.000Z/tweet.json"
+      ]
+    },
+    {
+      "slug": "viplismism",
+      "handle": "@viplismism",
+      "name": "vipli",
+      "avatar": "viplismism/avatar/avatar.jpg",
+      "lastCapturedAt": "2025-12-28T18:33:45.039Z",
+      "tweets": [
+        "viplismism/tweets/2003807608571076782_2025-12-24-12-38-57.000Z/tweet.json"
+      ]
+    },
+    {
+      "slug": "littmath",
+      "handle": "@littmath",
+      "name": "Daniel Litt",
+      "avatar": "littmath/avatar/avatar.jpg",
+      "lastCapturedAt": "2025-12-28T18:34:07.711Z",
+      "tweets": [
+        "littmath/tweets/2003874472051269689_2025-12-24-17-04-38.000Z/tweet.json"
       ]
     }
   ]

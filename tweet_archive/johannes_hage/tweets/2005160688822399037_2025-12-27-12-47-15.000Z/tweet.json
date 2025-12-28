@@ -1,0 +1,16 @@
+{
+  "id": "2005160688822399037",
+  "url": "https://x.com/johannes_hage/status/2005160688822399037",
+  "timestamp": "2025-12-27T12:47:15.000Z",
+  "capturedAt": "2025-12-28T18:25:26.042Z",
+  "author": "Johannes Hagemann @johannes_hage",
+  "authorName": "Johannes Hagemann",
+  "authorHandle": "@johannes_hage",
+  "text": "agree that we'll see a 'Claude Code' moment for every sphere of human endeavor. but it won't be a single company that 'steamrolls' the entire economy. there’s only so much one company can focus on. if we give founders and companies the right tools, they’ll outcompete big labs trying to capture all the value across every vertical.\n\nright now they don't have the tools or infrastructure to do this tho. there's a reason chatgpt was created by openai and claude code by anthropic. those companies have access to the full model optimization loop and can iteratively optimize models end to end for their specific product use cases.\n\ncurrent gpt wrapper startups don't have this product <> model feedback loop and will get steamrolled unless we not only build better open models, but also open frontier training infrastructure and tooling. so every company building with AI can have its own product <> model feedback loop.",
+  "avatar": "johannes_hage/avatar/avatar.jpg",
+  "avatarPath": "johannes_hage/avatar/avatar.jpg",
+  "images": [],
+  "jsonFile": "johannes_hage/tweets/2005160688822399037_2025-12-27-12-47-15.000Z/tweet.json",
+  "mediaDir": "media",
+  "userSlug": "johannes_hage"
+}

@@ -1,6 +1,7 @@
 {
   "version": 2,
   "tweets": [
+    "repligate/tweets/1840739102687158634_2025-12-23-12-21-35.000Z/tweet.json",
     "repligate/tweets/1999566235890253957_2025-12-12-19-45-15.000Z/tweet.json",
     "repligate/tweets/1966716141167935612_2025-11-29-09-17-07.000Z/tweet.json",
     "repligate/tweets/1988874497571672542_2025-11-13-07-40-06.000Z/tweet.json",
@@ -13,5 +14,5 @@
   "handle": "@repligate",
   "name": "j⧉nus",
   "avatar": "repligate/avatar/avatar.jpg",
-  "lastCapturedAt": "2025-12-13T15:02:31.305Z"
+  "lastCapturedAt": "2025-12-28T18:34:28.419Z"
 }
