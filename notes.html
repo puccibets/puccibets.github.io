@@ -1,0 +1,262 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Notes | Pucci</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Chivo:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #0e1323;
+      --card: #11182c;
+      --card-alt: #121b32;
+      --text: #e6ebff;
+      --muted: #9ab0d0;
+      --accent: #56d6ff;
+      --border: #1f2a45;
+      --shadow: 0 15px 45px rgba(4, 10, 26, 0.55);
+      color-scheme: dark;
+      font-family: "Space Grotesk", "Chivo", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background: radial-gradient(120% 120% at 20% 30%, #17213a 0%, #0e1323 40%, #0a0f1c 100%);
+      color: var(--text);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 2.5rem 1.25rem 3rem;
+    }
+
+    header {
+      width: min(960px, 100%);
+      display: flex;
+      flex-direction: column;
+      gap: 0.6rem;
+      margin-bottom: 1.25rem;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: clamp(1.7rem, 3vw, 2.3rem);
+      letter-spacing: -0.01em;
+      font-weight: 700;
+    }
+
+    .lead {
+      margin: 0;
+      color: var(--muted);
+      font-size: 0.98rem;
+    }
+
+    .top-nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 0.6rem;
+      flex-wrap: wrap;
+    }
+
+    .nav-links a {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.35rem;
+      padding: 0.35rem 0.8rem;
+      border-radius: 999px;
+      border: 1px solid var(--border);
+      background: rgba(86, 214, 255, 0.08);
+      color: var(--text);
+      font-weight: 600;
+    }
+
+    .nav-links a.active {
+      background: var(--accent);
+      color: #021220;
+      border-color: transparent;
+    }
+
+    .nav-actions a {
+      color: var(--accent);
+      font-weight: 600;
+    }
+
+    #notes {
+      width: min(960px, 100%);
+      display: grid;
+      gap: 0.75rem;
+    }
+
+    .note {
+      background: linear-gradient(135deg, var(--card), var(--card-alt));
+      border: 1px solid var(--border);
+      border-radius: 18px;
+      padding: 1rem 1.15rem;
+      box-shadow: var(--shadow);
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+      position: relative;
+      overflow: hidden;
+      isolation: isolate;
+    }
+
+    .note::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(140deg, rgba(86, 214, 255, 0.08), transparent 45%);
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    .note-title {
+      font-weight: 600;
+      font-size: 1.1rem;
+      z-index: 1;
+    }
+
+    .note-body {
+      z-index: 1;
+      line-height: 1.6;
+      font-size: 1.02rem;
+      white-space: pre-wrap;
+    }
+
+    .note-meta {
+      color: var(--muted);
+      font-size: 0.9rem;
+      z-index: 1;
+    }
+
+    #status {
+      width: min(960px, 100%);
+      color: var(--muted);
+      margin-top: 1rem;
+      font-size: 0.95rem;
+    }
+
+    @media (max-width: 540px) {
+      .note {
+        padding: 0.9rem;
+      }
+      .note-title {
+        font-size: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="top-nav">
+      <div class="nav-links">
+        <a href="index.html">Archive</a>
+        <a class="active" href="notes.html">Notes</a>
+      </div>
+      <div class="nav-actions">
+        <a href="notes_inbox.html" target="_blank" rel="noopener">Write Note</a>
+      </div>
+    </div>
+    <h1>Notes</h1>
+    <p class="lead">Short posts, drafts, and personal thoughts.</p>
+  </header>
+
+  <div id="notes" aria-live="polite"></div>
+  <div id="status"></div>
+
+  <script>
+    const notesContainer = document.getElementById("notes");
+    const statusEl = document.getElementById("status");
+    const NOTES_ROOT = "notes";
+
+    const formatDate = (iso) => {
+      const parsed = new Date(iso);
+      if (Number.isNaN(parsed.getTime())) return "Unknown date";
+      return parsed.toLocaleString(undefined, {
+        year: "numeric",
+        month: "short",
+        day: "numeric",
+        hour: "2-digit",
+        minute: "2-digit"
+      });
+    };
+
+    const resolveNotePath = (item) => {
+      if (item?.file && typeof item.file === "string") {
+        return item.file.startsWith("notes/") ? item.file : `${NOTES_ROOT}/${item.file}`;
+      }
+      if (item?.id) return `${NOTES_ROOT}/items/${item.id}.json`;
+      return null;
+    };
+
+    const renderNote = (note) => {
+      const wrap = document.createElement("article");
+      wrap.className = "note";
+
+      if (note.title) {
+        const title = document.createElement("div");
+        title.className = "note-title";
+        title.textContent = note.title;
+        wrap.append(title);
+      }
+
+      const body = document.createElement("div");
+      body.className = "note-body";
+      body.textContent = note.text || "—";
+
+      const meta = document.createElement("div");
+      meta.className = "note-meta";
+      meta.textContent = `Posted: ${formatDate(note.createdAt)}`;
+
+      wrap.append(body, meta);
+      notesContainer.appendChild(wrap);
+    };
+
+    const fetchJson = async (path) => {
+      const resp = await fetch(path, { cache: "no-store" });
+      if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+      return resp.json();
+    };
+
+    const loadNotes = async () => {
+      statusEl.textContent = "Loading notes…";
+      try {
+        const manifest = await fetchJson(`${NOTES_ROOT}/manifest.json`);
+        const items = Array.isArray(manifest?.items) ? manifest.items : [];
+        if (!items.length) {
+          statusEl.textContent = "No notes yet.";
+          return;
+        }
+
+        for (const item of items) {
+          const path = resolveNotePath(item);
+          if (!path) continue;
+          try {
+            const note = await fetchJson(path);
+            renderNote(note);
+          } catch (err) {
+            console.warn("Failed to load note", path, err);
+          }
+        }
+        statusEl.textContent = "";
+      } catch (err) {
+        console.error(err);
+        statusEl.textContent = "Failed to load notes.";
+      }
+    };
+
+    loadNotes();
+  </script>
+</body>
+</html>

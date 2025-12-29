@@ -1,5 +1,13 @@
 tweet archive for now, site might expand at some point.
 
+## Notes (personal blog)
+- Notes live under `notes/` with `notes/manifest.json` and per-note files in `notes/items/`.
+- Use `notes_inbox.html` to POST `{ title, text, password }` to your Notes Worker endpoint. There is also a clear action `{ action: "clear", password }`.
+- Cloudflare Worker sample: `notes_worker.js`. Set env vars in the Worker:
+  - `NOTES_PASSWORD`: the password you type into the form.
+  - `GITHUB_TOKEN`: fine-grained PAT with `contents:read/write` on this repo (only stored in the Worker).
+  - `REPO_OWNER`, `REPO_NAME`: defaults to `puccibets` / `puccibets.github.io`.
+
 ## Inbox (add tweets from phone)
 - Inbox is now conflict-safe and lives outside the archive: each queued tweet lives in `inbox/items/<id>.json`, and a manifest at `inbox/manifest.json` lists them. The site reads this manifest. Old `tweet_archive/inbox` paths are still read as a fallback only if the manifest is missing.
 - Use `inbox.html` (static form) to POST `{ url, password }` to your Worker endpoint (`https://puccibets-password-checker.requests-pucci.workers.dev/`). There’s also a “Clear Inbox” button (sends `{ action: "clear", password }`). The password is not stored in GitHub.

@@ -1,0 +1,16 @@
+{
+  "id": "2005377408610840828",
+  "url": "https://x.com/Teknium/status/2005377408610840828",
+  "timestamp": "2025-12-28T20:36:46.000Z",
+  "capturedAt": "2025-12-28T22:45:42.846Z",
+  "author": "Teknium (e/λ) @Teknium",
+  "authorName": "Teknium (e/λ)",
+  "authorHandle": "@Teknium",
+  "text": "Reasoning in LLMs has actually broken at least one intuition about data that I thought I was confident in.\n\nPrior to reasoning models, there was a lot I could predict based on the data that went in, such as things like average output lengths and limits on how many tokens they'd generate. It used to be if you trained on outputs of 4k max, you'd have a near-0% chance to generate 10k+ tokens.\n\nBut with reasoning models, they actually learn a function through this data that can make it generate way way way beyond what length of output tokens you trained on. I think this justifies calling it \"reasoning\", because it actually learned a function similar to reasoning, by generating tokens that look like thinking to improve accuracy until it is confident in it having found the correct answer, and even if you train on 10k cot tokens max, models will still think, potentially through the entire 128k+ context length it has. \n\nSomething else interesting about \"reasoning\" is that we observed when scaling Hermes 4 from 14b, to 70b, to 405B, that the thinking lengths went down and down for the same set of problems as the model got bigger. This also implies that the reasoning process is very much tied to innate intelligence, because the problem is, relative to each model, a different difficulty, and it literally *thinks longer* if it is less intelligent!\n\nJust some fun facts for you on this Sunday :)",
+  "avatar": "teknium/avatar/avatar.jpg",
+  "avatarPath": "teknium/avatar/avatar.jpg",
+  "images": [],
+  "jsonFile": "teknium/tweets/2005377408610840828_2025-12-28-20-36-46.000Z/tweet.json",
+  "mediaDir": "media",
+  "userSlug": "teknium"
+}

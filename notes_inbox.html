@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Notes Inbox</title>
+  <style>
+    :root {
+      --bg: #0e1323;
+      --card: #11182c;
+      --text: #e6ebff;
+      --muted: #9ab0d0;
+      --accent: #56d6ff;
+      --border: #1f2a45;
+      font-family: "Space Grotesk", "Chivo", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background: radial-gradient(120% 120% at 20% 30%, #17213a 0%, #0e1323 40%, #0a0f1c 100%);
+      color: var(--text);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem 1rem;
+    }
+    .panel {
+      width: min(520px, 100%);
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 1.25rem;
+      box-shadow: 0 20px 50px rgba(0, 0, 0, 0.35);
+      display: grid;
+      gap: 0.9rem;
+    }
+    h1 {
+      margin: 0;
+      font-size: 1.4rem;
+      letter-spacing: -0.01em;
+    }
+    p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 0.95rem;
+      line-height: 1.5;
+    }
+    label {
+      display: grid;
+      gap: 0.3rem;
+      font-weight: 600;
+      font-size: 0.95rem;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 0.65rem 0.75rem;
+      border-radius: 10px;
+      border: 1px solid var(--border);
+      background: #0f1527;
+      color: var(--text);
+      font-size: 1rem;
+    }
+    textarea { resize: vertical; min-height: 120px; }
+    button {
+      background: linear-gradient(135deg, var(--accent), #68e2ff);
+      color: #041020;
+      font-weight: 700;
+      border: none;
+      padding: 0.75rem 1rem;
+      border-radius: 12px;
+      cursor: pointer;
+      font-size: 1rem;
+      box-shadow: 0 12px 30px rgba(86, 214, 255, 0.4);
+    }
+    .danger {
+      background: linear-gradient(135deg, #ff7b8b, #ff9ca8);
+      color: #1b0a12;
+      border: none;
+      box-shadow: 0 12px 30px rgba(255, 123, 139, 0.35);
+    }
+    button:disabled { opacity: 0.6; cursor: not-allowed; }
+    .row { display: grid; gap: 0.75rem; }
+    .actions { display: flex; gap: 0.6rem; flex-wrap: wrap; }
+    .actions button { flex: 1 1 160px; }
+    .status { color: var(--muted); font-size: 0.95rem; min-height: 1.2em; }
+    .success { color: #68ffce; }
+    .error { color: #ff8a9e; }
+    small { color: var(--muted); }
+  </style>
+</head>
+<body>
+  <main class="panel">
+    <div>
+      <h1>Write a Note</h1>
+      <p>Post a short note directly to the site.</p>
+    </div>
+    <form id="form" class="row">
+      <label>
+        Password
+        <input id="password" name="password" type="password" inputmode="text" autocomplete="current-password" required>
+      </label>
+      <label>
+        Title (optional)
+        <input id="title" name="title" type="text" placeholder="Quick thought">
+      </label>
+      <label>
+        Note
+        <textarea id="text" name="text" placeholder="Write something…" required></textarea>
+      </label>
+      <div class="actions">
+        <button type="submit">Publish Note</button>
+      </div>
+      <div id="status" class="status"></div>
+      <small>Update the ENDPOINT in this file to your Worker URL.</small>
+    </form>
+
+    <div id="clear" style="border-top: 1px solid var(--border); padding-top: 0.75rem; display: grid; gap: 0.5rem;">
+      <h2 style="margin: 0; color: #ff7b8b; font-size: 1.05rem;">Clear Notes</h2>
+      <p>Enter password and confirm to remove all notes.</p>
+      <form id="clear-form" class="row">
+        <label>
+          Password
+          <input id="clear-password" name="clear-password" type="password" inputmode="text" autocomplete="current-password" required>
+        </label>
+        <div class="actions">
+          <button type="submit" class="danger">Clear Notes</button>
+        </div>
+        <div id="clear-status" class="status"></div>
+      </form>
+    </div>
+  </main>
+
+  <script>
+    const ENDPOINT = "https://your-notes-worker.workers.dev/";
+    const form = document.getElementById("form");
+    const statusEl = document.getElementById("status");
+    const clearForm = document.getElementById("clear-form");
+    const clearStatusEl = document.getElementById("clear-status");
+    const submitBtn = form.querySelector("button[type='submit']");
+    const passwordInput = document.getElementById("password");
+    const titleInput = document.getElementById("title");
+    const textInput = document.getElementById("text");
+    const clearPasswordInput = document.getElementById("clear-password");
+    const clearSubmitBtn = clearForm.querySelector("button[type='submit']");
+
+    form.addEventListener("submit", async (e) => {
+      e.preventDefault();
+      statusEl.textContent = "";
+      statusEl.className = "status";
+
+      const password = passwordInput.value;
+      const title = titleInput.value.trim();
+      const text = textInput.value.trim();
+
+      submitBtn.disabled = true;
+      clearSubmitBtn.disabled = true;
+      try {
+        const resp = await fetch(ENDPOINT, {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ title, text, password })
+        });
+        const raw = await resp.text();
+        if (!resp.ok) {
+          throw new Error(raw || `HTTP ${resp.status}`);
+        }
+        statusEl.textContent = "Note published.";
+        statusEl.classList.add("success");
+        form.reset();
+      } catch (err) {
+        statusEl.textContent = `Failed: ${err.message}`;
+        statusEl.classList.add("error");
+      } finally {
+        submitBtn.disabled = false;
+        clearSubmitBtn.disabled = false;
+      }
+    });
+
+    clearForm.addEventListener("submit", async (e) => {
+      e.preventDefault();
+      clearStatusEl.textContent = "";
+      clearStatusEl.className = "status";
+
+      const password = clearPasswordInput.value;
+      if (!password) {
+        clearStatusEl.textContent = "Password required to clear.";
+        clearStatusEl.classList.add("error");
+        return;
+      }
+      const sure = confirm("Clear all notes? This removes every note.");
+      if (!sure) return;
+
+      submitBtn.disabled = true;
+      clearSubmitBtn.disabled = true;
+      try {
+        const resp = await fetch(ENDPOINT, {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ password, action: "clear" })
+        });
+        const raw = await resp.text();
+        if (!resp.ok) {
+          throw new Error(raw || `HTTP ${resp.status}`);
+        }
+        clearStatusEl.textContent = "Notes cleared.";
+        clearStatusEl.classList.add("success");
+      } catch (err) {
+        clearStatusEl.textContent = `Failed: ${err.message}`;
+        clearStatusEl.classList.add("error");
+      } finally {
+        submitBtn.disabled = false;
+        clearSubmitBtn.disabled = false;
+      }
+    });
+  </script>
+</body>
+</html>

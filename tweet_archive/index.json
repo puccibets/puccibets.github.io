@@ -1,6 +1,8 @@
 {
   "version": 3,
   "tweets": [
+    "teknium/tweets/2005377408610840828_2025-12-28-20-36-46.000Z/tweet.json",
+    "karpathy/tweets/2005353145128583447_2025-12-28-19-00-22.000Z/tweet.json",
     "voooooogel/tweets/2003569994840601049_2025-12-23-20-54-45.000Z/tweet.json",
     "repligate/tweets/1840739102687158634_2025-12-23-12-21-35.000Z/tweet.json",
     "littmath/tweets/2003874472051269689_2025-12-24-17-04-38.000Z/tweet.json",
@@ -198,9 +200,7 @@
     "jasondeanlee/tweets/1991560999883927923_2025-11-20-17-35-18.000Z/tweet.json",
     "rao2z/tweets/1991515697319669901_2025-11-20-14-35-17.000Z/tweet.json",
     "polynoamial/tweets/1991568186840686915_2025-11-20-18-24-53.000Z/tweet.json",
-    "_tomhoward/tweets/1991544753821790401_2025-11-20-14-31-08.000Z/tweet.json",
-    "gavinsbaker/tweets/1991248768654803337_2025-11-19-20-54-36.000Z/tweet.json",
-    "bigeagle_xd/tweets/1991349976346018037_2025-11-20-03-36-46.000Z/tweet.json"
+    "_tomhoward/tweets/1991544753821790401_2025-11-20-14-31-08.000Z/tweet.json"
   ],
   "users": [
     {
@@ -351,8 +351,9 @@
       "handle": "@karpathy",
       "name": "Andrej Karpathy",
       "avatar": "karpathy/avatar/avatar.jpg",
-      "lastCapturedAt": "2025-12-28T18:32:41.685Z",
+      "lastCapturedAt": "2025-12-28T21:17:27.334Z",
       "tweets": [
+        "karpathy/tweets/2005353145128583447_2025-12-28-19-00-22.000Z/tweet.json",
         "karpathy/tweets/2004974725320347884_2025-12-27-17-56-39.000Z/tweet.json",
         "karpathy/tweets/2004628491862696070_2025-12-26-19-00-51.000Z/tweet.json",
         "karpathy/tweets/2004607146781278521_2025-12-26-17-36-02.000Z/tweet.json",
@@ -963,8 +964,9 @@
       "handle": "@Teknium",
       "name": "Teknium (e/λ)",
       "avatar": "teknium/avatar/avatar.jpg",
-      "lastCapturedAt": "2025-11-28T20:04:57.019Z",
+      "lastCapturedAt": "2025-12-28T22:45:42.846Z",
       "tweets": [
+        "teknium/tweets/2005377408610840828_2025-12-28-20-36-46.000Z/tweet.json",
         "teknium/tweets/1994302644404506683_2025-11-28-07-09-37.000Z/tweet.json",
         "teknium/tweets/1994302025560150094_2025-11-28-07-07-09.000Z/tweet.json"
       ]
