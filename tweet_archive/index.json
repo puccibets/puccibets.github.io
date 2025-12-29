@@ -1,6 +1,7 @@
 {
   "version": 3,
   "tweets": [
+    "yuzu_4ever/tweets/2005520908656500964_2025-12-29-06-07-00.000Z/tweet.json",
     "teknium/tweets/2005377408610840828_2025-12-28-20-36-46.000Z/tweet.json",
     "karpathy/tweets/2005353145128583447_2025-12-28-19-00-22.000Z/tweet.json",
     "voooooogel/tweets/2003569994840601049_2025-12-23-20-54-45.000Z/tweet.json",
@@ -199,8 +200,7 @@
     "xlr8harder/tweets/1991463077511131626_2025-11-20-11-06-11.000Z/tweet.json",
     "jasondeanlee/tweets/1991560999883927923_2025-11-20-17-35-18.000Z/tweet.json",
     "rao2z/tweets/1991515697319669901_2025-11-20-14-35-17.000Z/tweet.json",
-    "polynoamial/tweets/1991568186840686915_2025-11-20-18-24-53.000Z/tweet.json",
-    "_tomhoward/tweets/1991544753821790401_2025-11-20-14-31-08.000Z/tweet.json"
+    "polynoamial/tweets/1991568186840686915_2025-11-20-18-24-53.000Z/tweet.json"
   ],
   "users": [
     {
@@ -1432,6 +1432,16 @@
       "lastCapturedAt": "2025-12-28T18:34:07.711Z",
       "tweets": [
         "littmath/tweets/2003874472051269689_2025-12-24-17-04-38.000Z/tweet.json"
+      ]
+    },
+    {
+      "slug": "yuzu_4ever",
+      "handle": "@yuzu_4ever",
+      "name": "yuzu",
+      "avatar": "yuzu_4ever/avatar/avatar.jpg",
+      "lastCapturedAt": "2025-12-29T23:39:30.496Z",
+      "tweets": [
+        "yuzu_4ever/tweets/2005520908656500964_2025-12-29-06-07-00.000Z/tweet.json"
       ]
     }
   ]
