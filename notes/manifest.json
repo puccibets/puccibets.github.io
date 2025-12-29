@@ -1,4 +1,11 @@
 {
   "version": 1,
-  "items": []
+  "items": [
+    {
+      "id": "b82400f0-79c0-4824-8402-f4cbc210b8b6",
+      "createdAt": "2025-12-29T23:39:04.483Z",
+      "file": "notes/items/b82400f0-79c0-4824-8402-f4cbc210b8b6.json",
+      "sha": "8f46b1b05be95c9000ff92dcbae4ef3602d549c7"
+    }
+  ]
 }
