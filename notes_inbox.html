@@ -115,34 +115,16 @@
       <small>Update the ENDPOINT in this file to your Worker URL.</small>
     </form>
 
-    <div id="clear" style="border-top: 1px solid var(--border); padding-top: 0.75rem; display: grid; gap: 0.5rem;">
-      <h2 style="margin: 0; color: #ff7b8b; font-size: 1.05rem;">Clear Notes</h2>
-      <p>Enter password and confirm to remove all notes.</p>
-      <form id="clear-form" class="row">
-        <label>
-          Password
-          <input id="clear-password" name="clear-password" type="password" inputmode="text" autocomplete="current-password" required>
-        </label>
-        <div class="actions">
-          <button type="submit" class="danger">Clear Notes</button>
-        </div>
-        <div id="clear-status" class="status"></div>
-      </form>
-    </div>
   </main>
 
   <script>
-    const ENDPOINT = "https://your-notes-worker.workers.dev/";
+    const ENDPOINT = "https://puccibets-note-adder.requests-pucci.workers.dev/";
     const form = document.getElementById("form");
     const statusEl = document.getElementById("status");
-    const clearForm = document.getElementById("clear-form");
-    const clearStatusEl = document.getElementById("clear-status");
     const submitBtn = form.querySelector("button[type='submit']");
     const passwordInput = document.getElementById("password");
     const titleInput = document.getElementById("title");
     const textInput = document.getElementById("text");
-    const clearPasswordInput = document.getElementById("clear-password");
-    const clearSubmitBtn = clearForm.querySelector("button[type='submit']");
 
     form.addEventListener("submit", async (e) => {
       e.preventDefault();
@@ -154,7 +136,6 @@
       const text = textInput.value.trim();
 
       submitBtn.disabled = true;
-      clearSubmitBtn.disabled = true;
       try {
         const resp = await fetch(ENDPOINT, {
           method: "POST",
@@ -173,44 +154,6 @@
         statusEl.classList.add("error");
       } finally {
         submitBtn.disabled = false;
-        clearSubmitBtn.disabled = false;
-      }
-    });
-
-    clearForm.addEventListener("submit", async (e) => {
-      e.preventDefault();
-      clearStatusEl.textContent = "";
-      clearStatusEl.className = "status";
-
-      const password = clearPasswordInput.value;
-      if (!password) {
-        clearStatusEl.textContent = "Password required to clear.";
-        clearStatusEl.classList.add("error");
-        return;
-      }
-      const sure = confirm("Clear all notes? This removes every note.");
-      if (!sure) return;
-
-      submitBtn.disabled = true;
-      clearSubmitBtn.disabled = true;
-      try {
-        const resp = await fetch(ENDPOINT, {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({ password, action: "clear" })
-        });
-        const raw = await resp.text();
-        if (!resp.ok) {
-          throw new Error(raw || `HTTP ${resp.status}`);
-        }
-        clearStatusEl.textContent = "Notes cleared.";
-        clearStatusEl.classList.add("success");
-      } catch (err) {
-        clearStatusEl.textContent = `Failed: ${err.message}`;
-        clearStatusEl.classList.add("error");
-      } finally {
-        submitBtn.disabled = false;
-        clearSubmitBtn.disabled = false;
       }
     });
   </script>

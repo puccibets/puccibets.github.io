@@ -106,33 +106,6 @@ async function addNote(env, title, text) {
   });
 }
 
-async function clearNotes(env) {
-  const current = await githubGet(MANIFEST_PATH, env);
-  let items = [];
-  if (current?.content) {
-    try {
-      const parsed = decodeContent(current.content);
-      items = Array.isArray(parsed?.items) ? parsed.items : [];
-    } catch {
-      items = [];
-    }
-  }
-
-  for (const item of items) {
-    const filePath = item?.file || (item?.id ? `${ITEMS_DIR}/${item.id}.json` : null);
-    if (!filePath) continue;
-    let sha = item.sha;
-    if (!sha) {
-      const file = await githubGet(filePath, env);
-      sha = file?.sha;
-    }
-    if (!sha) continue;
-    await githubDelete(filePath, "Clear note", env, sha);
-  }
-
-  await updateManifest(env, () => ({ version: 1, items: [] }));
-}
-
 export default {
   async fetch(request, env) {
     if (request.method === "OPTIONS") {
@@ -149,23 +122,16 @@ export default {
       return new Response("Invalid JSON", { status: 400, headers: corsHeaders });
     }
 
-    const { title = "", text = "", password, action = "add" } = body || {};
-    if (action !== "add" && action !== "clear") {
-      return new Response("Invalid action", { status: 400, headers: corsHeaders });
-    }
+    const { title = "", text = "", password } = body || {};
     if (!password || password !== env.NOTES_PASSWORD) {
       return new Response("Unauthorized", { status: 401, headers: corsHeaders });
     }
-    if (action === "add" && (!text || typeof text !== "string")) {
+    if (!text || typeof text !== "string") {
       return new Response("Missing text", { status: 400, headers: corsHeaders });
     }
 
     try {
-      if (action === "clear") {
-        await clearNotes(env);
-      } else {
-        await addNote(env, title, text);
-      }
+      await addNote(env, title, text);
       return new Response("ok", { status: 200, headers: corsHeaders });
     } catch (err) {
       return new Response(err?.message || "Failed", { status: 502, headers: corsHeaders });

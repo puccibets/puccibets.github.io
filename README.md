@@ -2,7 +2,7 @@ tweet archive for now, site might expand at some point.
 
 ## Notes (personal blog)
 - Notes live under `notes/` with `notes/manifest.json` and per-note files in `notes/items/`.
-- Use `notes_inbox.html` to POST `{ title, text, password }` to your Notes Worker endpoint. There is also a clear action `{ action: "clear", password }`.
+- Use `notes_inbox.html` to POST `{ title, text, password }` to your Notes Worker endpoint.
 - Cloudflare Worker sample: `notes_worker.js`. Set env vars in the Worker:
   - `NOTES_PASSWORD`: the password you type into the form.
   - `GITHUB_TOKEN`: fine-grained PAT with `contents:read/write` on this repo (only stored in the Worker).
