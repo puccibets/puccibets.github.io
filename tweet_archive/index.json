@@ -1,6 +1,10 @@
 {
   "version": 3,
   "tweets": [
+    "richardsocher/tweets/2006310012747162052_2025-12-31-10-22-37.000Z/tweet.json",
+    "bcherny/tweets/2004897269674639461_2025-12-27-12-48-52.000Z/tweet.json",
+    "samsja19/tweets/2006282720423354847_2025-12-31-08-34-10.000Z/tweet.json",
+    "deredleritt3r/tweets/2006357435863216513_2025-12-31-12-30-12.000Z/tweet.json",
     "yuzu_4ever/tweets/2005520908656500964_2025-12-29-06-07-00.000Z/tweet.json",
     "teknium/tweets/2005377408610840828_2025-12-28-20-36-46.000Z/tweet.json",
     "karpathy/tweets/2005353145128583447_2025-12-28-19-00-22.000Z/tweet.json",
@@ -196,11 +200,7 @@
     "deepfates/tweets/1992649868637315468_2025-11-23-17-42-04.000Z/tweet.json",
     "jxmnop/tweets/1990854455802343680_2025-11-18-18-47-45.000Z/tweet.json",
     "jxmnop/tweets/1991879513920397781_2025-11-21-14-40-58.000Z/tweet.json",
-    "chasebrowe32432/tweets/1991883036686950561_2025-11-20-21-39-44.000Z/tweet.json",
-    "xlr8harder/tweets/1991463077511131626_2025-11-20-11-06-11.000Z/tweet.json",
-    "jasondeanlee/tweets/1991560999883927923_2025-11-20-17-35-18.000Z/tweet.json",
-    "rao2z/tweets/1991515697319669901_2025-11-20-14-35-17.000Z/tweet.json",
-    "polynoamial/tweets/1991568186840686915_2025-11-20-18-24-53.000Z/tweet.json"
+    "chasebrowe32432/tweets/1991883036686950561_2025-11-20-21-39-44.000Z/tweet.json"
   ],
   "users": [
     {
@@ -1442,6 +1442,46 @@
       "lastCapturedAt": "2025-12-29T23:39:30.496Z",
       "tweets": [
         "yuzu_4ever/tweets/2005520908656500964_2025-12-29-06-07-00.000Z/tweet.json"
+      ]
+    },
+    {
+      "slug": "deredleritt3r",
+      "handle": "@deredleritt3r",
+      "name": "prinz",
+      "avatar": "deredleritt3r/avatar/avatar.jpg",
+      "lastCapturedAt": "2025-12-31T14:39:28.321Z",
+      "tweets": [
+        "deredleritt3r/tweets/2006357435863216513_2025-12-31-12-30-12.000Z/tweet.json"
+      ]
+    },
+    {
+      "slug": "samsja19",
+      "handle": "@samsja19",
+      "name": "samsja",
+      "avatar": "samsja19/avatar/avatar.jpg",
+      "lastCapturedAt": "2025-12-31T14:39:54.512Z",
+      "tweets": [
+        "samsja19/tweets/2006282720423354847_2025-12-31-08-34-10.000Z/tweet.json"
+      ]
+    },
+    {
+      "slug": "bcherny",
+      "handle": "@bcherny",
+      "name": "Boris Cherny",
+      "avatar": "bcherny/avatar/avatar.jpg",
+      "lastCapturedAt": "2025-12-31T14:41:10.963Z",
+      "tweets": [
+        "bcherny/tweets/2004897269674639461_2025-12-27-12-48-52.000Z/tweet.json"
+      ]
+    },
+    {
+      "slug": "richardsocher",
+      "handle": "@RichardSocher",
+      "name": "Richard Socher",
+      "avatar": "richardsocher/avatar/avatar.jpg",
+      "lastCapturedAt": "2025-12-31T14:41:19.387Z",
+      "tweets": [
+        "richardsocher/tweets/2006310012747162052_2025-12-31-10-22-37.000Z/tweet.json"
       ]
     }
   ]

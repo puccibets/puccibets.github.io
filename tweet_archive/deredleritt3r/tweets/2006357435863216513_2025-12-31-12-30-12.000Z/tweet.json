@@ -1,0 +1,16 @@
+{
+  "id": "2006357435863216513",
+  "url": "https://x.com/deredleritt3r/status/2006357435863216513",
+  "timestamp": "2025-12-31T12:30:12.000Z",
+  "capturedAt": "2025-12-31T14:39:28.321Z",
+  "author": "prinz @deredleritt3r",
+  "authorName": "prinz",
+  "authorHandle": "@deredleritt3r",
+  "text": "Edward Grefenstette (Director of Research, Google DeepMind) on open-ended agents and generating quality synthetic data:\n\n- \"We've been making good progress with regard to how open-ended agents can learn 'in the wild', with less human intervention in their learning process, while still ensuring they remain aligned with human behaviors and interests.\"\n\n- \"We've also made some progress in terms the actual learning process itself, allowing open-ended agents, at the instance level, to learn and adapt with human-like data efficiency. This potentially points at a broader way of improving agents at scale, which we are working on.\"\n\n- Google's September 2025 paper \"Generative Data Refinement: Just Ask for Better Data\" introduces a framework for using pretrained models to transform a dataset with undesirable content into a refined dataset that is more suitable for training.  This enables generation of synthetic data conditioned on each example in the real dataset, which matches the diversity of the real dataset and avoids the often challenging task of generating diverse synthetic data via model prompting.  The framework is \"a powerful tool for scaling up the total stock of training data for frontier models\".  Grefenstette: \"I can't comment on if, where, or how this might be used internally [at Google].\"",
+  "avatar": "deredleritt3r/avatar/avatar.jpg",
+  "avatarPath": "deredleritt3r/avatar/avatar.jpg",
+  "images": [],
+  "jsonFile": "deredleritt3r/tweets/2006357435863216513_2025-12-31-12-30-12.000Z/tweet.json",
+  "mediaDir": "media",
+  "userSlug": "deredleritt3r"
+}
