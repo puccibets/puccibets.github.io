@@ -1,21 +1,4 @@
 {
   "version": 1,
-  "items": [
-    {
-      "id": "ee24170d-119b-49be-97d6-63a9f735ad97",
-      "url": "https://x.com/RichardSocher/status/2006310012747162052",
-      "note": "",
-      "addedAt": "2025-12-31T12:09:10.187Z",
-      "file": "inbox/items/ee24170d-119b-49be-97d6-63a9f735ad97.json",
-      "sha": "d35ba32e8e70ed0e7b8b070bdb24d2bbf5b81b8f"
-    },
-    {
-      "id": "96b1bfb3-7a2d-4803-a7fe-f960999331af",
-      "url": "https://x.com/bcherny/status/2004897269674639461",
-      "note": "",
-      "addedAt": "2025-12-31T12:04:26.445Z",
-      "file": "inbox/items/96b1bfb3-7a2d-4803-a7fe-f960999331af.json",
-      "sha": "e495b7b900c796442f28dd5957a77ee41605974d"
-    }
-  ]
+  "items": []
 }
