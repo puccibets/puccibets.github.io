@@ -1,0 +1,18 @@
+{
+  "id": "2006649194690257285",
+  "url": "https://x.com/norxornor/status/2006649194690257285/photo/1",
+  "timestamp": "2026-01-01T08:50:24.000Z",
+  "capturedAt": "2026-01-01T23:46:14.375Z",
+  "author": "nor @norxornor",
+  "authorName": "nor",
+  "authorHandle": "@norxornor",
+  "text": "Quick read through of Deepseek's new Manifold-Constrained Hyper-Connections paper:\n\n- You want to increase residual size from 1×C to n×C (n streams instead of 1). Earlier residual update: x' = x + layer(x). Make the x be n×C, and use x' = Ax + B layer(Cx) instead. A, B, C are all dependent on x and are small matrices (n×n, n×1, n×1). A seems the most impactful. This is Hyper-Connections (HC).\n\n- HC has the same issue as other residual modification schemes - eventually the product of the learned A matrices (along the identity path) blows up/vanishes.\n\n- To fix this, they project the A matrices onto the Birkhoff polytope (simpler words: transform it, after exp to make elements positive, to a matrix whose row sums and column sums become 1 - called a doubly stochastic matrix). This has nice properties - products of these types of matrices still have row and column sum 1 (due to closure), so things don't explode (spectral bound), and the invariant is that the sum of weights across streams is 1. For n = 1, this becomes the standard residual stream, which is nice. Their transformation method is simple - alternatively divide rows and columns by row and column sums respectively for 20 iterations (converges to our desired matrix as iterations go to infinity). They find 20 is good enough for both forward and backward pass (across 60 layers, maximum backward gain is 1.6 as opposed to 3000 from usual HC, and 1.6 is not very off from 1).\n\n- Composing these matrices (convex hull of all permutation matrices) leads to information mixing as layer index increases, which is a nice piece of intuition and is also shown very clearly in their composite matrix for 60 layers. I believe overall we get a weighted sum of residual paths (thinking of gradients), where logically group-able paths have weights summing to 1. Quite principled approach IMO, also makes gains (forwards and backwards) very stable.\n\n- Interesting thing to note - lot of \"pooling\"-like mixing in the first half compared to the second half of the layers. Second half of layers treat different channels more precisely/sharply than the first half, quite intuitive.\n\n- They also change parameterization of B and C (sigmoid instead of tanh, to avoid changing signs probably, and a factor of 2 in front of B, I believe to conserve mean residual multiplier, C doesn't need this because input is pre-normed anyway).\n\n- Cool systems optimizations to make this op fast - they do kernel fusion, recomputation in the mHC backward pass, and even modify DualPipe (their pipeline parallelism implementation).\n\n- Only 6.7% overhead in training when n = 4, loss goes down by 0.02 and improvements across benchmarks.",
+  "avatar": "norxornor/avatar/avatar.jpg",
+  "avatarPath": "norxornor/avatar/avatar.jpg",
+  "images": [
+    "media/2006649194690257285_G9kMxoDXQAAV7Ju"
+  ],
+  "jsonFile": "norxornor/tweets/2006649194690257285_2026-01-01-08-50-24.000Z/tweet.json",
+  "mediaDir": "media",
+  "userSlug": "norxornor"
+}
