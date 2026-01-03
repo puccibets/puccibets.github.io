@@ -1,4 +1,13 @@
 {
   "version": 1,
-  "items": []
+  "items": [
+    {
+      "id": "804a0a6b-189c-44d2-a993-40ca9e2d9e4a",
+      "url": "https://x.com/tenobrus/status/2007205749500588197",
+      "note": "",
+      "addedAt": "2026-01-03T18:16:25.650Z",
+      "file": "inbox/items/804a0a6b-189c-44d2-a993-40ca9e2d9e4a.json",
+      "sha": "82c9e9627988ce7fef9d09e93077ed245664eb2a"
+    }
+  ]
 }
