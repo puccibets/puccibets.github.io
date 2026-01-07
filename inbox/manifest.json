@@ -1,4 +1,13 @@
 {
   "version": 1,
-  "items": []
+  "items": [
+    {
+      "id": "7d86c44b-0c56-4eef-8622-6f9d8448cc5d",
+      "url": "https://x.com/rundry/status/2008418242034102365",
+      "note": "",
+      "addedAt": "2026-01-07T03:18:42.792Z",
+      "file": "inbox/items/7d86c44b-0c56-4eef-8622-6f9d8448cc5d.json",
+      "sha": "2e99c571e74286962895d5ad26229581f981ccbe"
+    }
+  ]
 }
