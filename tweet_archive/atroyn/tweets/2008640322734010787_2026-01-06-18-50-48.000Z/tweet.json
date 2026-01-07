@@ -1,0 +1,16 @@
+{
+  "id": "2008640322734010787",
+  "url": "https://x.com/atroyn/status/2008640322734010787",
+  "timestamp": "2026-01-06T18:50:48.000Z",
+  "capturedAt": "2026-01-07T01:16:47.064Z",
+  "author": "anton @atroyn",
+  "authorName": "anton",
+  "authorHandle": "@atroyn",
+  "text": "i suspect 2025 was the last ‘normal’ year; the magnitude of the compute buildout in 2026 & large scale hbm deployments (b200/tpuv7) unlocks the possibility of efficient reasoning post-training on frontier-sized pretrains. \n\nsimultaneously, verifiable environments across many domains will proliferate (i expect a gold rush here as with expert labeling in the past). increasingly, models will ‘just work’ on a variety of tasks. \n\nthe next step will be for the models to learn to integrate themselves. we may not get this in ‘26 but we should expect progress to continue to accelerate.",
+  "avatar": "atroyn/avatar/avatar.jpg",
+  "avatarPath": "atroyn/avatar/avatar.jpg",
+  "images": [],
+  "jsonFile": "atroyn/tweets/2008640322734010787_2026-01-06-18-50-48.000Z/tweet.json",
+  "mediaDir": "media",
+  "userSlug": "atroyn"
+}
