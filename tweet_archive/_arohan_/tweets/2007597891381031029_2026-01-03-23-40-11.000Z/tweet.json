@@ -1,0 +1,16 @@
+{
+  "id": "2007597891381031029",
+  "url": "https://x.com/_arohan_/status/2007597891381031029",
+  "timestamp": "2026-01-03T23:40:11.000Z",
+  "capturedAt": "2026-01-07T00:16:15.617Z",
+  "author": "rohan anil @_arohan_",
+  "authorName": "rohan anil",
+  "authorHandle": "@_arohan_",
+  "text": "On a long flight, I finally decided to dive into what JEPA is all about. You can convert an encoder decoder into JEPA by the following:\n\n- target encoder replaced by moving average of encoder to avoid collapse\n- Use a projection to get a summary embedding, instead of token embedding for both input and target\n- use all the clever loss to avoid scale sensitivity \n\nIf you want tokens out, slap a decoder ontop of the summary representation. \n\nFeels like all of this could be an ablation.",
+  "avatar": "_arohan_/avatar/avatar.jpg",
+  "avatarPath": "_arohan_/avatar/avatar.jpg",
+  "images": [],
+  "jsonFile": "_arohan_/tweets/2007597891381031029_2026-01-03-23-40-11.000Z/tweet.json",
+  "mediaDir": "media",
+  "userSlug": "_arohan_"
+}

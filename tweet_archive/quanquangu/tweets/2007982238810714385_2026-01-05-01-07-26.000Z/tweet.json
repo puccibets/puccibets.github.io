@@ -1,0 +1,16 @@
+{
+  "id": "2007982238810714385",
+  "url": "https://x.com/QuanquanGu/status/2007982238810714385",
+  "timestamp": "2026-01-05T01:07:26.000Z",
+  "capturedAt": "2026-01-07T00:16:35.191Z",
+  "author": "Quanquan Gu @QuanquanGu",
+  "authorName": "Quanquan Gu",
+  "authorHandle": "@QuanquanGu",
+  "text": "In several domains like image generation and protein structure prediction, models that operate directly in input space have empirically outperformed latent-space approaches. When geometry, physics, or fine-grained structure matters, abstraction in latent/embedding space often becomes a bottleneck rather than an advantage.",
+  "avatar": "quanquangu/avatar/avatar.jpg",
+  "avatarPath": "quanquangu/avatar/avatar.jpg",
+  "images": [],
+  "jsonFile": "quanquangu/tweets/2007982238810714385_2026-01-05-01-07-26.000Z/tweet.json",
+  "mediaDir": "media",
+  "userSlug": "quanquangu"
+}

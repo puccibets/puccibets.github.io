@@ -1,0 +1,16 @@
+{
+  "id": "2007228511363444905",
+  "url": "https://x.com/gdb/status/2007228511363444905",
+  "timestamp": "2026-01-02T23:12:24.000Z",
+  "capturedAt": "2026-01-05T16:34:25.806Z",
+  "author": "Greg Brockman @gdb",
+  "authorName": "Greg Brockman",
+  "authorHandle": "@gdb",
+  "text": "rust is a perfect language for agents, given that if it compiles it's ~correct",
+  "avatar": "gdb/avatar/avatar.jpg",
+  "avatarPath": "gdb/avatar/avatar.jpg",
+  "images": [],
+  "jsonFile": "gdb/tweets/2007228511363444905_2026-01-02-23-12-24.000Z/tweet.json",
+  "mediaDir": "media",
+  "userSlug": "gdb"
+}

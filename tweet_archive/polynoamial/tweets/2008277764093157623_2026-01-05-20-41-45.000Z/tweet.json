@@ -1,0 +1,18 @@
+{
+  "id": "2008277764093157623",
+  "url": "https://x.com/polynoamial/status/2008277764093157623/photo/1",
+  "timestamp": "2026-01-05T20:41:45.000Z",
+  "capturedAt": "2026-01-05T21:54:09.514Z",
+  "author": "Noam Brown @polynoamial",
+  "authorName": "Noam Brown",
+  "authorHandle": "@polynoamial",
+  "text": "I vibecoded an open-source poker river solver over the holiday break. The code is 100% written by Codex, and I also made a version with Claude Code to compare.\n\nOverall these tools allowed me to iterate much faster in a domain I know well. But I also felt I couldn't fully trust them. They'd make mistakes and encounter bugs, but rather than acknowledging it they'd often think it wasn't a big deal or, on occasion, just straight up try to gaslight me into thinking nothing is wrong.\n\nIn one memorable debugging session with Claude Code I asked it, as a sanity check, what the expected value would be of an \"always fold\" strategy when the player has $100 in the pot. It told me that according to its algorithm, the EV was -$93. When I pointed out how strange that was, hoping it would realize on its own that there's a bug, it reassured me that $93 was close to $100 so it was probably fine. (Once I prompted it to specifically consider blockers as a potential issue, it acknowledged that the algorithm indeed wasn't accounting for them properly.) Codex was not much better on this, and ran into its own set of (interestingly) distinct bugs and algorithmic mistakes that I had to carefully work through. Fortunately, I was able to work through these because I'm an expert on poker solvers, but I don't think there are many other people that could have succeeded at making this solver by using AI coding tools.\n\nThe most frustrating experience was making a GUI. After a dozen back-and-forths, neither Codex nor Claude Code were able to make the frontend I requested, though Claude Code's was at least prettier. I'm inexperienced at frontend, so perhaps what I was asking for simply wasn't possible, but if that was the case then I wish they would have *told* me it was difficult or impossible instead of repeatedly making broken implementations or things I didn't request. It highlighted to me how there's still a big difference between working with a human teammate and working with an AI.\n\nAfter the initial implementations were complete and debugged, I asked Codex and Claude Code to create optimized C++ versions. On this, Codex did surprisingly well. Its C++ version was 6x faster than Claude Code's (even after multiple iterations of prompting for further optimizations). Codex's optimizations still weren't as good as what I could make, but then again I spent 6 years of PhD making poker bots. Overall, I thought Codex did an impressive job on this.\n\nMy final request was asking the AIs if they could come up with novel algorithms that could solve NLTH rivers even faster. Neither succeeded at this, which was not surprising. LLMs are getting better quickly, but developing novel algorithms for this sort of thing is a months-long research project for a human expert. LLMs aren't at that level yet.",
+  "avatar": "polynoamial/avatar/avatar.jpg",
+  "avatarPath": "polynoamial/avatar/avatar.jpg",
+  "images": [
+    "media/2008277764093157623_G97E8TlaoAAs0mj"
+  ],
+  "jsonFile": "polynoamial/tweets/2008277764093157623_2026-01-05-20-41-45.000Z/tweet.json",
+  "mediaDir": "media",
+  "userSlug": "polynoamial"
+}

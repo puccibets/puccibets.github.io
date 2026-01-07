@@ -1,0 +1,16 @@
+{
+  "id": "2006846710966870410",
+  "url": "https://x.com/omouamoua/status/2006846710966870410",
+  "timestamp": "2026-01-01T21:55:15.000Z",
+  "capturedAt": "2026-01-02T02:07:20.227Z",
+  "author": "snimu @omouamoua",
+  "authorName": "snimu",
+  "authorHandle": "@omouamoua",
+  "text": "Together, that shows pretty clearly that models perform way, way better with the RLM if they have been trained using something remotely similar than if they haven't. Training directly with the RLM will surely boost performance by a lot.\n\n4/4",
+  "avatar": "omouamoua/avatar/avatar.jpg",
+  "avatarPath": "omouamoua/avatar/avatar.jpg",
+  "images": [],
+  "jsonFile": "omouamoua/tweets/2006846710966870410_2026-01-01-21-55-15.000Z/tweet.json",
+  "mediaDir": "media",
+  "userSlug": "omouamoua"
+}

@@ -1,6 +1,16 @@
 {
   "version": 2,
   "tweets": [
+    "tenobrus/tweets/2007506684076519657_2026-01-03-17-37-45.000Z/tweet.json",
+    "tenobrus/tweets/2007506682608582997_2026-01-03-17-37-45.000Z/tweet.json",
+    "tenobrus/tweets/2007506681044054110_2026-01-03-17-37-45.000Z/tweet.json",
+    "tenobrus/tweets/2007506679559270621_2026-01-03-17-37-44.000Z/tweet.json",
+    "tenobrus/tweets/2007506678032560592_2026-01-03-17-37-44.000Z/tweet.json",
+    "tenobrus/tweets/2007506676249940163_2026-01-03-17-37-43.000Z/tweet.json",
+    "tenobrus/tweets/2007506674601603264_2026-01-03-17-37-43.000Z/tweet.json",
+    "tenobrus/tweets/2007506673167159352_2026-01-03-17-37-43.000Z/tweet.json",
+    "tenobrus/tweets/2007506671313269110_2026-01-02-21-41-57.000Z/tweet.json",
+    "tenobrus/tweets/2007205749500588197_2026-01-02-21-41-57.000Z/tweet.json",
     "tenobrus/tweets/2006223326235222359_2025-12-31-04-38-09.000Z/tweet.json",
     "tenobrus/tweets/2004987343485501926_2025-12-27-18-46-48.000Z/tweet.json",
     "tenobrus/tweets/2004987340427870305_2025-12-27-18-46-47.000Z/tweet.json",
@@ -17,5 +27,5 @@
   "handle": "@tenobrus",
   "name": "Tenobrus",
   "avatar": "tenobrus/avatar/avatar.png",
-  "lastCapturedAt": "2026-01-01T23:47:28.298Z"
+  "lastCapturedAt": "2026-01-07T00:15:42.530Z"
 }

@@ -1,6 +1,8 @@
 {
   "version": 2,
   "tweets": [
+    "giffmana/tweets/2007597891381031029_2026-01-03-23-40-11.000Z/tweet.json",
+    "giffmana/tweets/2006857780976812181_2026-01-01-22-39-15.000Z/tweet.json",
     "giffmana/tweets/1993450781429657933_2025-11-25-22-44-37.000Z/tweet.json",
     "giffmana/tweets/1992261799262273922_2025-11-22-16-00-02.000Z/tweet.json"
   ],
@@ -9,5 +11,5 @@
   "handle": "@giffmana",
   "name": "Lucas Beyer (bl16)",
   "avatar": "giffmana/avatar/avatar.jpeg",
-  "lastCapturedAt": "2025-11-27T20:58:32.306Z"
+  "lastCapturedAt": "2026-01-07T00:16:27.947Z"
 }

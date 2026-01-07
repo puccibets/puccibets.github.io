@@ -1,0 +1,16 @@
+{
+  "id": "2008581905499701300",
+  "url": "https://x.com/ylecun/status/2008581905499701300",
+  "timestamp": "2026-01-06T16:50:18.000Z",
+  "capturedAt": "2026-01-07T00:17:00.630Z",
+  "author": "Yann LeCun @ylecun",
+  "authorName": "Yann LeCun",
+  "authorHandle": "@ylecun",
+  "text": "Dude, your stupid and utterly ignorant attacks don't deserve that anyone spend any time responding to them.\nHow much do enjoy doing character assassination while cowardly hiding your identity behind a random handle?\nOwn your opinions.\nYou have absolutely no idea of what you are talking about here.\n\nShared weights were in the original backprop paper in the PDP book (look up to T-C problem).\nTDNN (or 1D CNN) were actually invented and published by Geoff Hinton and Kevin Lang at CMU.\nThey published a tech report (not a journal paper) because they weren't beating the best CMU ASR system with it.\nThen, Alex Waibel (who knew nothing about neural nets at the time) ***TOOK THE CODE*** from Kevin, went to ATR in Japan, got some better results than the ATR system (which wasn't as good as the CMU system) and wrote a journal paper.\nGeoff and Kevin were pissed as hell (I was a postdoc with Geoff when this whole thing happened).\nMy ConvNet papers cite Kevin's tech report, not Alex's. Alex was actually mad at me for this.\n\nThe original TDNNs from Kevin had only one convolutional layer.\nThe first *real* (multilayer) TDNNs with pooling/subsampling for speech recognition were done by Léon Bottou. He could recognize whole words with it (the original TDNN could only do phonemes). Yoshua Bengio also had results on this a bit later.\nI hired both of them at Bell Labs because they also worked on sentence-level training with backprop through a time alignment. We used similar ideas for our check reader.",
+  "avatar": "ylecun/avatar/avatar.jpg",
+  "avatarPath": "ylecun/avatar/avatar.jpg",
+  "images": [],
+  "jsonFile": "ylecun/tweets/2008581905499701300_2026-01-06-16-50-18.000Z/tweet.json",
+  "mediaDir": "media",
+  "userSlug": "ylecun"
+}

@@ -1,6 +1,8 @@
 {
   "version": 2,
   "tweets": [
+    "deredleritt3r/tweets/2008580116201267261_2026-01-06-16-43-11.000Z/tweet.json",
+    "deredleritt3r/tweets/2008557663391805784_2026-01-06-03-35-29.000Z/tweet.json",
     "deredleritt3r/tweets/2006357435863216513_2025-12-31-12-30-12.000Z/tweet.json"
   ],
   "users": [],
@@ -8,5 +10,5 @@
   "handle": "@deredleritt3r",
   "name": "prinz",
   "avatar": "deredleritt3r/avatar/avatar.jpg",
-  "lastCapturedAt": "2025-12-31T14:39:28.321Z"
+  "lastCapturedAt": "2026-01-06T17:12:14.675Z"
 }

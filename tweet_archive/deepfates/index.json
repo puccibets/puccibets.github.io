@@ -1,6 +1,7 @@
 {
   "version": 2,
   "tweets": [
+    "deepfates/tweets/2007572593528975747_2026-01-03-21-59-39.000Z/tweet.json",
     "deepfates/tweets/2002419560662905041_2025-12-20-16-43-21.000Z/tweet.json",
     "deepfates/tweets/2001047747110334516_2025-12-16-21-04-48.000Z/tweet.json",
     "deepfates/tweets/1992649868637315468_2025-11-23-17-42-04.000Z/tweet.json"
@@ -10,5 +11,5 @@
   "handle": "@deepfates",
   "name": "@deepfates",
   "avatar": "deepfates/avatar/avatar.png",
-  "lastCapturedAt": "2025-12-22T15:23:32.228Z"
+  "lastCapturedAt": "2026-01-05T22:58:24.413Z"
 }

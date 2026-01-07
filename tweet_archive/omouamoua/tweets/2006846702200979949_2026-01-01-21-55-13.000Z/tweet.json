@@ -1,0 +1,18 @@
+{
+  "id": "2006846702200979949",
+  "url": "https://x.com/omouamoua/status/2006846702200979949",
+  "timestamp": "2026-01-01T21:55:13.000Z",
+  "capturedAt": "2026-01-02T02:07:16.496Z",
+  "author": "snimu @omouamoua",
+  "authorName": "snimu",
+  "authorHandle": "@omouamoua",
+  "text": "DeepDive is a Deep Research environment. OpenAI has actively trained GPT-5-mini to use sub-agents in this scenario, and GPT-5-mini is extremely good at using the RLM: it maintains or even improves reward, but uses less than a fifth the tokens in the main context window.\n\n2/4",
+  "avatar": "omouamoua/avatar/avatar.jpg",
+  "avatarPath": "omouamoua/avatar/avatar.jpg",
+  "images": [
+    "media/2006846702200979949_G9m__n7XQAAnUE-"
+  ],
+  "jsonFile": "omouamoua/tweets/2006846702200979949_2026-01-01-21-55-13.000Z/tweet.json",
+  "mediaDir": "media",
+  "userSlug": "omouamoua"
+}

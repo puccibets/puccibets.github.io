@@ -1,0 +1,18 @@
+{
+  "id": "1938277414687121531",
+  "url": "https://x.com/osanseviero/status/1938277414687121531/photo/1",
+  "timestamp": "2025-06-26T16:45:21.000Z",
+  "capturedAt": "2026-01-05T16:34:55.029Z",
+  "author": "Andrej Karpathy @karpathy",
+  "authorName": "Andrej Karpathy",
+  "authorHandle": "@karpathy",
+  "text": "The race for LLM \"cognitive core\" - a few billion param model that maximally sacrifices encyclopedic knowledge for capability. It lives always-on and by default on every computer as the kernel of LLM personal computing.\nIts features are slowly crystalizing:\n\n- Natively multimodal text/vision/audio at both input and output.\n- Matryoshka-style architecture allowing a dial of capability up and down at test time.\n- Reasoning, also with a dial. (system 2)\n- Aggressively tool-using.\n- On-device finetuning LoRA slots for test-time training, personalization and customization.\n- Delegates and double checks just the right parts with the oracles in the cloud if internet is available.\n\nIt doesn't know that William the Conqueror's reign ended in September 9 1087, but it vaguely recognizes the name and can look up the date. It can't recite the SHA-256 of empty string as e3b0c442..., but it can calculate it quickly should you really want it.\n\nWhat LLM personal computing lacks in broad world knowledge and top tier problem-solving capability it will make up in super low interaction latency (especially as multimodal matures), direct / private access to data and state, offline continuity, sovereignty (\"not your weights not your brain\"). i.e. many of the same reasons we like, use and buy personal computers instead of having thin clients access a cloud via remote desktop or so.",
+  "avatar": "karpathy/avatar/avatar.jpg",
+  "avatarPath": "karpathy/avatar/avatar.jpg",
+  "images": [
+    "media/1938277414687121531_GuYiq92WUAAHs6P"
+  ],
+  "jsonFile": "karpathy/tweets/1938277414687121531_2025-06-26-16-45-21.000Z/tweet.json",
+  "mediaDir": "media",
+  "userSlug": "karpathy"
+}

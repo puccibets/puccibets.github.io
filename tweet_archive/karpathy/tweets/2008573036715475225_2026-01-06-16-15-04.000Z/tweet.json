@@ -1,0 +1,16 @@
+{
+  "id": "2008573036715475225",
+  "url": "https://x.com/karpathy/status/2008573036715475225",
+  "timestamp": "2026-01-06T16:15:04.000Z",
+  "capturedAt": "2026-01-06T17:15:15.921Z",
+  "author": "Andrej Karpathy @karpathy",
+  "authorName": "Andrej Karpathy",
+  "authorHandle": "@karpathy",
+  "text": "All of the following are true: I came out sounding too critical in that moment on the pod and accidentally created a misrepresenting sound bite, I was positively surprised by Opus 4.5 over the break, and my overall change of mind overall is less dramatic than naively implied. Amazing how good the models are getting - you can measure it (ty!) but also feel it qualitatively in coherence, default assigned trust, and mistakes properties when they do occur (more reasonable, less weird).",
+  "avatar": "karpathy/avatar/avatar.jpg",
+  "avatarPath": "karpathy/avatar/avatar.jpg",
+  "images": [],
+  "jsonFile": "karpathy/tweets/2008573036715475225_2026-01-06-16-15-04.000Z/tweet.json",
+  "mediaDir": "media",
+  "userSlug": "karpathy"
+}

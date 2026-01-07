@@ -1,0 +1,16 @@
+{
+  "id": "2007597891381031029",
+  "url": "https://x.com/_arohan_/status/2007597891381031029",
+  "timestamp": "2026-01-03T23:40:11.000Z",
+  "capturedAt": "2026-01-07T00:16:27.947Z",
+  "author": "Lucas Beyer (bl16) @giffmana",
+  "authorName": "Lucas Beyer (bl16)",
+  "authorHandle": "@giffmana",
+  "text": "Quote-reply to Rohan because I think it can be interesting to many more.\n\nSo there are two things you're missing here:\n\n1) You're only looking at one specific instantiation of the general JEPA idea. There are many different instantiations.\n\n2) The core JEPA idea (Joint Embedding Prediction Architecture) is to embed two \"views\" and predict one from the other. The views can be different augmentations, different time-steps, etc.\n\nCrucially, prediction happens in embedding space, which contrasts to predicting in data space as done by LLMs, diffusion models, MAEs, ...\n\nAt least from the vision community, the main reason it got quite a bit of flak is that... literally everyone who was doing some self/un-supervised learning there has shared this thought already. MANY people did such models in the peak self-supervised period, which was ca 2017-2021. Then in 2022 comes Yann, slaps a new names on it, a paper with just the idea and no experiments to show for it, and goes on PR tour. That's why many didn't take it well.\n\nThe core idea, almost everyone I know agrees is worth pursuing, especially since many already were doing so. It's very reminiscent of why Stanford got flak when they introduced and arguably tried to appropriate the  \"Foundation Model\" term.\n\nThat being said, by now foundation model has stuck and detached from Stanford, it may end up going similarly for JEPA.",
+  "avatar": "giffmana/avatar/avatar.jpeg",
+  "avatarPath": "giffmana/avatar/avatar.jpeg",
+  "images": [],
+  "jsonFile": "giffmana/tweets/2007597891381031029_2026-01-03-23-40-11.000Z/tweet.json",
+  "mediaDir": "media",
+  "userSlug": "giffmana"
+}

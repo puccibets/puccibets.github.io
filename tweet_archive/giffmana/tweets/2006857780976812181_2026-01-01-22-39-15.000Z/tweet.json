@@ -1,0 +1,16 @@
+{
+  "id": "2006857780976812181",
+  "url": "https://x.com/giffmana/status/2006857780976812181",
+  "timestamp": "2026-01-01T22:39:15.000Z",
+  "capturedAt": "2026-01-02T00:00:25.868Z",
+  "author": "Lucas Beyer (bl16) @giffmana",
+  "authorName": "Lucas Beyer (bl16)",
+  "authorHandle": "@giffmana",
+  "text": "something I think the coding agents should add in 2026: MEMORIES(.)md.\n\nPretty much like ChatGPT memories, but for code projects. When I tell them \"that's good, but I want the API of `foobar` to strictly not change, redo it again without changing `foobar`.\" it should add \"don't change `foobar` API\" to MEMORIES(.)md so it will remember across sessions.\n\nIn principle, it's a lot like AGENTS(.)md, but I shouldn't have to keep adding stuff to it manually, the LLM agent should manage it continuously based on our interactions.\n\nThis also fits the now self-proclaimed theme of 2026 \"continual learning\". So yall should just do it @thsottiaux  @bcherny",
+  "avatar": "giffmana/avatar/avatar.jpeg",
+  "avatarPath": "giffmana/avatar/avatar.jpeg",
+  "images": [],
+  "jsonFile": "giffmana/tweets/2006857780976812181_2026-01-01-22-39-15.000Z/tweet.json",
+  "mediaDir": "media",
+  "userSlug": "giffmana"
+}

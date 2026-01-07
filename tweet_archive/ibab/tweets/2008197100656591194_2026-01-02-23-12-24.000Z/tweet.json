@@ -1,0 +1,16 @@
+{
+  "id": "2008197100656591194",
+  "url": "https://x.com/ibab/status/2008197100656591194",
+  "timestamp": "2026-01-02T23:12:24.000Z",
+  "capturedAt": "2026-01-05T16:34:20.675Z",
+  "author": "Igor Babuschkin @ibab",
+  "authorName": "Igor Babuschkin",
+  "authorHandle": "@ibab",
+  "text": "Opus 4.5 is surprisingly good at writing decent Rust code and I expect this will make the language much more popular than it already is. Rust used to have a steep initial learning curve but now it’s easy to get started. Anyone can now reap benefits like efficiency and decent compile time checks. The case for using Python or Go at your company will slowly decline from here I think. It does make me wonder what the perfect language for agents would look like. Will it be super low level like assembly, or will it be super high level and use advanced abstractions like Haskell?",
+  "avatar": "ibab/avatar/avatar.jpg",
+  "avatarPath": "ibab/avatar/avatar.jpg",
+  "images": [],
+  "jsonFile": "ibab/tweets/2008197100656591194_2026-01-02-23-12-24.000Z/tweet.json",
+  "mediaDir": "media",
+  "userSlug": "ibab"
+}
