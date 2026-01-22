@@ -1,6 +1,7 @@
 {
   "version": 2,
   "tweets": [
+    "emollick/tweets/2009693063833436367_2026-01-09-18-25-39.000Z/tweet.json",
     "emollick/tweets/1993697415140942303_2025-11-26-01-02-58.000Z/tweet.json",
     "emollick/tweets/1993422227862438031_2025-11-25-20-51-09.000Z/tweet.json"
   ],
@@ -9,5 +10,5 @@
   "handle": "@emollick",
   "name": "Ethan Mollick",
   "avatar": "emollick/avatar/avatar.jpg",
-  "lastCapturedAt": "2025-11-27T20:59:27.973Z"
+  "lastCapturedAt": "2026-01-12T23:23:24.224Z"
 }

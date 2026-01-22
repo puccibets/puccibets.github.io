@@ -1,0 +1,16 @@
+{
+  "id": "2009322166593179786",
+  "url": "https://x.com/ibab/status/2009322166593179786",
+  "timestamp": "2026-01-08T17:51:50.000Z",
+  "capturedAt": "2026-01-08T18:15:12.466Z",
+  "author": "Igor Babuschkin @ibab",
+  "authorName": "Igor Babuschkin",
+  "authorHandle": "@ibab",
+  "text": "I suspect the reason Claude Code doesn’t work as well for large codebases is that they post-trained it mostly on smaller repos (big corp sized repos are rare).\n\nTo perform really well at large codebases you probably also need continual learning or at least finetuning on your repo, otherwise RAG and manually reading files becomes a bottleneck.\n\nFor now it helps to split code into smaller modules with clear API boundaries (which is good practice anyway).",
+  "avatar": "ibab/avatar/avatar.jpg",
+  "avatarPath": "ibab/avatar/avatar.jpg",
+  "images": [],
+  "jsonFile": "ibab/tweets/2009322166593179786_2026-01-08-17-51-50.000Z/tweet.json",
+  "mediaDir": "media",
+  "userSlug": "ibab"
+}
