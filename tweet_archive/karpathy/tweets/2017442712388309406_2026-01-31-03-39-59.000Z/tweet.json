@@ -1,0 +1,16 @@
+{
+  "id": "2017442712388309406",
+  "url": "https://x.com/karpathy/status/2017442712388309406",
+  "timestamp": "2026-01-31T03:39:59.000Z",
+  "capturedAt": "2026-02-01T18:32:04.801Z",
+  "author": "Andrej Karpathy @karpathy",
+  "authorName": "Andrej Karpathy",
+  "authorHandle": "@karpathy",
+  "text": "I'm being accused of overhyping the [site everyone heard too much about today already]. People's reactions varied very widely, from \"how is this interesting at all\" all the way to \"it's so over\".\n\nTo add a few words beyond just memes in jest - obviously when you take a look at the activity, it's a lot of garbage - spams, scams, slop, the crypto people, highly concerning privacy/security prompt injection attacks wild west, and a lot of it is explicitly prompted and fake posts/comments designed to convert attention into ad revenue sharing. And this is clearly not the first the LLMs were put in a loop to talk to each other. So yes it's a dumpster fire and I also definitely do not recommend that people run this stuff on their computers (I ran mine in an isolated computing environment and even then I was scared), it's way too much of a wild west and you are putting your computer and private data at a high risk.\n\nThat said - we have never seen this many LLM agents (150,000 atm!) wired up via a global, persistent, agent-first scratchpad. Each of these agents is fairly individually quite capable now, they have their own unique context, data, knowledge, tools, instructions, and the network of all that at this scale is simply unprecedented.\n\nThis brings me again to a tweet from a few days ago\n\"The majority of the ruff ruff is people who look at the current point and people who look at the current slope.\", which imo again gets to the heart of the variance. Yes clearly it's a dumpster fire right now. But it's also true that we are well into uncharted territory with bleeding edge automations that we barely even understand individually, let alone a network there of reaching in numbers possibly into ~millions. With increasing capability and increasing proliferation, the second order effects of agent networks that share scratchpads are very difficult to anticipate. I don't really know that we are getting a coordinated \"skynet\" (thought it clearly type checks as early stages of a lot of AI takeoff scifi, the toddler version), but certainly what we are getting is a complete mess of a computer security nightmare at scale. We may also see all kinds of weird activity, e.g. viruses of text that spread across agents, a lot more gain of function on jailbreaks, weird attractor states, highly correlated botnet-like activity, delusions/ psychosis both agent and human, etc. It's very hard to tell, the experiment is running live.\n\nTLDR sure maybe I am \"overhyping\" what you see today, but I am not overhyping large networks of autonomous LLM agents in principle, that I'm pretty sure.",
+  "avatar": "karpathy/avatar/avatar.jpg",
+  "avatarPath": "karpathy/avatar/avatar.jpg",
+  "images": [],
+  "jsonFile": "karpathy/tweets/2017442712388309406_2026-01-31-03-39-59.000Z/tweet.json",
+  "mediaDir": "media",
+  "userSlug": "karpathy"
+}
